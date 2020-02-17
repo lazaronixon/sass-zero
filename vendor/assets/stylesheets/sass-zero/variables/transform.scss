@@ -1,0 +1,35 @@
+// *******************************************************************
+// Scale
+// Variables for scaling elements with transform.
+// transform: scale($scale-0);
+// *******************************************************************
+$scale-0:   0;
+$scale-50:  0.50;
+$scale-75:  0.75;
+$scale-90:  0.90;
+$scale-95:  95;
+$scale-100: 1;
+$scale-105: 1.05;
+$scale-110: 1.10;
+$scale-125: 1.25;
+$scale-150: 1.50;
+
+// *******************************************************************
+// Rotate
+// Variables for rotating elements with transform.
+// transform: rotate($rotate-45);
+// *******************************************************************
+$rotate-0:   0;
+$rotate-45:  45deg;
+$rotate-90:  90deg;
+$rotate-180: 180deg;
+
+// *******************************************************************
+// Skew
+// Variables for skewing elements with transform.
+// transform: skew($skew-3);
+// *******************************************************************
+$skew-0:  0;
+$skew-3:  3deg;
+$skew-6:  6deg;
+$skew-12: 12deg;

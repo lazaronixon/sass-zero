@@ -1,0 +1,49 @@
+// ************************************************
+// Float
+// ************************************************
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// ************************************************
+// Word Break
+// ************************************************
+@mixin break-normal {
+  word-break: normal;
+  overflow-wrap: normal
+}
+
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ************************************************
+// Font Smoothing
+// ************************************************
+@mixin antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+// ************************************************
+// Container
+// ************************************************
+@mixin make-container($padding, $max-width) {
+  width: 100%;
+  padding-right: $padding;
+  padding-left: $padding;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: $max-width;
+}

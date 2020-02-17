@@ -1,0 +1,222 @@
+@import "sass-zero/variables";
+@import "sass-zero/mixins";
+
+$breadboard-bg:  $white    !default;
+$breadboard-200: $gray-200 !default;
+$breadboard-300: $gray-300 !default;
+$breadboard-700: $gray-700 !default;
+$breadboard-900: $gray-900 !default;
+
+html {
+  background-color: $breadboard-bg;
+  color: $breadboard-700;
+  @include antialiased;
+}
+
+body {
+  font-size: $text-base;
+  line-height: $leading-normal;
+}
+
+blockquote {
+  border-left: $border-4 solid $breadboard-300;
+  padding: $size-3 $size-4;
+
+  *:last-child {
+    margin-bottom: $size-0;
+  }
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: $breadboard-900;
+  border-radius: $rounded;
+  color: $white;
+  cursor: pointer;
+  font-weight: $font-bold;
+  padding: $size-2 $size-3;
+
+	&:hover {
+		background-color: $breadboard-700;
+  }
+
+  &[disabled] {
+    background-color: $breadboard-900;
+    cursor: default;
+    opacity: $opacity-50;
+  }
+}
+
+code {
+	background: $breadboard-200;
+  border-radius: $rounded;
+	font-size: $text-sm;
+	margin: 0 $size-1;
+	padding: $size-1 $size-2;
+	white-space: nowrap;
+}
+
+pre {
+	background: $breadboard-200;
+	border-left: $border-4 solid $breadboard-900;
+	overflow-y: hidden;
+
+	& > code {
+    border-radius: $rounded-none;
+		display: block;
+		padding: $size-2 $size-3;
+    white-space: pre;
+  }
+}
+
+hr {
+  border-top: $border solid $breadboard-300;
+  margin: $size-4 $size-0;
+}
+
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input[type='color'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='datetime'],
+input[type='datetime-local'],
+input:not([type]),
+textarea,
+select {
+  appearance: none;
+  background-color: $breadboard-200;
+  border: $border solid $breadboard-200;
+  border-radius: $rounded;
+  display: block;
+  line-height: $leading-tight;
+  padding: $size-3 $size-4;
+  width: $size-full;
+
+  &:focus {
+    background-color: $breadboard-bg;
+    border-color: $breadboard-300;
+    outline: 0;
+  }
+}
+
+select {
+	background: $breadboard-200 url('data:image/svg+xml;utf8,<svg width="16" height="16" style="fill: %23#{str-slice(ie-hex-str($breadboard-700), 4)};" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>') center right $size-2 no-repeat;
+  padding-right: $size-8;
+}
+
+textarea {
+  min-height: $size-24;
+}
+
+label, legend {
+  display: block;
+  font-size: $text-xs;
+  font-weight: $font-bold;
+  letter-spacing: $tracking-wide;
+  margin-bottom: $size-1;
+}
+
+a {
+	color: $breadboard-900;
+  font-weight: $font-medium;
+	text-decoration: underline;
+
+  &:hover {
+    color: $breadboard-700;
+  }
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul {
+  list-style: circle inside;
+}
+
+button,
+dd,
+dt,
+li {
+  margin-bottom: $size-2;
+}
+
+fieldset,
+input,
+select,
+textarea {
+  margin-bottom: $size-3;
+}
+
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+table,
+ul {
+  margin-bottom: $size-4;
+}
+
+table {
+  width: $size-full;
+}
+
+td, th {
+  border-bottom: $border solid $breadboard-300;
+  padding: $size-2 $size-4;
+  text-align: left;
+}
+
+td:first-child, th:first-child {
+  padding-left: 0;
+}
+
+td:last-child, th:last-child {
+  padding-right: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-semibold;
+  line-height: $leading-tight;
+  margin-bottom: $size-2;
+}
+
+h1 {
+  font-size: $text-4xl;
+}
+
+h2 {
+  font-size: $text-3xl;
+}
+
+h3 {
+  font-size: $text-2xl;
+}
+
+h4 {
+  font-size: $text-xl;
+}
+
+h5 {
+  font-size: $text-lg;
+}
+
+h6 {
+  font-size: $text-base;
+}
+
+main {
+  @include make-container($size-6, $breakpoint-lg);
+}
