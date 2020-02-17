@@ -10,8 +10,18 @@ SASS-ZERO use font, color, spacing, border and etc from [tailwindcss](https://ta
 ### Milligram
 "Programmers don’t need a pixel-perfect design to start implementing. All they need are endpoints: input elements, buttons, places where stored data should appear. These affordances are the core of a user interface design." - [Shape UP](https://basecamp.com/shapeup/3.2-chapter-10#affordances-before-pixel-perfect-screens).
 
-SASS-ZERO comes with a basic grayscale theme that help you to brings your ideas to life and put something to work, questions about font, color, spacing, and layout can be resolved after the raw affordances.
+SASS-ZERO comes with a basic grayscale theme that help you to bring your ideas to life, questions about font, color, spacing and layout can be resolved after the raw affordances.
 
+### BEM
+I believe that html is code, therefore it should be named and scoped as well. Developers need to be good with naming things, css is another oportunity to practice.
+
+### Refactoring UI
+Developers should be able to produce your own design, [Refactoring UI](https://refactoringui.com/book) is the book for that.
+
+### Shape UP
+SASS-ZERO comes with a implict flow from Shape UP, Find Elemens -> Create Affordance -> Make it Beautiful.
+
+### Breadboard Theme (Just HTML)
 ![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/Screenshot_2020-02-17+Routeend.png)
 
 ## Installation
