@@ -7,6 +7,8 @@ $breadboard-300: $gray-300 !default;
 $breadboard-700: $gray-700 !default;
 $breadboard-900: $gray-900 !default;
 
+$breadboard-svg-fill: "%23a0aec0" !default;
+
 html {
   background-color: $breadboard-bg;
   color: $breadboard-700;
@@ -19,7 +21,8 @@ body {
 }
 
 blockquote {
-  border-left: $border-4 solid $breadboard-300;
+  border-color:  $breadboard-300;
+  border-left-width: $border-4;
   padding: $size-3 $size-4;
 
   *:last-child {
@@ -60,7 +63,8 @@ code {
 
 pre {
 	background: $breadboard-200;
-	border-left: $border-4 solid $breadboard-900;
+  border-color: $breadboard-900;
+	border-left-width: $border-4;
 	overflow-y: hidden;
 
 	& > code {
@@ -72,7 +76,8 @@ pre {
 }
 
 hr {
-  border-top: $border solid $breadboard-300;
+  border-color: $breadboard-300;
+  border-top-width: $border;
   margin: $size-4 $size-0;
 }
 
@@ -93,40 +98,35 @@ input:not([type]),
 textarea,
 select {
   appearance: none;
-  background-color: $breadboard-200;
-  border: $border solid $breadboard-200;
+  background-color: $white;
+  border-color: $breadboard-300;
   border-radius: $rounded;
+  border-width: $border;
   display: block;
-  line-height: $leading-tight;
-  padding: $size-3 $size-4;
+  padding: $size-2 $size-3;
   width: $size-full;
 
   &:focus {
-    background-color: $breadboard-bg;
-    border-color: $breadboard-300;
-    outline: 0;
+    border-color: $breadboard-700;
   }
 }
 
 select {
-	background: $breadboard-200 url('data:image/svg+xml;utf8,<svg width="16" height="16" style="fill: %23#{str-slice(ie-hex-str($breadboard-700), 4)};" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>') center right $size-2 no-repeat;
-  padding-right: $size-8;
-}
-
-textarea {
-  min-height: $size-24;
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#{$breadboard-svg-fill}"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
+  background-position: right $size-2 center;
+  background-repeat: no-repeat;
+  background-size: $size-6;
+  padding-right: $size-10;
 }
 
 label, legend {
   display: block;
-  font-size: $text-xs;
-  font-weight: $font-bold;
-  letter-spacing: $tracking-wide;
   margin-bottom: $size-1;
 }
 
 a {
 	color: $breadboard-900;
+  cursor: pointer;
   font-weight: $font-medium;
 	text-decoration: underline;
 
@@ -154,7 +154,7 @@ fieldset,
 input,
 select,
 textarea {
-  margin-bottom: $size-3;
+  margin-bottom: $size-4;
 }
 
 blockquote,
@@ -166,7 +166,7 @@ p,
 pre,
 table,
 ul {
-  margin-bottom: $size-4;
+  margin-bottom: $size-6;
 }
 
 table {
@@ -174,7 +174,8 @@ table {
 }
 
 td, th {
-  border-bottom: $border solid $breadboard-300;
+  border-color: $breadboard-300;
+  border-bottom-width: $border;
   padding: $size-2 $size-4;
   text-align: left;
 }
