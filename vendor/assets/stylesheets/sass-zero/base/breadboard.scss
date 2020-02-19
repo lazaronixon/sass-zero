@@ -98,7 +98,6 @@ input:not([type]),
 textarea,
 select {
   appearance: none;
-  background-color: $white;
   border-color: $breadboard-300;
   border-radius: $rounded;
   border-width: $border;
@@ -111,7 +110,7 @@ select {
   }
 }
 
-select {
+select:not([multiple]) {
 	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#{$breadboard-svg-fill}"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
   background-position: right $size-2 center;
   background-repeat: no-repeat;
@@ -122,6 +121,47 @@ select {
 label, legend {
   display: block;
   margin-bottom: $size-1;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  appearance: none;
+  background-origin: border-box;
+  border-color: $breadboard-300;
+  border-width: $border;
+  color: $breadboard-900;
+	display: inline-block;
+  margin-bottom: -2.5px;
+  height: $size-4;
+  width: $size-4;
+
+  &:checked {
+    border-color: transparent;
+    background-color: currentColor;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+input[type='checkbox'] {
+  border-radius: $rounded;
+
+  &:checked {
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z"/></svg>');
+  }
+}
+
+input[type='radio'] {
+  border-radius: $rounded-full;
+
+  &:checked {
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
+  }
+}
+
+.label-inline {
+	display: inline-block;
+	margin-left: $size-1;
 }
 
 a {
