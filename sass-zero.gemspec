@@ -6,20 +6,14 @@ require "sass/zero/version"
 Gem::Specification.new do |spec|
   spec.name          = "sass-zero"
   spec.version       = Sass::Zero::VERSION
-  spec.authors       = ["Lázaro Nixon"]
+  spec.authors       = ["lazaronixon"]
   spec.email         = ["lazaronixon@hotmail.com"]
-
-  spec.summary       = "CSS framework."
-  spec.description   = "SASS-ZERO is a CSS framework that provides a basic grayscale theme to create raw affordance and after that, you can make it beautiful with our constrained variable system."
+  spec.summary       = "A CSS framework for rapid UI development based on tailwindcss, miligram and BEM."
   spec.homepage      = "http://github.com/lazaronixon/sass-zero"
   spec.license       = "MIT"
 
-  # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
-    `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  end
-  spec.require_paths = ["lib"]
+  spec.add_runtime_dependency "inline_svg"
+  spec.add_runtime_dependency "autoprefixer-rails"
 
-  spec.requirements = %w( autoprefixer-rails inline_svg )
+  spec.files = `git ls-files -z`.split("\x0")
 end
