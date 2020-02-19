@@ -7,8 +7,6 @@ $breadboard-300: $gray-300 !default;
 $breadboard-700: $gray-700 !default;
 $breadboard-900: $gray-900 !default;
 
-$breadboard-svg-fill: "%23a0aec0" !default;
-
 html {
   background-color: $breadboard-bg;
   color: $breadboard-700;
@@ -111,7 +109,7 @@ select {
 }
 
 select:not([multiple]) {
-	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#{$breadboard-svg-fill}"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23a0aec0"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
   background-position: right $size-2 center;
   background-repeat: no-repeat;
   background-size: $size-6;
