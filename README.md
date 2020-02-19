@@ -34,7 +34,6 @@ Add this to your application's Gemfile:
 
 ```ruby
 gem 'sass-zero'
-gem 'inline_svg'
 gem 'autoprefixer-rails'
 ```
 
