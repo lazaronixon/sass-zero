@@ -34,6 +34,7 @@ Add this to your application's Gemfile:
 
 ```ruby
 gem 'sass-zero'
+gem 'inline_svg'
 gem 'autoprefixer-rails'
 ```
 
@@ -57,7 +58,6 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 // Element
 .block__elem { color: $red-400; }
 
-
 // Modifier
 .block--mod .block__elem { color: $red-200; }
 
@@ -80,6 +80,8 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 [Shape UP](https://basecamp.com/shapeup)
 
 [Zondicons](http://www.zondicons.com)
+
+[Inline SVG](https://github.com/jamesmartin/inline_svg)
 
 ## License
 
