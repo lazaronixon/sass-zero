@@ -1,0 +1,18 @@
+{
+	"name": "sass-zero",
+	"version": "0.0.10",
+	"description": "A CSS framework for rapid UI development based on tailwindcss, miligram and BEM.",
+	"homepage": "https://github.com/lazaronixon/sass-zero",
+	"repository": "lazaronixon/sass-zero",
+	"license": "MIT",
+	"author": "Lázaro Nixon <lazaronixon@hotmail.com>",
+	"private": false,
+	"keywords": [
+		"css",
+		"css-framework",
+		"sass-zero",
+    "milligram",
+    "tailwindcss",
+    "bem"
+	]
+}
