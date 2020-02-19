@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.requirements << "autoprefixer-rails"
+  spec.requirements = %w( autoprefixer-rails inline_svg )
 end

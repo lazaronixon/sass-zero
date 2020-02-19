@@ -21,6 +21,9 @@ Developers should be able to produce your own design, [Refactoring UI](https://r
 ### Shape UP
 SASS-ZERO comes with a implict flow from Shape UP, Find Elemens -> Create Affordance -> Make it Beautiful.
 
+### Icons
+We embed svg icons from [Zondicons](http://www.zondicons.com).
+
 ### Breadboard Theme - [Just HTML](https://github.com/lazaronixon/sass-zero/blob/master/Example.html)
 
 ![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/Screenshot_2020-02-18+Routeend.png)
@@ -75,6 +78,8 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 [Refactoring UI](https://refactoringui.com/book)
 
 [Shape UP](https://basecamp.com/shapeup)
+
+[Zondicons](http://www.zondicons.com)
 
 ## License
 
