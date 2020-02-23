@@ -2,10 +2,10 @@
 // Float
 // ************************************************
 @mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
+  &::after {
+    display: block;
     clear: both;
+    content: "";
   }
 }
 
@@ -39,10 +39,10 @@
 // ************************************************
 // Container
 // ************************************************
-@mixin make-container($padding, $max-width) {
+@mixin make-container($padding-x, $max-width) {
   width: 100%;
-  padding-right: $padding;
-  padding-left: $padding;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
   margin-right: auto;
   margin-left: auto;
   max-width: $max-width;

@@ -1,0 +1,78 @@
+@import "sass-zero/variables";
+@import "sass-zero/mixins";
+
+.txt--smaller {
+  font-size: $text-xs;
+}
+
+.txt--small {
+  font-size: $text-sm;
+}
+
+.txt--medium {
+  font-size: $text-base;
+}
+
+.txt--large {
+  font-size: $text-lg;
+}
+
+.txt--larger {
+  font-size: $text-xl;
+}
+
+.txt--truncate {
+  @include truncate;
+}
+
+.align--top {
+  vertical-align: top;
+}
+
+.align--middle {
+  vertical-align: middle;
+}
+
+.align--bottom {
+  vertical-align: bottom;
+}
+
+.align--left {
+  text-align: left;
+}
+
+.align--center {
+  text-align: center;
+}
+
+.align--right {
+  text-align: right;
+}
+
+.txt--normal {
+  font-weight: $font-normal;
+}
+
+.txt--bold {
+  font-weight: $font-bold;
+}
+
+.txt--underline {
+  text-decoration: underline;
+}
+
+.txt--capitalize {
+  text-transform: capitalize;
+}
+
+.txt--sentence-case::first-letter {
+  text-transform: uppercase;
+}
+
+.txt--strike {
+  text-decoration: line-through;
+}
+
+.txt--nowrap {
+  white-space: nowrap;
+}
