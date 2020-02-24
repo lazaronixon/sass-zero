@@ -32,7 +32,7 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'],
-.btn {
+.btn-primary {
   background-color: $breadboard-900;
   border-color: $breadboard-900;
   border-width: $border;
@@ -57,8 +57,8 @@ input[type='submit'],
   }
 }
 
-.btn-outline {
-  @extend .btn;
+.btn-secondary {
+  @extend button;
   background-color: transparent;
   border-color: $breadboard-900;
   color: $breadboard-900;
@@ -76,8 +76,8 @@ input[type='submit'],
   }
 }
 
-.btn-clear {
-  @extend .btn;
+.btn-tertiary {
+  @extend button;
   background-color: transparent;
   border-color: transparent;
   color: $breadboard-900;
