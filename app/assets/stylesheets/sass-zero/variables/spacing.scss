@@ -27,4 +27,4 @@ $size-auto:   auto;
 $size-full:   100%;
 $size-screen: 100vw;
 
-$size-map: (2: $size-2, 4: $size-4, 6: $size-6, 8: $size-8, 10: $size-10);
+$size-map: ("smaller": $size-2, "small": $size-4, "medium": $size-6, "large": $size-8, "larger": $size-10);
