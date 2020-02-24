@@ -32,7 +32,7 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'],
-.btn-primary {
+.btn {
   background-color: $breadboard-900;
   border-color: $breadboard-900;
   border-width: $border;
@@ -56,16 +56,11 @@ input[type='submit'],
   }
 }
 
-.btn-secondary {
+.btn-outline {
+  @extend .btn;
   background-color: transparent;
   border-color: $breadboard-900;
-  border-width: $border;
-  border-radius: $rounded;
   color: $breadboard-900;
-  cursor: pointer;
-  font-weight: $font-bold;
-  line-height: $text-xl;
-  padding: $size-2 $size-3;
 
   &:hover {
 		background-color: transparent;
@@ -80,16 +75,11 @@ input[type='submit'],
   }
 }
 
-.btn-tertiary {
+.btn-clear {
+  @extend .btn;
   background-color: transparent;
   border-color: transparent;
-  border-width: $border;
-  border-radius: $rounded;
   color: $breadboard-900;
-  cursor: pointer;
-  font-weight: $font-bold;
-  line-height: $text-xl;
-  padding: $size-2 $size-3;
 
   &:hover {
     background-color: transparent;
