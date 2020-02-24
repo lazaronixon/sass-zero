@@ -28,7 +28,7 @@ SASS-ZERO comes with a implict flow from Shape UP, Find Elemens -> Create Afford
 
 ### Icons
 
-We embed svg icons from [Zondicons](http://www.zondicons.com).
+We embed svg icons from [Heroicons](https://github.com/refactoringui/heroicons).
 
 ### Utilities
 
