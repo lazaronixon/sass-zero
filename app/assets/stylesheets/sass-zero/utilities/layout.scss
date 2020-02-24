@@ -68,13 +68,13 @@
 }
 
 @media screen and (min-width: $breakpoint-md) {
-  .u-wrap-on-medium {
+  .u-wrap-on-desktop {
     display: block;
   }
 }
 
 @media screen and (max-width: $breakpoint-md - 1) {
-  .u-wrap-on-small {
+  .u-wrap-on-mobile {
     display: block;
   }
 }
@@ -108,7 +108,7 @@
 }
 
 @media screen and (max-width: $breakpoint-md - 1) {
-  .u-float-n-on-small {
+  .u-float-n-on-mobile {
     float: none;
   }
 }
