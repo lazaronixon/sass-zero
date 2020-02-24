@@ -39,13 +39,14 @@ input[type='submit'],
   border-radius: $rounded;
   color: $white;
   cursor: pointer;
+  display: inline-block;
   font-weight: $font-bold;
-  line-height: $text-xl;
-  padding: $size-2 $size-3;
+  padding: $size-2 $size-4;
 
 	&:hover {
 		background-color: $breadboard-700;
     border-color: $breadboard-700;
+    color: $white;
   }
 
   &[disabled] {
