@@ -26,10 +26,6 @@ Developers should be able to produce your own design, [Refactoring UI](https://r
 
 SASS-ZERO comes with a implict flow from Shape UP, Find Elemens -> Create Affordance -> Make it Beautiful.
 
-### Icons
-
-We embed svg icons from [Heroicons](https://github.com/refactoringui/heroicons).
-
 ### Utilities
 
 - [Margin Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/flush.scss)

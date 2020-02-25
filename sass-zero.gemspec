@@ -12,8 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://github.com/lazaronixon/sass-zero"
   spec.license       = "MIT"
 
-  spec.add_runtime_dependency "inline_svg"
-  spec.add_runtime_dependency "autoprefixer-rails"
+  spec.add_runtime_dependency "autoprefixer-rails", ">= 9.7.4"
 
   spec.files = `git ls-files -z`.split("\x0")
 end
