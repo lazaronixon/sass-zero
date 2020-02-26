@@ -1,15 +1,9 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-$breadboard-bg:  $white    !default;
-$breadboard-200: $gray-200 !default;
-$breadboard-300: $gray-300 !default;
-$breadboard-700: $gray-700 !default;
-$breadboard-900: $gray-900 !default;
-
 html {
-  background-color: $breadboard-bg;
-  color: $breadboard-700;
+  background-color: $white;
+  color: $gray-700;
   @include antialiased;
 }
 
@@ -19,7 +13,7 @@ body {
 }
 
 blockquote {
-  border-color:  $breadboard-300;
+  border-color: $gray-400;
   border-left-width: $border-4;
   padding: $size-3 $size-4;
 
@@ -34,10 +28,10 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
   background-color: $white;
-  border-color: $breadboard-300;
+  border-color: $gray-300;
   border-radius: $rounded;
   border-width: $border;
-  color: $breadboard-900;
+  color: $gray-900;
   display: inline-block;
   font-weight: $font-bold;
   padding: $size-2 $size-4;
@@ -51,14 +45,14 @@ input[type='submit'] {
 
 .btn {
   &--primary {
-    background-color: $breadboard-900;
-    border-color: $breadboard-900;
+    background-color: $gray-900;
+    border-color: $gray-900;
     color: $white;
   }
 
   &--secondary {
     background-color: $white;
-    border-color: $breadboard-900;
+    border-color: $gray-900;
   }
 
   &--tertiary {
@@ -81,7 +75,7 @@ input[type='submit'] {
 }
 
 code {
-	background: $breadboard-200;
+	background: $gray-200;
   border-radius: $rounded;
 	font-size: $text-sm;
 	margin: 0 $size-1;
@@ -90,8 +84,8 @@ code {
 }
 
 pre {
-	background: $breadboard-200;
-  border-color: $breadboard-900;
+	background: $gray-200;
+  border-color: $gray-900;
 	border-left-width: $border-4;
 	overflow-y: hidden;
 
@@ -104,9 +98,9 @@ pre {
 }
 
 hr {
-  border-color: $breadboard-300;
+  border-color: $gray-400;
   border-top-width: $border;
-  margin: $size-4 $size-0;
+  margin: $size-8 $size-0;
 }
 
 input[type='email'],
@@ -126,7 +120,7 @@ input:not([type]),
 textarea,
 select {
   appearance: none;
-  border-color: $breadboard-300;
+  border-color: $gray-300;
   border-radius: $rounded;
   border-width: $border;
   display: block;
@@ -134,7 +128,7 @@ select {
   width: $size-full;
 
   &:focus {
-    border-color: $breadboard-700;
+    border-color: $gray-700;
   }
 }
 
@@ -155,9 +149,9 @@ input[type='checkbox'],
 input[type='radio'] {
   appearance: none;
   background-origin: border-box;
-  border-color: $breadboard-300;
+  border-color: $gray-300;
   border-width: $border;
-  color: $breadboard-900;
+  color: $gray-900;
 	display: inline-block;
   margin-bottom: -2.5px;
   height: $size-4;
@@ -188,7 +182,7 @@ input[type='radio'] {
 }
 
 a {
-	color: $breadboard-900;
+	color: $gray-900;
   cursor: pointer;
   font-weight: $font-medium;
 }
@@ -232,7 +226,7 @@ table {
 }
 
 td, th {
-  border-color: $breadboard-300;
+  border-color: $gray-400;
   border-bottom-width: $border;
   padding: $size-3 $size-3;
   text-align: left;
