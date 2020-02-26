@@ -43,12 +43,6 @@ input[type='submit'],
   font-weight: $font-bold;
   padding: $size-2 $size-4;
 
-	&:hover {
-		background-color: $breadboard-700;
-    border-color: $breadboard-700;
-    color: $white;
-  }
-
   &[disabled] {
     background-color: $breadboard-900;
     border-color: $breadboard-900;
@@ -63,12 +57,6 @@ input[type='submit'],
   border-color: $breadboard-900;
   color: $breadboard-900;
 
-  &:hover {
-		background-color: transparent;
-    border-color: $breadboard-700;
-    color: $breadboard-700;
-  }
-
   &[disabled] {
     background-color: transparent;
     border-color: $breadboard-900;
@@ -81,12 +69,6 @@ input[type='submit'],
   background-color: transparent;
   border-color: transparent;
   color: $breadboard-900;
-
-  &:hover {
-    background-color: transparent;
-    border-color: transparent;
-    color: $breadboard-700;
-  }
 
   &[disabled] {
     background-color: transparent;
@@ -206,10 +188,6 @@ a {
 	color: $breadboard-900;
   cursor: pointer;
   font-weight: $font-medium;
-
-  &:hover {
-    color: $breadboard-700;
-  }
 }
 
 ol {
