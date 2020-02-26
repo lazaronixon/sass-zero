@@ -1,10 +1,6 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-.txt--x-small {
-  font-size: $text-xs;
-}
-
 .txt--small {
   font-size: $text-sm;
 }
@@ -15,18 +11,6 @@
 
 .txt--large {
   font-size: $text-lg;
-}
-
-.txt--x-large {
-  font-size: $text-xl;
-}
-
-.txt--xx-large {
-  font-size: $text-2xl;
-}
-
-.txt--xxx-large {
-  font-size: $text-3xl;
 }
 
 .txt--truncate {
