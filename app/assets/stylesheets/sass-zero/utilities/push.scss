@@ -2,7 +2,7 @@
 
 // *******************************************************************
 // Push Utilities
-// $size-map: ("x-small": $size-1, "small": $size-2, "medium": $size-4, "large": $size-6, "x-large": $size-8, "xx-large": $size-12, "xxx-large": $size-20);
+// $size-map: ("x-small": $size-1, "small": $size-2, "medium": $size-4, "large": $size-6, "x-large": $size-8);
 // *******************************************************************
 @each $scale, $size in $size-map {
   .push-#{$scale} {
