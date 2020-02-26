@@ -272,7 +272,3 @@ h5 {
 h6 {
   font-size: $text-base;
 }
-
-main {
-  @include make-container($size-6, $breakpoint-lg);
-}

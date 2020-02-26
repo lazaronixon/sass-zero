@@ -40,10 +40,7 @@
 // Container
 // ************************************************
 @mixin make-container($padding-x, $max-width) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 $padding-x;
+  margin:  0 auto;
   max-width: $max-width;
 }

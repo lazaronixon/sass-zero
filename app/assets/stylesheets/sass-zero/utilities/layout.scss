@@ -1,6 +1,10 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
+.u-container {
+  @include make-container($size-6, $breakpoint-lg);
+}
+
 .u-clearfix {
   @include clearfix;
 }
