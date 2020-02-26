@@ -28,52 +28,24 @@ blockquote {
   }
 }
 
+.btn,
 button,
 input[type='button'],
 input[type='reset'],
-input[type='submit'],
-.btn-primary {
-  background-color: $breadboard-900;
-  border-color: $breadboard-900;
-  border-width: $border;
+input[type='submit'] {
+  background-color: $white;
+  border-color: $breadboard-300;
   border-radius: $rounded;
-  color: $white;
-  cursor: pointer;
+  border-width: $border;  
+  color: $breadboard-900;
   display: inline-block;
   font-weight: $font-bold;
   padding: $size-2 $size-4;
+  cursor: pointer;
 
   &[disabled] {
-    background-color: $breadboard-900;
-    border-color: $breadboard-900;
     cursor: default;
     opacity: $opacity-50;
-  }
-}
-
-.btn-secondary {
-  @extend button;
-  background-color: transparent;
-  border-color: $breadboard-900;
-  color: $breadboard-900;
-
-  &[disabled] {
-    background-color: transparent;
-    border-color: $breadboard-900;
-    color: $breadboard-900;
-  }
-}
-
-.btn-tertiary {
-  @extend button;
-  background-color: transparent;
-  border-color: transparent;
-  color: $breadboard-900;
-
-  &[disabled] {
-    background-color: transparent;
-    border-color: transparent;
-    color: $breadboard-900;
   }
 }
 
