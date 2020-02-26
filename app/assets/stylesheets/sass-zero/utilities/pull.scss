@@ -2,7 +2,7 @@
 
 // *******************************************************************
 // Pull Utilities
-// $size-map: ("x-small": $size-2, "small": $size-4, "medium": $size-6, "large": $size-8, "x-large": $size-10);
+// $size-map: ("x-small": $size-1, "small": $size-2, "medium": $size-4, "large": $size-6, "x-large": $size-8, "xx-large": $size-12, "xxx-large": $size-20);
 // *******************************************************************
 @each $scale, $size in $size-map {
   .pull-#{$scale} {
