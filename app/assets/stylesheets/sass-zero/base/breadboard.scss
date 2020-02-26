@@ -1,9 +1,15 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
+$breadboard-primary:           $gray-900;
+$breadboard-color:             $gray-700;
+$breadboard-border:            $gray-400;
+$breadboard-border-control:    $gray-300;
+$breadboard-background:        $gray-200;
+
 html {
   background-color: $white;
-  color: $gray-700;
+  color: $breadboard-color;
   @include antialiased;
 }
 
@@ -13,7 +19,7 @@ body {
 }
 
 blockquote {
-  border-color: $gray-400;
+  border-color: $breadboard-border;
   border-left-width: $border-4;
   padding: $size-3 $size-4;
 
@@ -28,10 +34,10 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
   background-color: $white;
-  border-color: $gray-300;
+  border-color: $breadboard-border-control;
   border-radius: $rounded;
   border-width: $border;
-  color: $gray-900;
+  color: $breadboard-primary;
   display: inline-block;
   font-weight: $font-bold;
   padding: $size-2 $size-4;
@@ -45,14 +51,14 @@ input[type='submit'] {
 
 .btn {
   &--primary {
-    background-color: $gray-900;
-    border-color: $gray-900;
+    background-color: $breadboard-primary;
+    border-color: $breadboard-primary;
     color: $white;
   }
 
   &--secondary {
     background-color: $white;
-    border-color: $gray-900;
+    border-color: $breadboard-primary;
   }
 
   &--tertiary {
@@ -75,7 +81,7 @@ input[type='submit'] {
 }
 
 code {
-	background: $gray-200;
+	background: $breadboard-background;
   border-radius: $rounded;
 	font-size: $text-sm;
 	margin: 0 $size-1;
@@ -84,8 +90,8 @@ code {
 }
 
 pre {
-	background: $gray-200;
-  border-color: $gray-900;
+	background: $breadboard-background;
+  border-color: $breadboard-primary;
 	border-left-width: $border-4;
 	overflow-y: hidden;
 
@@ -98,7 +104,7 @@ pre {
 }
 
 hr {
-  border-color: $gray-400;
+  border-color: $breadboard-border;
   border-top-width: $border;
   margin: $size-8 $size-0;
 }
@@ -120,7 +126,7 @@ input:not([type]),
 textarea,
 select {
   appearance: none;
-  border-color: $gray-300;
+  border-color: $breadboard-border-control;
   border-radius: $rounded;
   border-width: $border;
   display: block;
@@ -128,7 +134,7 @@ select {
   width: $size-full;
 
   &:focus {
-    border-color: $gray-700;
+    border-color: $breadboard-color;
   }
 }
 
@@ -149,9 +155,9 @@ input[type='checkbox'],
 input[type='radio'] {
   appearance: none;
   background-origin: border-box;
-  border-color: $gray-300;
+  border-color: $breadboard-border-control;
   border-width: $border;
-  color: $gray-900;
+  color: $breadboard-primary;
 	display: inline-block;
   margin-bottom: -2.5px;
   height: $size-4;
@@ -182,7 +188,7 @@ input[type='radio'] {
 }
 
 a {
-	color: $gray-900;
+	color: $breadboard-primary;
   cursor: pointer;
   font-weight: $font-medium;
 }
@@ -226,7 +232,7 @@ table {
 }
 
 td, th {
-  border-color: $gray-400;
+  border-color: $breadboard-border;
   border-bottom-width: $border;
   padding: $size-3 $size-3;
   text-align: left;
