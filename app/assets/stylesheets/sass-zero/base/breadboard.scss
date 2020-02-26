@@ -36,7 +36,7 @@ input[type='submit'] {
   background-color: $white;
   border-color: $breadboard-300;
   border-radius: $rounded;
-  border-width: $border;  
+  border-width: $border;
   color: $breadboard-900;
   display: inline-block;
   font-weight: $font-bold;
@@ -46,6 +46,37 @@ input[type='submit'] {
   &[disabled] {
     cursor: default;
     opacity: $opacity-50;
+  }
+}
+
+.btn {
+  &--primary {
+    background-color: $breadboard-900;
+    border-color: $breadboard-900;
+    color: $white;
+  }
+
+  &--secondary {
+    background-color: $white;
+    border-color: $breadboard-900;
+  }
+
+  &--tertiary {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  &--with-icon {
+    padding-left: $size-8;
+    background-position: $size-2 center;
+    background-repeat: no-repeat;
+    background-size: $size-5 auto;
+  }
+
+  &--small {
+    font-size: $text-sm;
+    padding-top:  0.35rem;
+    padding-bottom: 0.35rem;
   }
 }
 
