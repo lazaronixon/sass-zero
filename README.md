@@ -2,11 +2,7 @@
 
 SASS-ZERO is a css framework that brings concepts from [tailwindcss](https://tailwindcss.com) and [milligram](https://milligram.io) but with ideas from [BEM](http://getbem.com/naming), [Refactoring UI](https://refactoringui.com/book) and [Shape UP](https://basecamp.com/shapeup).
 
-### Tailwindcss
-
-"Instead of hand-picking values from a limitless pool any time you need to make a decision, start with a smaller set of options." - [Refactoring UI](https://refactoringui.com/book).
-
-SASS-ZERO use font, color, spacing, border and etc from [tailwindcss](https://tailwindcss.com) but instead the utility-first approach we use [sass variables](https://sass-lang.com/documentation/variables).
+![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/Screenshot_2020-02-26+Routeend.png)
 
 ### Milligram
 
@@ -14,31 +10,52 @@ SASS-ZERO use font, color, spacing, border and etc from [tailwindcss](https://ta
 
 SASS-ZERO comes with a basic grayscale theme that help you to bring your ideas to life, questions about font, color, spacing and layout can be resolved after the raw affordances.
 
+### Tailwindcss
+
+"Instead of hand-picking values from a limitless pool any time you need to make a decision, start with a smaller set of options." - [Refactoring UI](https://refactoringui.com/book).
+
+SASS-ZERO use font, color, spacing, border and etc from [tailwindcss](https://tailwindcss.com) but instead the utility-first approach we use [sass variables](https://sass-lang.com/documentation/variables).
+
 ### BEM
 
 I believe that html is code, therefore it should be named and scoped as well. Developers need to be good with naming things, css is another oportunity to practice.
-
-### Refactoring UI
-
-Developers should be able to produce your own design, [Refactoring UI](https://refactoringui.com/book) is the book for that.
 
 ### Shape UP
 
 SASS-ZERO comes with a implict flow from Shape UP, Find Elemens -> Create Affordance -> Make it Beautiful.
 
+### Refactoring UI
+
+Developers should be able to produce your own design, [Refactoring UI](https://refactoringui.com/book) is the book for that.
+
+### Breadboard Theme
+
+- [Example](https://github.com/lazaronixon/sass-zero/blob/master/Example.html)
+- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/base/breadboard.scss)
+
+### Variables
+
+- [Border](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/border.scss)
+- [Breakpoint](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/breakpoints.scss)
+- [Colors](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/colors.scss)
+- [Effects](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/effects.scss)
+- [Flex](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/flex.scss)
+- [Spacing](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/spacing.scss)
+- [Transform](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/transform.scss)
+- [Transition](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/transition.scss)
+- [Typography](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/typography.scss)
+- [Width](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/width.scss)
+- [Z-Index](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/zindex.scss)
+
+
 ### Utilities
 
-- [Margin Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/flush.scss)
 - [Margin Push](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/push.scss)
 - [Margin Pull](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/pull.scss)
+- [Margin Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/flush.scss)
 - [Padding Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/unpad.scss)
 - [Text Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/text.scss)
 - [Layout Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/layout.scss)
-
-
-### Breadboard Theme - [Just HTML](https://github.com/lazaronixon/sass-zero/blob/master/Example.html)
-
-![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/Screenshot_2020-02-26+Routeend.png)
 
 ## Installation
 
@@ -64,34 +81,28 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-// Block
-.block { color: $red-300; }
+.block {
+  color: $red-300;
 
-// Element
-.block__elem { color: $red-400; }
+  &__elem {
+    color: $red-400;
+  }
 
-// Modifier
-.block--mod .block__elem { color: $red-200; }
-
-.block__elem--mod { color: $red-500; }
-
+  &--mod {
+    color: $red-500;
+  }
+}
 ```
 
 ## References
 
-[SASS](https://sass-lang.com)
-
-[Tailwindcss](https://tailwindcss.com)
-
-[Milligram](https://milligram.io)
-
-[BEM](http://getbem.com/naming)
-
-[Refactoring UI](https://refactoringui.com/book)
-
-[Shape UP](https://basecamp.com/shapeup)
-
-[Hero Icons](https://github.com/refactoringui/heroicons)
+- [SASS](https://sass-lang.com)
+- [Tailwindcss](https://tailwindcss.com)
+- [Milligram](https://milligram.io)
+- [BEM](http://getbem.com/naming)
+- [Refactoring UI](https://refactoringui.com/book)
+- [Shape UP](https://basecamp.com/shapeup)
+- [Hero Icons](https://github.com/refactoringui/heroicons)
 
 ## License
 
