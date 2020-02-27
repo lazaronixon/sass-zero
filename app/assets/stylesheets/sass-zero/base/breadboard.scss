@@ -78,6 +78,32 @@ input[type='submit'] {
     padding-top:  0.35rem;
     padding-bottom: 0.35rem;
   }
+
+  &.btn--small-icon {
+    width: $size-10;
+    height: $size-10;
+    padding: 0 !important;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-size: $size-5 auto;
+    text-indent: -999em
+  }
+
+  &.btn--tiny-icon {
+    width: $size-6;
+    height: $size-6;
+    padding: 0 !important;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-size: $size-4 auto;
+    text-indent: -999em;
+    vertical-align: text-top
+  }
+
+  &.btn--borderless {
+   border-color: transparent !important;
+   background-color: transparent !important
+  }
 }
 
 code {
