@@ -2,9 +2,8 @@
 @import "sass-zero/mixins";
 
 $breadboard-primary:        $gray-900;
-$breadboard-color:          $gray-700;
-$breadboard-border:         $gray-400;
-$breadboard-border-control: $gray-300;
+$breadboard-color:          $gray-800;
+$breadboard-border:         $gray-300;
 $breadboard-background:     $gray-200;
 
 html {
@@ -34,7 +33,7 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
   background-color: $white;
-  border-color: $breadboard-border-control;
+  border-color: $breadboard-border;
   border-radius: $rounded;
   border-width: $border;
   color: $breadboard-primary;
@@ -152,7 +151,7 @@ input:not([type]),
 textarea,
 select {
   appearance: none;
-  border-color: $breadboard-border-control;
+  border-color: $breadboard-border;
   border-radius: $rounded;
   border-width: $border;
   display: block;
@@ -182,7 +181,7 @@ input[type='checkbox'],
 input[type='radio'] {
   appearance: none;
   background-origin: border-box;
-  border-color: $breadboard-border-control;
+  border-color: $breadboard-border;
   border-width: $border;
   color: $breadboard-primary;
 	display: inline-block;
@@ -226,6 +225,15 @@ ol {
 
 ul {
   list-style: circle inside;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: $size-2;
 }
 
 button,
@@ -274,9 +282,8 @@ td:last-child, th:last-child {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $font-semibold;
-  line-height: $leading-tight;
-  margin-bottom: $size-2;
+  color: $breadboard-primary;
+  font-weight: $font-bold;
 }
 
 h1 {
