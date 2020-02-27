@@ -1,11 +1,11 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-$breadboard-primary:           $gray-900;
-$breadboard-color:             $gray-700;
-$breadboard-border:            $gray-400;
-$breadboard-border-control:    $gray-300;
-$breadboard-background:        $gray-200;
+$breadboard-primary:        $gray-900;
+$breadboard-color:          $gray-700;
+$breadboard-border:         $gray-400;
+$breadboard-border-control: $gray-300;
+$breadboard-background:     $gray-200;
 
 html {
   background-color: $white;
@@ -50,30 +50,30 @@ input[type='submit'] {
 }
 
 .btn {
-  &--primary {
+  &.btn--primary {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
     color: $white;
   }
 
-  &--secondary {
+  &.btn--secondary {
     background-color: $white;
     border-color: $breadboard-primary;
   }
 
-  &--tertiary {
+  &.btn--tertiary {
     background-color: transparent;
     border-color: transparent;
   }
 
-  &--with-icon {
+  &.btn--with-icon {
     padding-left: $size-8;
     background-position: $size-2 center;
     background-repeat: no-repeat;
     background-size: $size-5 auto;
   }
 
-  &--small {
+  &.btn--small {
     font-size: $text-sm;
     padding-top:  0.35rem;
     padding-bottom: 0.35rem;
@@ -135,6 +135,7 @@ select {
 
   &:focus {
     border-color: $breadboard-color;
+    outline: 0;
   }
 }
 
