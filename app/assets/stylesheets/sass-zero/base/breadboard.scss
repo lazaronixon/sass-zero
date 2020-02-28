@@ -284,6 +284,7 @@ td:last-child, th:last-child {
 h1, h2, h3, h4, h5, h6 {
   color: $breadboard-primary;
   font-weight: $font-bold;
+  line-height: $leading-tight;
 }
 
 h1 {
@@ -308,4 +309,8 @@ h5 {
 
 h6 {
   font-size: $text-base;
+}
+
+main {
+  @include make-container($size-6, $breakpoint-xl);
 }
