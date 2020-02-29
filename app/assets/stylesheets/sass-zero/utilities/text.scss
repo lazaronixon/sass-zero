@@ -1,114 +1,107 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-.txt-x-small {
-  font-size: $text-xs;
+.txt {
+  &--smaller {
+    font-size: $text-xs;
+  }
+
+  &--small {
+    font-size: $text-sm;
+  }
+
+  &--medium {
+    font-size: $text-base;
+  }
+
+  &--large {
+    font-size: $text-lg;
+  }
+
+  &--truncate {
+    @include truncate;
+  }
+
+  &--highlight {
+    background-color: $gray-300;
+    margin-left: 3px;
+    padding: 0 0.2em;
+    border-radius: 4rem 2rem 4.2rem 1.1rem;
+    box-shadow: 0.2em 0 0 $gray-300, -0.2em 0 0 $gray-300;
+  }
+
+  &--highlight-underline {
+    background-image: url('data:image/svg+xml,<svg height="11" viewBox="0 0 284 11" width="284" fill="%23e2e8f0" xmlns="http://www.w3.org/2000/svg"><path d="m31.803886 8.47027008c68.843749-9.56054688 255.210937-9.56054693 250.988281-9.56054688-4.222656.00000006-250.9882818 16.4023438-250.9882818 16.4023438s-68.8437485 2.71875.0000008-6.84179692z" fill-rule="evenodd" transform="matrix(.99862953 .05233596 -.05233596 .99862953 .57616 -7.423532)"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center 103%;
+    background-size: 105%
+  }
+
+  &--highlight-bottom {
+    border-bottom: $border solid $gray-300;
+    box-shadow: inset 0 -6px 0 $gray-300;
+    font-style: normal;
+  }
+
+  &--normal {
+    font-weight: $font-normal;
+  }
+
+  &--bold {
+    font-weight: $font-bold;
+  }
+
+  &--underline {
+    text-decoration: underline;
+  }
+
+  &--subtle {
+    color: $gray-600;
+  }
+
+  &--very-subtle {
+    color: $gray-500;
+  }
+
+  &--capitalize {
+    text-transform: capitalize;
+  }
+
+  &--sentence-case::first-letter {
+    text-transform: uppercase;
+  }
+
+  &--strike {
+    text-decoration: line-through;
+  }
+
+  &--nowrap {
+    white-space: nowrap;
+  }
 }
 
-.txt--small {
-  font-size: $text-sm;
-}
+.align {
+  &--top {
+    vertical-align: top;
+  }
 
-.txt--medium {
-  font-size: $text-base;
-}
+  &--middle {
+    vertical-align: middle;
+  }
 
-.txt--large {
-  font-size: $text-lg;
-}
+  &--bottom {
+    vertical-align: bottom;
+  }
 
-.txt--x-large {
-  font-size: $text-xl;
-}
+  &--left {
+    text-align: left;
+  }
 
-.txt--xx-large {
-  font-size: $text-2xl;
-}
+  &--center {
+    text-align: center;
+  }
 
-.txt--xxx-large {
-  font-size: $text-3xl;
-}
-
-.txt--truncate {
-  @include truncate;
-}
-
-.txt--highlight {
-  background-color: $gray-300;
-  margin-left: 3px;
-  padding: 0 0.2em;
-  border-radius: 4rem 2rem 4.2rem 1.1rem;
-  box-shadow: 0.2em 0 0 $gray-300, -0.2em 0 0 $gray-300;
-}
-
-.txt--highlight-underline {
-  background-image: url('data:image/svg+xml,<svg height="11" viewBox="0 0 284 11" width="284" fill="%23e2e8f0" xmlns="http://www.w3.org/2000/svg"><path d="m31.803886 8.47027008c68.843749-9.56054688 255.210937-9.56054693 250.988281-9.56054688-4.222656.00000006-250.9882818 16.4023438-250.9882818 16.4023438s-68.8437485 2.71875.0000008-6.84179692z" fill-rule="evenodd" transform="matrix(.99862953 .05233596 -.05233596 .99862953 .57616 -7.423532)"/></svg>');
-  background-repeat: no-repeat;
-  background-position: center 103%;
-  background-size: 105%
-}
-
-.txt--highlight-bottom {
-  border-bottom: $border solid $gray-300;
-  box-shadow: inset 0 -6px 0 $gray-300;
-  font-style: normal;
-}
-
-.align--top {
-  vertical-align: top;
-}
-
-.align--middle {
-  vertical-align: middle;
-}
-
-.align--bottom {
-  vertical-align: bottom;
-}
-
-.align--left {
-  text-align: left;
-}
-
-.align--center {
-  text-align: center;
-}
-
-.align--right {
-  text-align: right;
-}
-
-.txt--normal {
-  font-weight: $font-normal;
-}
-
-.txt--bold {
-  font-weight: $font-bold;
-}
-
-.txt--underline {
-  text-decoration: underline;
-}
-
-.txt--subtle {
-  color: $gray-600;
-}
-.txt--very-subtle {
-  color: $gray-500;
-}
-
-.txt--capitalize {
-  text-transform: capitalize;
-}
-
-.txt--sentence-case::first-letter {
-  text-transform: uppercase;
-}
-
-.txt--strike {
-  text-decoration: line-through;
-}
-
-.txt--nowrap {
-  white-space: nowrap;
+  &--right {
+    text-align: right;
+  }
 }
