@@ -266,19 +266,15 @@ table {
   width: $size-full;
 }
 
+thead th {
+  border-bottom-width: $border-2;
+}
+
 td, th {
   border-color: $breadboard-border;
   border-bottom-width: $border;
   padding: $size-3 $size-2;
   text-align: left;
-}
-
-td:first-child, th:first-child {
-  padding-left: 0;
-}
-
-td:last-child, th:last-child {
-  padding-right: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
