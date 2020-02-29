@@ -1,6 +1,10 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
+.txt-x-small {
+  font-size: $text-xs;
+}
+
 .txt--small {
   font-size: $text-sm;
 }
@@ -13,16 +17,28 @@
   font-size: $text-lg;
 }
 
+.txt--x-large {
+  font-size: $text-xl;
+}
+
+.txt--xx-large {
+  font-size: $text-2xl;
+}
+
+.txt--xxx-large {
+  font-size: $text-3xl;
+}
+
 .txt--truncate {
   @include truncate;
 }
 
 .txt--highlight {
-  background-color: #e2e8f0;
+  background-color: $gray-300;
   margin-left: 3px;
   padding: 0 0.2em;
   border-radius: 4rem 2rem 4.2rem 1.1rem;
-  box-shadow: 0.2em 0 0 #e2e8f0, -0.2em 0 0 #e2e8f0;
+  box-shadow: 0.2em 0 0 $gray-300, -0.2em 0 0 $gray-300;
 }
 
 .txt--highlight-underline {
@@ -33,8 +49,8 @@
 }
 
 .txt--highlight-bottom {
-  border-bottom: $border solid #e2e8f0;
-  box-shadow: inset 0 -6px 0 #e2e8f0;
+  border-bottom: $border solid $gray-300;
+  box-shadow: inset 0 -6px 0 $gray-300;
   font-style: normal;
 }
 
@@ -72,6 +88,13 @@
 
 .txt--underline {
   text-decoration: underline;
+}
+
+.txt--subtle {
+  color: $gray-600;
+}
+.txt--very-subtle {
+  color: $gray-500;
 }
 
 .txt--capitalize {
