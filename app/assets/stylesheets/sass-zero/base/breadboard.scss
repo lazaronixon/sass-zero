@@ -36,18 +36,18 @@ input[type='submit'] {
 
 .btn {
   &--primary {
-    background-color: $breadboard-primary;
+    background-color: $breadboard-primary !important;
     border-color: $breadboard-primary;
-    color: $white;
+    color: $white !important;
   }
 
   &--secondary {
-    background-color: $white;
+    background-color: $white !important;
     border-color: $breadboard-primary;
   }
 
   &--tertiary {
-    background-color: transparent;
+    background-color: transparent !important;
     border-color: transparent;
   }
 
@@ -55,7 +55,7 @@ input[type='submit'] {
     padding-left: $size-8;
     background-position: $size-2 center;
     background-repeat: no-repeat;
-    background-size: $size-5 auto;
+    background-size: auto $size-5;
   }
 
   &--small {
@@ -68,18 +68,18 @@ input[type='submit'] {
     width: $size-10;
     height: $size-10;
     padding: 0 !important;
-    background-position: center center !important;
+    background-position: center !important;
     background-repeat: no-repeat;
-    background-size: $size-5 auto;
+    background-size: auto $size-5;
   }
 
   &--tiny-icon {
     width: $size-6;
     height: $size-6;
     padding: 0 !important;
-    background-position: center center !important;
+    background-position: center !important;
     background-repeat: no-repeat;
-    background-size: $size-4 auto;
+    background-size: auto $size-4;
   }
 
   &--borderless {
@@ -148,7 +148,7 @@ select:not([multiple]) {
 	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23a0aec0"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
   background-position: right $size-2 center;
   background-repeat: no-repeat;
-  background-size: $size-6 auto;
+  background-size: auto $size-6;
   padding-right: $size-10;
 }
 
