@@ -78,7 +78,6 @@ input[type='submit'] {
     background-position: center center !important;
     background-repeat: no-repeat;
     background-size: $size-5 auto;
-    text-indent: -999em
   }
 
   &--tiny-icon {
@@ -88,8 +87,6 @@ input[type='submit'] {
     background-position: center center !important;
     background-repeat: no-repeat;
     background-size: $size-4 auto;
-    text-indent: -999em;
-    vertical-align: text-top
   }
 
   &--borderless {
