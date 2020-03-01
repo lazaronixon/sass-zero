@@ -67,13 +67,13 @@
   margin-right: auto;
 }
 
-@media screen and (min-width: $breakpoint-md) {
+@media (min-width: $breakpoint-md) {
   .u-wrap-on-desktop {
     display: block;
   }
 }
 
-@media screen and (max-width: $breakpoint-md - 1) {
+@media (max-width: $breakpoint-md - 1) {
   .u-wrap-on-mobile {
     display: block;
   }
@@ -107,7 +107,7 @@
   clear: right;
 }
 
-@media screen and (max-width: $breakpoint-md - 1) {
+@media (max-width: $breakpoint-md - 1) {
   .u-float-n-on-mobile {
     float: none;
   }
@@ -121,13 +121,13 @@
   outline: none !important;
 }
 
-@media screen and (max-width: $breakpoint-md - 1) {
+@media (max-width: $breakpoint-md - 1) {
   .u-hide-on-media-small {
     display: none;
   }
 }
 
-@media screen and (min-width: $breakpoint-md) {
+@media (min-width: $breakpoint-md) {
   .u-hide-on-media-medium {
     display: none;
   }

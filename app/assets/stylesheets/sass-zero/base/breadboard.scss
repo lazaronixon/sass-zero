@@ -7,14 +7,7 @@ $breadboard-border:         $gray-300;
 $breadboard-background:     $gray-200;
 
 html {
-  background-color: $white;
   color: $breadboard-color;
-  @include antialiased;
-}
-
-body {
-  font-size: $text-base;
-  line-height: $leading-normal;
 }
 
 blockquote {
@@ -130,7 +123,6 @@ pre {
 
 hr {
   border-color: $breadboard-border;
-  border-top-width: $border;
   margin: $size-8 $size-0;
 }
 
@@ -214,9 +206,9 @@ input[type='radio'] {
 }
 
 a {
-	color: $breadboard-primary;
+  color: $breadboard-primary;
+  font-weight: $font-bold;
   cursor: pointer;
-  font-weight: $font-medium;
 }
 
 ol {
