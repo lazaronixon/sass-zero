@@ -42,36 +42,36 @@ input[type='submit'] {
 }
 
 .btn {
-  &.btn--primary {
+  &--primary {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
     color: $white;
   }
 
-  &.btn--secondary {
+  &--secondary {
     background-color: $white;
     border-color: $breadboard-primary;
   }
 
-  &.btn--tertiary {
+  &--tertiary {
     background-color: transparent;
     border-color: transparent;
   }
 
-  &.btn--with-icon {
+  &--with-icon {
     padding-left: $size-8;
     background-position: $size-2 center;
     background-repeat: no-repeat;
     background-size: $size-5 auto;
   }
 
-  &.btn--small {
+  &--small {
     font-size: $text-sm;
     padding-top:  0.35rem;
     padding-bottom: 0.35rem;
   }
 
-  &.btn--small-icon {
+  &--small-icon {
     width: $size-10;
     height: $size-10;
     padding: 0 !important;
@@ -81,7 +81,7 @@ input[type='submit'] {
     text-indent: -999em
   }
 
-  &.btn--tiny-icon {
+  &--tiny-icon {
     width: $size-6;
     height: $size-6;
     padding: 0 !important;
@@ -92,9 +92,9 @@ input[type='submit'] {
     vertical-align: text-top
   }
 
-  &.btn--borderless {
-   border-color: transparent !important;
-   background-color: transparent !important
+  &--borderless {
+    border-color: transparent !important;
+    background-color: transparent !important
   }
 }
 
