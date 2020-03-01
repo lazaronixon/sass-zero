@@ -2,19 +2,19 @@
 @import "sass-zero/mixins";
 
 .txt {
-  &--smaller {
+  &--xs {
     font-size: $text-xs;
   }
 
-  &--small {
+  &--sm {
     font-size: $text-sm;
   }
 
-  &--medium {
+  &--md {
     font-size: $text-base;
   }
 
-  &--large {
+  &--lg {
     font-size: $text-lg;
   }
 
