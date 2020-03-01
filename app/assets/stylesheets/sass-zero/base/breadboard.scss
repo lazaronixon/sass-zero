@@ -1,10 +1,10 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-$breadboard-primary:    $gray-900 !default;
-$breadboard-color:      $gray-800 !default;
-$breadboard-border:     $gray-300 !default;
-$breadboard-background: $gray-200 !default;
+$breadboard-primary:    $gray-900;
+$breadboard-color:      $gray-800;
+$breadboard-border:     $gray-300;
+$breadboard-background: $gray-200;
 
 html {
   color: $breadboard-color;
