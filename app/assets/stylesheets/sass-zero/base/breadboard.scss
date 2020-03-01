@@ -1,17 +1,11 @@
-@import "sass-zero/variables";
+@import "sass-zero/base/variables";
 @import "sass-zero/mixins";
-
-$breadboard-primary:    $gray-900;
-$breadboard-color:      $gray-800;
-$breadboard-border:     $gray-300;
-$breadboard-background: $gray-200;
 
 html {
   color: $breadboard-color;
 }
 
 blockquote {
-  border-color: $breadboard-border;
   border-left-width: $border-4;
   padding: $size-3 $size-4;
 
@@ -26,7 +20,6 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
   background-color: $white;
-  border-color: $breadboard-border;
   border-radius: $rounded;
   border-width: $border;
   color: $breadboard-primary;
@@ -119,7 +112,6 @@ pre {
 }
 
 hr {
-  border-color: $breadboard-border;
   margin: $size-8 $size-0;
 }
 
@@ -140,7 +132,6 @@ input:not([type]),
 textarea,
 select {
   appearance: none;
-  border-color: $breadboard-border;
   border-radius: $rounded;
   border-width: $border;
   display: block;
@@ -170,7 +161,6 @@ input[type='checkbox'],
 input[type='radio'] {
   appearance: none;
   background-origin: border-box;
-  border-color: $breadboard-border;
   border-width: $border;
   color: $breadboard-primary;
 	display: inline-block;
@@ -260,7 +250,6 @@ thead th {
 }
 
 td, th {
-  border-color: $breadboard-border;
   border-bottom-width: $border;
   padding: $size-3 $size-2;
   text-align: left;
