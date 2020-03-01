@@ -99,7 +99,7 @@ input[type='submit'] {
 }
 
 code {
-	background: $breadboard-background;
+	background-color: $breadboard-background;
   border-radius: $rounded;
 	font-size: $text-sm;
 	margin: 0 $size-1;
@@ -108,7 +108,7 @@ code {
 }
 
 pre {
-	background: $breadboard-background;
+	background-color: $breadboard-background;
   border-color: $breadboard-primary;
 	border-left-width: $border-4;
 	overflow-y: hidden;
@@ -160,7 +160,7 @@ select:not([multiple]) {
 	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23a0aec0"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
   background-position: right $size-2 center;
   background-repeat: no-repeat;
-  background-size: $size-6;
+  background-size: $size-6 auto;
   padding-right: $size-10;
 }
 
