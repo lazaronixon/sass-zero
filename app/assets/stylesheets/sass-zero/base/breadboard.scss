@@ -141,6 +141,7 @@ select {
 
   &:focus {
     border-color: $breadboard-color;
+    box-shadow: $shadow-outline;
     outline: 0;
   }
 }
