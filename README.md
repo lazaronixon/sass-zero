@@ -79,7 +79,6 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 
 ```scss
 @import "sass-zero/variables";
-@import "sass-zero/mixins";
 
 .block {
   color: $red-300;
