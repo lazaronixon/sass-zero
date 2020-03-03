@@ -80,6 +80,7 @@ input[type='submit'] {
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: auto $size-4;
+    vertical-align: text-top;
   }
 
   &--borderless {
