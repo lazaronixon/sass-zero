@@ -113,7 +113,8 @@ pre {
 }
 
 hr {
-  margin: $size-8 $size-0;
+  margin: $size-10 $size-0;
+  border-bottom-width: $border-2;
 }
 
 input[type='email'],
@@ -228,7 +229,7 @@ fieldset,
 input,
 select,
 textarea {
-  margin-bottom: $size-3;
+  margin-bottom: $size-4;
 }
 
 blockquote,
@@ -240,7 +241,7 @@ p,
 pre,
 table,
 ul {
-  margin-bottom: $size-4;
+  margin-bottom: $size-6;
 }
 
 table {
