@@ -1,6 +1,6 @@
 {
 	"name": "sass-zero",
-	"version": "0.0.17",
+	"version": "0.0.18",
 	"description": "A CSS framework for rapid UI development based on tailwindcss, miligram and BEM.",
 	"homepage": "https://github.com/lazaronixon/sass-zero",
 	"repository": "lazaronixon/sass-zero",
