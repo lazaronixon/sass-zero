@@ -38,6 +38,7 @@ input[type='submit'] {
   &--primary {
     background-color: $breadboard-primary !important;
     border-color: $breadboard-primary;
+    box-shadow: $shadow-sm;    
     color: $white !important;
   }
 
