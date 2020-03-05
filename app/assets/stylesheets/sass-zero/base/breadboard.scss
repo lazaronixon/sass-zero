@@ -198,7 +198,7 @@ input[type='radio'] {
 
 a {
   color: $breadboard-primary;
-  font-weight: $font-bold;
+  font-weight: $font-semibold;
   cursor: pointer;
 }
 
@@ -255,7 +255,7 @@ thead th {
 
 td, th {
   border-bottom-width: $border;
-  padding: $size-3 $size-2;
+  padding: $size-3 $size-5;
   text-align: left;
 }
 
