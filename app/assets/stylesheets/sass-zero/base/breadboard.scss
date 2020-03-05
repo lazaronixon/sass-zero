@@ -38,7 +38,7 @@ input[type='submit'] {
   &--primary {
     background-color: $breadboard-primary !important;
     border-color: $breadboard-primary;
-    box-shadow: $shadow-sm;    
+    box-shadow: $shadow-sm;
     color: $white !important;
   }
 
@@ -290,5 +290,5 @@ h6 {
 }
 
 main {
-  @include make-container($size-6, $breakpoint-xl);
+  @include make-container($size-4, $breakpoint-xl);
 }
