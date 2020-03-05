@@ -61,8 +61,8 @@ input[type='submit'] {
 
   &--small {
     font-size: $text-sm;
-    padding-top:  0.35rem;
-    padding-bottom: 0.35rem;
+    padding-top: $size-1;
+    padding-bottom: $size-1;
   }
 
   &--small-icon {
