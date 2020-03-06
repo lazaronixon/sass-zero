@@ -51,43 +51,6 @@ input[type='submit'] {
     background-color: transparent !important;
     border-color: transparent;
   }
-
-  &--with-icon {
-    padding-left: $size-8;
-    background-position: $size-2 center;
-    background-repeat: no-repeat;
-    background-size: auto $size-5;
-  }
-
-  &--small {
-    font-size: $text-sm;
-    padding-top: $size-1;
-    padding-bottom: $size-1;
-  }
-
-  &--small-icon {
-    width: $size-10;
-    height: $size-10;
-    padding: 0 !important;
-    background-position: center !important;
-    background-repeat: no-repeat;
-    background-size: auto $size-5;
-  }
-
-  &--tiny-icon {
-    width: $size-6;
-    height: $size-6;
-    padding: 0 !important;
-    background-position: center !important;
-    background-repeat: no-repeat;
-    background-size: auto $size-4;
-    vertical-align: text-top;
-  }
-
-  &--borderless {
-    border-color: transparent !important;
-    background-color: transparent !important
-  }
 }
 
 code {
