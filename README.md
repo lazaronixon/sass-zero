@@ -2,7 +2,7 @@
 
 SASS-ZERO is a css framework that brings concepts from [tailwindcss](https://tailwindcss.com) and [milligram](https://milligram.io) but with ideas from [BEM](http://getbem.com/naming), [Refactoring UI](https://refactoringui.com/book) and [Shape UP](https://basecamp.com/shapeup).
 
-![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/Screenshot_2020-03-03+Routeend.png)
+![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/Screenshot_2020-03-06+Routeend.png)
 
 ### Milligram
 
@@ -56,6 +56,7 @@ Developers should be able to produce your own design, [Refactoring UI](https://r
 - [Padding Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/unpad.scss)
 - [Text Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/text.scss)
 - [Layout Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/layout.scss)
+- [Flex Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/flex.scss)
 
 ## Installation
 
@@ -101,7 +102,6 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 - [BEM](http://getbem.com/naming)
 - [Refactoring UI](https://refactoringui.com/book)
 - [Shape UP](https://basecamp.com/shapeup)
-- [Hero Icons](https://github.com/refactoringui/heroicons)
 
 ## License
 
