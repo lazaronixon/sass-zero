@@ -131,9 +131,9 @@ input[type='radio'] {
   border-width: $border;
   color: $breadboard-primary;
 	display: inline-block;
-  margin-bottom: -2.5px;
-  height: $size-6;
-  width: $size-6;
+  margin-bottom: -2.6px;
+  height: $size-4;
+  width: $size-4;
 
   &:checked {
     border-color: transparent;
