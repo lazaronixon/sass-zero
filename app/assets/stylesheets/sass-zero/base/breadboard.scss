@@ -141,6 +141,12 @@ input[type='radio'] {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  &:focus {
+    border-color: $breadboard-color;
+    box-shadow: $shadow-outline;
+    outline: 0;
+  }
 }
 
 input[type='checkbox'] {
