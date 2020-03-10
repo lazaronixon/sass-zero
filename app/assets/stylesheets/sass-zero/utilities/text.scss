@@ -57,10 +57,12 @@
 
   &--subtle {
     color: $gray-700;
+    font-weight: $font-normal;
   }
 
   &--very-subtle {
     color: $gray-600;
+    font-weight: $font-normal;
   }
 
   &--capitalize {
