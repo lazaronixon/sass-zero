@@ -14,11 +14,7 @@ blockquote {
   }
 }
 
-.btn,
-button,
-input[type='button'],
-input[type='reset'],
-input[type='submit'] {
+.btn {
   background-color: $white;
   border-radius: $rounded;
   border-width: $border;
@@ -32,9 +28,7 @@ input[type='submit'] {
     cursor: default;
     opacity: $opacity-50;
   }
-}
 
-.btn {
   &--primary {
     background-color: $breadboard-primary !important;
     border-color: $breadboard-primary;
@@ -81,22 +75,7 @@ hr {
   border-bottom-width: $border-2;
 }
 
-input[type='email'],
-input[type='number'],
-input[type='password'],
-input[type='search'],
-input[type='tel'],
-input[type='text'],
-input[type='url'],
-input[type='color'],
-input[type='date'],
-input[type='month'],
-input[type='week'],
-input[type='datetime'],
-input[type='datetime-local'],
-input:not([type]),
-textarea,
-select {
+.input {
   appearance: none;
   border-radius: $rounded;
   border-width: $border;
@@ -109,14 +88,14 @@ select {
     box-shadow: $shadow-outline;
     outline: 0;
   }
-}
 
-select:not([multiple]) {
-	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23a0aec0"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
-  background-position: right $size-2 center;
-  background-repeat: no-repeat;
-  background-size: auto $size-6;
-  padding-right: $size-10;
+  &--select {
+  	background-image: url('data:image/svg+xml,<svg viewBox="0 0 24 24" fill="%23a0aec0" xmlns="http://www.w3.org/2000/svg"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
+    background-position: right $size-2 center;
+    background-repeat: no-repeat;
+    background-size: auto $size-6;
+    padding-right: $size-10;
+  }
 }
 
 label, legend {
@@ -124,8 +103,7 @@ label, legend {
   margin-bottom: $size-1;
 }
 
-input[type='checkbox'],
-input[type='radio'] {
+.checkbox, .radio {
   appearance: none;
   background-origin: border-box;
   border-width: $border;
@@ -149,7 +127,7 @@ input[type='radio'] {
   }
 }
 
-input[type='checkbox'] {
+.checkbox {
   border-radius: $rounded;
 
   &:checked {
@@ -157,7 +135,7 @@ input[type='checkbox'] {
   }
 }
 
-input[type='radio'] {
+.radio {
   border-radius: $rounded-full;
 
   &:checked {
@@ -188,17 +166,11 @@ h6 {
   margin-bottom: $size-2;
 }
 
-button,
-dd,
-dt,
-li {
+dd, dt, li, .btn {
   margin-bottom: $size-2;
 }
 
-fieldset,
-input,
-select,
-textarea {
+fieldset, .input, .select {
   margin-bottom: $size-4;
 }
 

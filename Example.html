@@ -13,73 +13,65 @@
   <h6>Heading</h6>
 
 
-  <button>Default Button</button>
-  <button class="btn--primary">Button Primary</button>
-  <button class="btn--secondary">Button Secondary</button>
-  <button class="btn--tertiary">Button Tertiary</button>
+  <button class="btn">Default Button</button>
+  <button class="btn btn--primary">Button Primary</button>
+  <button class="btn btn--secondary">Button Secondary</button>
+  <button class="btn btn--tertiary">Button Tertiary</button>
 
   <a href="#" class="btn">Link Button</a>
 
-  <input type="submit" value="Submit Button" />
+  <input type="submit" value="Submit Button" class="btn" />
 
   <hr>
 
   <form>
     <fieldset>
       <label for="nameField">Name</label>
-      <input type="text" placeholder="CJ Patoilo" id="nameField">
+      <input type="text" placeholder="CJ Patoilo" id="nameField" class="input">
       <label for="ageRangeField">Age Range</label>
 
-      <select id="ageRangeField">
+      <select id="ageRangeField" class="input input--select">
         <option value="0-13">0-13</option>
         <option value="14-17">14-17</option>
         <option value="18-23">18-23</option>
         <option value="24+">24+</option>
       </select>
 
-      <select multiple>
-        <option>Option 1</option>
-        <option>Option 2</option>
-        <option>Option 3</option>
-        <option>Option 4</option>
-        <option>Option 5</option>
-      </select>
-
       <label for="commentField">Comment</label>
-      <textarea placeholder="Hi CJ …" id="commentField" rows="3"></textarea>
+      <textarea placeholder="Hi CJ …" id="commentField" rows="3" class="input"></textarea>
 
       <div class="push-md--bottom">
         <div>
-          <input type="checkbox" name="option1" value="1" checked>
+          <input type="checkbox" name="option1" value="1" class="checkbox" checked>
           <label for="option1" class="u-display-ib">Option 1</label>
         </div>
         <div>
-          <input type="checkbox" name="option2" value="2">
+          <input type="checkbox" name="option2" value="2" class="checkbox">
           <label for="option2" class="u-display-ib">Option 2</label>
         </div>
         <div>
-          <input type="checkbox" name="option3" value="3">
+          <input type="checkbox" name="option3" value="3" class="checkbox">
           <label for="option3" class="u-display-ib">Option 3</label>
         </div>
       </div>
 
       <div class="push-md--bottom">
         <div>
-          <input type="radio" name="radio" value="1" checked>
+          <input type="radio" name="radio" value="1" class="radio" checked>
           <label for="radio" class="u-display-ib">Option 1</label>
         </div>
         <div>
-          <input type="radio" name="radio" value="2">
+          <input type="radio" name="radio" value="2" class="radio">
           <label for="radio" class="u-display-ib">Option 2</label>
         </div>
         <div>
-          <input type="radio" name="radio" value="3">
+          <input type="radio" name="radio" value="3" class="radio">
           <label for="radio" class="u-display-ib">Option 3</label>
         </div>
       </div>
     </fieldset>
 
-    <input type="submit" value="Send">
+    <input type="submit" value="Send" class="btn btn--primary">
   </form>
 
   <table>
