@@ -18,7 +18,7 @@ blockquote {
   background-color: $white;
   border-radius: $rounded;
   border-width: $border;
-  color: $breadboard-primary;
+  color: inherit;
   display: inline-block;
   font-weight: $font-bold;
   padding: $size-2 $size-4;
@@ -30,20 +30,22 @@ blockquote {
   }
 
   &--primary {
-    background-color: $breadboard-primary !important;
+    background-color: $breadboard-primary;
     border-color: $breadboard-primary;
+    color: $white;
     box-shadow: $shadow-sm;
-    color: $white !important;
   }
 
   &--secondary {
-    background-color: transparent !important;
+    background-color: transparent;
     border-color: $breadboard-primary;
+    color: $breadboard-primary;
   }
 
   &--tertiary {
-    background-color: transparent !important;
+    background-color: transparent;
     border-color: transparent;
+    color: $breadboard-primary;
   }
 }
 
