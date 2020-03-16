@@ -6,32 +6,32 @@
 // *******************************************************************
 @each $scale, $size in $size-map {
   .pull-#{$scale} {
-    margin: (-$size) !important;
+    margin: -$size !important;
 
     &--top {
-      margin-top: (-$size) !important;
+      margin-top: -$size !important;
     }
 
     &--right {
-      margin-right: (-$size) !important;
+      margin-right: -$size !important;
     }
 
     &--bottom {
-      margin-bottom: (-$size) !important;
+      margin-bottom: -$size !important;
     }
 
     &--left {
-      margin-left: (-$size) !important;
+      margin-left: -$size !important;
     }
 
     &--ends {
-      margin-top: (-$size) !important;
-      margin-bottom: (-$size) !important;
+      margin-top: -$size !important;
+      margin-bottom: -$size !important;
     }
 
     &--sides {
-      margin-right: (-$size) !important;
-      margin-left: (-$size) !important;
+      margin-right: -$size !important;
+      margin-left: -$size !important;
     }
   }
 }
