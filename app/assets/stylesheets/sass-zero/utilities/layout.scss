@@ -2,27 +2,27 @@
 @import "sass-zero/mixins";
 
 .u-position {
-  position: absolute;
+  position: absolute !important;
 
   &--right {
-    right: 0;
+    right: 0 !important;
   }
 
   &--left {
-    left: 0;
+    left: 0 !important;
   }
 
   &--bottom {
-    bottom: 0;
+    bottom: 0 !important;
   }
 
   &--top {
-    top: 0;
+    top: 0 !important;
   }
 }
 
 .u-position-context {
-  position: relative;
+  position: relative !important;
 }
 
 .u-clearfix {
@@ -30,86 +30,85 @@
 }
 
 .u-full-width {
-  width: 100%;
+  width: 100% !important;
 }
 
 .u-unscrollable {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .u-display-i {
-  display: inline;
+  display: inline !important;
 }
 
 .u-display-b {
-  display: block;
+  display: block !important;
 }
 
 .u-display-ib {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .u-display-n {
-  display: none;
+  display: none !important;
 }
 
 .u-pointer-events-n {
-  pointer-events: none;
+  pointer-events: none !important;
 }
 
 .u-margin-centered {
-  margin-left: auto;
-  margin-right: auto;
+  @include center-block;
 }
 
 @media (min-width: $breakpoint-md) {
   .u-wrap-on-desktop {
-    display: block;
+    display: block !important;
   }
 }
 
 @media (max-width: $breakpoint-md - 1) {
   .u-wrap-on-mobile {
-    display: block;
+    display: block !important;
   }
 }
 
 .u-nowrap {
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 
 .u-float-l {
-  float: left;
+  float: left !important;
 }
 
 .u-float-r {
-  float: right;
+  float: right !important;
 }
 
 .u-float-n {
-  float: none;
+  float: none !important;
 }
 
 .u-float-clear {
-  clear: both;
+  clear: both !important;
 }
 
 .u-float-clear-l {
-  clear: left;
+  clear: left !important;
 }
 
 .u-float-clear-r {
-  clear: right;
+  clear: right !important;
 }
 
 @media (max-width: $breakpoint-md - 1) {
   .u-float-n-on-mobile {
-    float: none;
+    float: none !important;
   }
 }
 
 .u-hide {
-  display: none;
+  display: none !important;
 }
 
 .u-hide-focus {
@@ -118,12 +117,12 @@
 
 @media (max-width: $breakpoint-md - 1) {
   .u-hide-on-media-small {
-    display: none;
+    display: none !important;
   }
 }
 
 @media (min-width: $breakpoint-md) {
   .u-hide-on-media-medium {
-    display: none;
+    display: none !important;
   }
 }
