@@ -3,6 +3,13 @@
 
 html {
   color: $breadboard-color;
+  font-size: 16px;
+}
+
+@media (max-width: $breakpoint-md - 1) {
+  html {
+    font-size: 14px;
+  }
 }
 
 blockquote {
@@ -33,7 +40,7 @@ blockquote {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
     color: $white;
-    box-shadow: $shadow-sm;
+    box-shadow: $shadow-md;
   }
 
   &--secondary {
@@ -230,6 +237,32 @@ h5 {
 
 h6 {
   font-size: $text-base;
+}
+
+@media (max-width: $breakpoint-md - 1) {
+  h1 {
+    font-size: $text-3xl;
+  }
+
+  h2 {
+    font-size: $text-2xl;
+  }
+
+  h3 {
+    font-size: $text-xl;
+  }
+
+  h4 {
+    font-size: $text-lg;
+  }
+
+  h5 {
+    font-size: $text-base;
+  }
+
+  h6 {
+    font-size: $text-sm;
+  }
 }
 
 main {
