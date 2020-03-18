@@ -233,5 +233,11 @@ h6 {
 }
 
 main {
-  @include make-container($size-4, $breakpoint-lg);
+  @include make-container($size-10, $breakpoint-lg);
+}
+
+@media (max-width: $breakpoint-md - 1) {
+  main {
+    padding: $size-0;
+  }
 }
