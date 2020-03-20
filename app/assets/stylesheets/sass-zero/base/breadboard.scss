@@ -84,11 +84,10 @@ hr {
   border-bottom-width: $border-2;
 }
 
-.input {
+.input {  
   appearance: none;
   border-radius: $rounded;
   border-width: $border;
-  display: block;
   padding: $size-2 $size-3;
   width: $size-full;
 
@@ -166,12 +165,7 @@ ul {
   list-style: disc inside;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: $size-2;
 }
 
