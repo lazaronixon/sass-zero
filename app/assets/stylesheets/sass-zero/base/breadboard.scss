@@ -52,7 +52,7 @@ blockquote {
   &--tertiary {
     background-color: transparent;
     border-color: transparent;
-    color: $breadboard-primary;
+    color: $breadboard-color;
   }
 }
 
@@ -84,7 +84,7 @@ hr {
   border-bottom-width: $border-2;
 }
 
-.input {  
+.input {
   appearance: none;
   border-radius: $rounded;
   border-width: $border;
