@@ -29,6 +29,7 @@ blockquote {
   display: inline-block;
   font-weight: $font-bold;
   padding: $size-2 $size-4;
+  text-align: center;
   cursor: pointer;
 
   &[disabled] {
