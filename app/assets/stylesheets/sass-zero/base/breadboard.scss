@@ -37,6 +37,10 @@ blockquote {
     opacity: $opacity-50;
   }
 
+  &:focus {
+    outline: 0;
+  }  
+
   &--primary {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
