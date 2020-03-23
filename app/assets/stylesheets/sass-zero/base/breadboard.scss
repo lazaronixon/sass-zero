@@ -39,13 +39,13 @@ blockquote {
 
   &:focus {
     outline: 0;
-  }  
+  }
 
   &--primary {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
     color: $white;
-    box-shadow: $shadow-md;
+    box-shadow: $shadow;
   }
 
   &--secondary {
