@@ -27,7 +27,7 @@ blockquote {
   border-width: $border;
   color: inherit;
   display: inline-block;
-  font-weight: $font-bold;
+  font-weight: $font-medium;
   padding: $size-2 $size-4;
   text-align: center;
   cursor: pointer;
@@ -45,11 +45,11 @@ blockquote {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
     color: $white;
-    box-shadow: $shadow;
+    box-shadow: $shadow-md;
   }
 
   &--secondary {
-    background-color: transparent;
+    background-color: $white;
     border-color: $breadboard-primary;
     color: $breadboard-primary;
   }
