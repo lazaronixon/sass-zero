@@ -271,6 +271,7 @@ main {
 
 @media (max-width: $breakpoint-md - 1) {
   main {
-    padding: $size-0;
+    padding-right: $size-2;
+    padding-left:  $size-2;
   }
 }
