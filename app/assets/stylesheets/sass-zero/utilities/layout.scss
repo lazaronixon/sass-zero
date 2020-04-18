@@ -1,28 +1,30 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-.u-position {
-  position: absolute !important;
-
-  &--right {
-    right: 0 !important;
-  }
-
-  &--left {
-    left: 0 !important;
-  }
-
-  &--bottom {
-    bottom: 0 !important;
-  }
-
-  &--top {
-    top: 0 !important;
-  }
-}
-
 .u-position-context {
   position: relative !important;
+}
+
+.u-position-right {
+  position: absolute !important;
+  right: 0;
+}
+
+.u-position-left {
+  position: absolute !important;
+  left: 0;
+}
+
+.u-position--bottom-right {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+}
+
+.u-position--top-right {
+  position: absolute !important;
+  top: 0;
+  right: 0;
 }
 
 .u-clearfix {
