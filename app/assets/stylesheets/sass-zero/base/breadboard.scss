@@ -209,60 +209,33 @@ td, th {
   text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: $breadboard-primary;
+h1, h2, h3, h4, h5, h6, .hdg {
   font-weight: $font-bold;
   line-height: $leading-tight;
 }
 
-h1 {
+h1, .hdg--4xl {
   font-size: $text-4xl;
 }
 
-h2 {
+h2, .hdg--3xl {
   font-size: $text-3xl;
 }
 
-h3 {
+h3, .hdg--2xl {
   font-size: $text-2xl;
 }
 
-h4 {
+h4, .hdg--xl {
   font-size: $text-xl;
 }
 
-h5 {
+h5, .hdg--lg {
   font-size: $text-lg;
 }
 
-h6 {
+h6, .hdg--base {
   font-size: $text-base;
-}
-
-@media (max-width: $breakpoint-md - 1) {
-  h1 {
-    font-size: $text-3xl;
-  }
-
-  h2 {
-    font-size: $text-2xl;
-  }
-
-  h3 {
-    font-size: $text-xl;
-  }
-
-  h4 {
-    font-size: $text-lg;
-  }
-
-  h5 {
-    font-size: $text-base;
-  }
-
-  h6 {
-    font-size: $text-sm;
-  }
 }
 
 main {

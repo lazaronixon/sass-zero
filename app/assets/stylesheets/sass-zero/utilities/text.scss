@@ -18,6 +18,18 @@
     font-size: $text-lg;
   }
 
+  &--xl {
+    font-size: $text-xl;
+  }
+
+  &--2xl {
+    font-size: $text-2xl;
+  }
+
+  &--3xl {
+    font-size: $text-3xl;
+  }
+
   &--truncate {
     @include truncate;
   }
@@ -44,7 +56,7 @@
   }
 
   &--normal {
-    font-weight: $font-normal;
+    font-weight: $font-normal !important;
   }
 
   &--bold {
@@ -55,26 +67,13 @@
     text-decoration: underline;
   }
 
-  &--subtle {
-    color: $gray-700;
-    font-weight: $font-normal;
-  }
-
-  &--very-subtle {
-    color: $gray-600;
-    font-weight: $font-normal;
-  }
-
-  &--capitalize {
-    text-transform: capitalize;
-  }
-
-  &--sentence-case::first-letter {
+  &--uppercase {
     text-transform: uppercase;
   }
 
-  &--strike {
-    text-decoration: line-through;
+  &--subtle {
+    color: $gray-700;
+    font-weight: $font-normal;
   }
 }
 

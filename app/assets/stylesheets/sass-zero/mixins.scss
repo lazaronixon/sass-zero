@@ -1,11 +1,3 @@
-@mixin clearfix {
-  &::after {
-    display: block;
-    clear: both;
-    content: "";
-  }
-}
-
 @mixin break-normal {
   word-break: normal;
   overflow-wrap: normal
@@ -33,10 +25,4 @@
   margin-right: $size-auto;
   margin-left:  $size-auto;
   max-width: $max-width;
-}
-
-@mixin center-block() {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }

@@ -2,129 +2,108 @@
 @import "sass-zero/mixins";
 
 .u-position-context {
-  position: relative !important;
+  position: relative;
 }
 
 .u-position-right {
-  position: absolute !important;
+  position: absolute;
   right: 0;
 }
 
 .u-position-left {
-  position: absolute !important;
+  position: absolute;
   left: 0;
 }
 
 .u-position--bottom-right {
-  position: absolute !important;
+  position: absolute;
   bottom: 0;
   right: 0;
 }
 
 .u-position--top-right {
-  position: absolute !important;
+  position: absolute;
   top: 0;
   right: 0;
 }
 
-.u-clearfix {
-  @include clearfix;
-}
-
 .u-full-width {
-  width: 100% !important;
-}
-
-.u-unscrollable {
-  overflow: hidden !important;
+  width: 100%;
 }
 
 .u-display-i {
-  display: inline !important;
+  display: inline;
 }
 
 .u-display-b {
-  display: block !important;
+  display: block;
 }
 
 .u-display-ib {
-  display: inline-block !important;
+  display: inline-block;
 }
 
 .u-display-n {
-  display: none !important;
+  display: none;
 }
 
-.u-pointer-events-n {
-  pointer-events: none !important;
-}
-
-.u-margin-centered {
-  @include center-block;
+.u-centered {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: $breakpoint-md) {
   .u-wrap-on-desktop {
-    display: block !important;
+    display: block;
   }
 }
 
 @media (max-width: $breakpoint-md - 1) {
   .u-wrap-on-mobile {
-    display: block !important;
+    display: block;
   }
 }
 
 .u-nowrap {
-  white-space: nowrap !important;
+  white-space: nowrap;
 }
 
 .u-float-l {
-  float: left !important;
+  float: left;
 }
 
 .u-float-r {
-  float: right !important;
+  float: right;
 }
 
 .u-float-n {
-  float: none !important;
+  float: none;
 }
 
 .u-float-clear {
-  clear: both !important;
+  clear: both;
 }
 
 .u-float-clear-l {
-  clear: left !important;
+  clear: left;
 }
 
 .u-float-clear-r {
-  clear: right !important;
-}
-
-@media (max-width: $breakpoint-md - 1) {
-  .u-float-n-on-mobile {
-    float: none !important;
-  }
+  clear: right;
 }
 
 .u-hide {
-  display: none !important;
-}
-
-.u-hide-focus {
-  outline: none !important;
+  display: none;
 }
 
 @media (max-width: $breakpoint-md - 1) {
   .u-hide-on-media-small {
-    display: none !important;
+    display: none;
   }
 }
 
 @media (min-width: $breakpoint-md) {
   .u-hide-on-media-medium {
-    display: none !important;
+    display: none;
   }
 }
