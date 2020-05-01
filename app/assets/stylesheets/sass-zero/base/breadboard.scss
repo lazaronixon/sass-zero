@@ -32,7 +32,7 @@ blockquote {
   text-align: center;
   cursor: pointer;
 
-  &:disabled {
+  &:disabled, &.disabled {
     cursor: default;
     opacity: $opacity-50;
   }
