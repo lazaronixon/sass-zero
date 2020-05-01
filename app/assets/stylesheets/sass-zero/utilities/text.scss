@@ -56,11 +56,19 @@
   }
 
   &--normal {
-    font-weight: $font-normal !important;
+    font-weight: $font-normal;
   }
 
   &--bold {
     font-weight: $font-bold;
+  }
+
+  &--subtle {
+    color: $gray-700;
+  }
+
+  &--very-subtle {
+    color: $gray-600;
   }
 
   &--underline {
@@ -69,11 +77,6 @@
 
   &--uppercase {
     text-transform: uppercase;
-  }
-
-  &--subtle {
-    color: $gray-700;
-    font-weight: $font-normal;
   }
 }
 

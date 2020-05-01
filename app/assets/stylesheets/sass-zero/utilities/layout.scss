@@ -31,6 +31,10 @@
   width: 100%;
 }
 
+.u-unscrollable {
+  overflow: hidden;
+}
+
 .u-display-i {
   display: inline;
 }
@@ -92,8 +96,18 @@
   clear: right;
 }
 
+@media (max-width: $breakpoint-md - 1) {
+  .u-float-n-on-mobile {
+    float: none;
+  }
+}
+
 .u-hide {
   display: none;
+}
+
+.u-hide-focus {
+  outline: none;
 }
 
 @media (max-width: $breakpoint-md - 1) {
