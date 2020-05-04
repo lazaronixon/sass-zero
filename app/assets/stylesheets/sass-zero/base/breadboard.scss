@@ -25,7 +25,7 @@ blockquote {
   background-color: $white;
   border-radius: $rounded;
   border-width: $border;
-  color: inherit;
+  color: $breadboard-color;
   display: inline-block;
   font-weight: $font-medium;
   padding: $size-2 $size-4;
@@ -62,24 +62,24 @@ blockquote {
 }
 
 code {
-	background-color: $breadboard-background;
+  background-color: $breadboard-background;
   border-radius: $rounded;
-	font-size: $text-sm;
-	margin: 0 $size-1;
-	padding: $size-1 $size-2;
-	white-space: nowrap;
+  font-size: $text-sm;
+  margin: 0 $size-1;
+  padding: $size-1 $size-2;
+  white-space: nowrap;
 }
 
 pre {
-	background-color: $breadboard-background;
+  background-color: $breadboard-background;
   border-color: $breadboard-primary;
-	border-left-width: $border-4;
-	overflow-y: hidden;
+  border-left-width: $border-4;
+  overflow-y: hidden;
 
-	& > code {
+  & > code {
     border-radius: $rounded-none;
-		display: block;
-		padding: $size-2 $size-3;
+  	display: block;
+  	padding: $size-2 $size-3;
     white-space: pre;
   }
 }
@@ -122,7 +122,7 @@ label, legend {
   background-origin: border-box;
   border-width: $border;
   color: $breadboard-primary;
-	display: inline-block;
+  display: inline-block;
   margin-bottom: -0.2rem;
   height: $size-4;
   width: $size-4;
