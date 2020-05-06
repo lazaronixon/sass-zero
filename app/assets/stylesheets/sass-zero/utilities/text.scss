@@ -30,8 +30,20 @@
     font-size: $text-3xl;
   }
 
-  &--truncate {
-    @include truncate;
+  &--nowrap {
+    white-space: nowrap;
+  }
+
+  &--break-words {
+    word-wrap: break-word;
+  }
+
+  &--break-all {
+    word-break: break-all;
+  }
+
+  &--ellipsis {
+    @include ellipsis;
   }
 
   &--highlight {

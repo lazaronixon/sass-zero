@@ -1,9 +1,4 @@
-@mixin break-normal {
-  word-break: normal;
-  overflow-wrap: normal
-}
-
-@mixin truncate {
+@mixin ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
