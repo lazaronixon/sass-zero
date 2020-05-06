@@ -2,8 +2,12 @@
 @import "sass-zero/mixins";
 
 html {
-  color: $breadboard-color;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+main {
+  padding-right: $size-2;
+  padding-left:  $size-2;
 }
 
 blockquote {
@@ -232,17 +236,13 @@ h6, .hdg--base {
   font-size: $text-base;
 }
 
-main {
-  @include make-container($size-10, $breakpoint-lg);
-}
-
-@media (max-width: $breakpoint-md - 1) {
+@media (min-width: $breakpoint-md) {
   html {
-    font-size: 14px;
+    color: $breadboard-color;
+    font-size: 16px;
   }
 
   main {
-    padding-right: $size-2;
-    padding-left:  $size-2;
+    @include make-container($size-10, $breakpoint-lg);
   }
 }

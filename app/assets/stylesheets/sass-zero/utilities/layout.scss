@@ -22,7 +22,7 @@
 }
 
 .u-display-n {
-  display: none;
+  display: none !important;
 }
 
 .u-centered {
@@ -54,34 +54,14 @@
   clear: right;
 }
 
-.u-hide {
-  display: none;
-}
-
-.u-hide-focus {
-  outline: none;
-}
-
 @media (max-width: $breakpoint-md - 1) {
-  .u-wrap-on-mobile {
-    display: block;
-  }
-
-  .u-hide-on-media-small {
+  .u-hide\@small {
     display: none;
-  }
-
-  .u-float-n-on-mobile {
-    float: none;
   }
 }
 
 @media (min-width: $breakpoint-md) {
-  .u-wrap-on-desktop {
-    display: block;
-  }
-
-  .u-hide-on-media-medium {
+  .u-hide\@medium {
     display: none;
   }
 }
