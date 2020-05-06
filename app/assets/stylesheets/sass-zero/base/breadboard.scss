@@ -27,7 +27,7 @@ blockquote {
   cursor: pointer;
 
   &:disabled, &.disabled {
-    cursor: default;
+    pointer-events: none;
     opacity: $opacity-50;
   }
 
