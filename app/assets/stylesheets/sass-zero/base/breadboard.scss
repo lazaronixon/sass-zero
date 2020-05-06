@@ -6,12 +6,6 @@ html {
   font-size: 16px;
 }
 
-@media (max-width: $breakpoint-md - 1) {
-  html {
-    font-size: 14px;
-  }
-}
-
 blockquote {
   border-left-width: $border-4;
   padding: $size-3 $size-4;
@@ -171,7 +165,7 @@ ul {
   list-style: disc inside;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .hdg {
   margin-bottom: $size-2;
 }
 
@@ -243,6 +237,10 @@ main {
 }
 
 @media (max-width: $breakpoint-md - 1) {
+  html {
+    font-size: 14px;
+  }
+
   main {
     padding-right: $size-2;
     padding-left:  $size-2;
