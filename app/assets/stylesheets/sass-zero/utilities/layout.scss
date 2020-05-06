@@ -103,7 +103,7 @@
 
   .u-float-n-on-mobile {
     float: none;
-  }  
+  }
 }
 
 @media (min-width: $breakpoint-md) {
@@ -113,5 +113,11 @@
 
   .u-hide-on-media-medium {
     display: none;
+  }
+}
+
+@media print {
+  .u-no-print {
+    display: none !important;
   }
 }
