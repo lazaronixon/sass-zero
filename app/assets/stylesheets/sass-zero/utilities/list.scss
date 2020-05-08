@@ -1,0 +1,17 @@
+@import "sass-zero/variables/spacing";
+
+.list {
+  &--unindented {
+    padding-left: $size-8;
+  }
+
+  &--unbulleted {
+   list-style: none;
+  }
+
+  &--inline li {
+    margin-bottom: $size-0;
+    margin-right:  $size-2;
+    display: inline-block;
+  }
+}
