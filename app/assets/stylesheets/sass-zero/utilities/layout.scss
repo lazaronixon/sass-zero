@@ -30,6 +30,10 @@
   margin-left: auto;
 }
 
+.u-clearfix {
+  @include clearfix;
+}
+
 .u-float-l {
   float: left;
 }
