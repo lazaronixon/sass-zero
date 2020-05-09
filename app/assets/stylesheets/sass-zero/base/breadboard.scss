@@ -58,7 +58,7 @@ code {
   background-color: $breadboard-background;
   border-radius: $rounded;
   font-size: $text-sm;
-  margin: 0 $size-1;
+  margin: $size-0 $size-1;
   padding: $size-1 $size-2;
   white-space: nowrap;
 }
