@@ -2,6 +2,7 @@
 @import "sass-zero/mixins";
 
 html {
+  color: $breadboard-color;
   font-size: 14px;
 }
 
@@ -33,10 +34,6 @@ blockquote {
   &:disabled, &.disabled {
     pointer-events: none;
     opacity: $opacity-50;
-  }
-
-  &:focus {
-    outline: 0;
   }
 
   &--primary {
@@ -84,7 +81,6 @@ pre {
 
 hr {
   margin: $size-10 $size-0;
-  border-bottom-width: $border-2;
 }
 
 .input {
@@ -155,9 +151,7 @@ label, legend {
 }
 
 a {
-  color: $breadboard-primary;
   font-weight: $font-bold;
-  cursor: pointer;
 }
 
 ol {
@@ -237,7 +231,6 @@ h6, .hdg--base {
 
 @media (min-width: $breakpoint-md) {
   html {
-    color: $breadboard-color;
     font-size: 16px;
   }
 
