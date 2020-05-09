@@ -1,4 +1,7 @@
-@import "sass-zero/variables";
+@import "sass-zero/variables/typography";
+@import "sass-zero/variables/spacing";
+@import "sass-zero/variables/border";
+@import "sass-zero/variables/colors";
 @import "sass-zero/mixins";
 
 .txt {
@@ -47,24 +50,9 @@
   }
 
   &--highlight {
-    background-color: $gray-300;
-    margin-left: 3px;
-    padding: 0 0.2em;
-    border-radius: 4rem 2rem 4.2rem 1.1rem;
-    box-shadow: 0.2em 0 0 $gray-300, -0.2em 0 0 $gray-300;
-  }
-
-  &--highlight-underline {
-    background-image: url('data:image/svg+xml,<svg viewBox="0 0 284 11" fill="%23e2e8f0" xmlns="http://www.w3.org/2000/svg"><path d="m31.803886 8.47027008c68.843749-9.56054688 255.210937-9.56054693 250.988281-9.56054688-4.222656.00000006-250.9882818 16.4023438-250.9882818 16.4023438s-68.8437485 2.71875.0000008-6.84179692z" fill-rule="evenodd" transform="matrix(.99862953 .05233596 -.05233596 .99862953 .57616 -7.423532)"/></svg>');
-    background-repeat: no-repeat;
-    background-position: center 103%;
-    background-size: 105%
-  }
-
-  &--highlight-bottom {
-    border-bottom: $border solid $gray-300;
-    box-shadow: inset 0 -6px 0 $gray-300;
-    font-style: normal;
+    background-color: $gray-200;
+    border-radius: $rounded;
+    padding: $size-0 $size-1;
   }
 
   &--normal {
