@@ -46,13 +46,11 @@ blockquote {
   &--secondary {
     background-color: $white;
     border-color: $breadboard-primary;
-    color: $breadboard-primary;
   }
 
   &--tertiary {
     background-color: transparent;
     border-color: transparent;
-    color: $breadboard-color;
   }
 }
 
