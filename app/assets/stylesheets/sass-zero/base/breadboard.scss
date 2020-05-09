@@ -235,27 +235,6 @@ h6, .hdg--base {
   font-size: $text-base;
 }
 
-.hdg--divider {
-  position: relative;
-  z-index: 0;
-
-  > span {
-    background-color: $breadboard-background;
-    padding-right: $size-2;
-  }
-
-  ::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left:  $size-0;
-    right: $size-0;
-    height: $size-px;
-    background: $breadboard-border;
-    z-index: -1;
-  }
-}
-
 @media (min-width: $breakpoint-md) {
   html {
     color: $breadboard-color;
