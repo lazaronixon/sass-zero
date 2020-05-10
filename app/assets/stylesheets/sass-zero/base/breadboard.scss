@@ -38,13 +38,13 @@ blockquote {
   &--primary {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
-    color: $white;
     box-shadow: $shadow-md;
+    color: $white;
   }
 
   &--secondary {
-    background-color: $white;
     border-color: $breadboard-primary;
+    background-color: $white;    
   }
 
   &--tertiary {
