@@ -44,7 +44,7 @@ blockquote {
 
   &--secondary {
     border-color: $breadboard-primary;
-    background-color: $white;    
+    background-color: $white;
   }
 
   &--tertiary {
@@ -133,7 +133,7 @@ label, legend {
   }
 }
 
-.input, .checkbox, .radio, .btn {
+.input, .checkbox, .radio {
   &:focus {
     border-color: $breadboard-color;
     box-shadow: $shadow-outline;
