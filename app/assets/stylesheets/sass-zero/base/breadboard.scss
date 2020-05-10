@@ -35,12 +35,6 @@ blockquote {
     opacity: $opacity-50;
   }
 
-  &:focus {
-    border-color: $breadboard-color;
-    box-shadow: $shadow-outline;
-    outline: 0;
-  }
-
   &--primary {
     background-color: $breadboard-primary;
     border-color: $breadboard-primary;
@@ -92,12 +86,6 @@ hr {
   padding: $size-2 $size-3;
   width: $size-full;
 
-  &:focus {
-    border-color: $breadboard-color;
-    box-shadow: $shadow-outline;
-    outline: 0;
-  }
-
   &--select {
     appearance: none;
   	background-image: url('data:image/svg+xml,<svg viewBox="0 0 24 24" fill="%23a0aec0" xmlns="http://www.w3.org/2000/svg"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
@@ -127,12 +115,6 @@ label, legend {
     background-position: center;
     background-repeat: no-repeat;
   }
-
-  &:focus {
-    border-color: $breadboard-color;
-    box-shadow: $shadow-outline;
-    outline: 0;
-  }
 }
 
 .checkbox {
@@ -148,6 +130,14 @@ label, legend {
 
   &:checked {
     background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
+  }
+}
+
+.input, .checkbox, .radio, .btn {
+  &:focus {
+    border-color: $breadboard-color;
+    box-shadow: $shadow-outline;
+    outline: 0;
   }
 }
 
