@@ -150,19 +150,23 @@ a {
   font-weight: $font-bold;
 }
 
+ul {
+  list-style: disc inside;
+}
+
 ol {
   list-style: decimal inside;
 }
 
-ul {
-  list-style: disc inside;
+dt, dd, li {
+  &:last-child { margin-bottom: $size-0; }
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
   margin-bottom: $size-2;
 }
 
-dd, dt, li, .btn {
+dt, dd, li, .btn {
   margin-bottom: $size-2;
 }
 
@@ -214,11 +218,6 @@ h6, .hdg--base {
 }
 
 @media (min-width: $breakpoint-md) {
-  html {
-    font-size: 16px;
-  }
-
-  main {
-    @include make-container($size-10, $breakpoint-lg);
-  }
+  html { font-size: 16px; }
+  main { @include make-container($size-10, $breakpoint-lg); }
 }
