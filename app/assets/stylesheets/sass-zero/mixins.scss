@@ -1,11 +1,3 @@
-@mixin clearfix {
-  &::after {
-    display: block;
-    clear: both;
-    content: "";
-  }
-}
-
 @mixin ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -22,7 +14,16 @@
   -moz-osx-font-smoothing: auto;
 }
 
+@mixin clearfix {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+
 @mixin make-container($padding-x, $max-width) {
+  width: 100%;
   padding-right: $padding-x;
   padding-left: $padding-x;
   margin-right: $size-auto;
