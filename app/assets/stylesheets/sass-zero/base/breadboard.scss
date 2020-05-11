@@ -86,6 +86,10 @@ hr {
   padding: $size-2 $size-3;
   width: $size-full;
 
+  &:focus {
+    @include focus;
+  }
+
   &--select {
     appearance: none;
   	background-image: url('data:image/svg+xml,<svg viewBox="0 0 24 24" fill="%23a0aec0" xmlns="http://www.w3.org/2000/svg"><path d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"/></svg>');
@@ -96,49 +100,37 @@ hr {
   }
 }
 
-label, legend {
-  display: inline-block;
-  margin-bottom: $size-1;
-}
-
-.checkbox, .radio {
-  appearance: none;
-  border-width: $border;
-  color: $breadboard-primary;
-  margin-bottom: -0.2rem;
-  height: $size-4;
-  width: $size-4;
-
-  &:checked {
-    border-color: transparent;
-    background-color: currentColor;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
 .checkbox {
   border-radius: $rounded;
+  @include selection;
+
+  &:focus {
+    @include focus;
+  }
 
   &:checked {
     background-image: url('data:image/svg+xml,<svg viewBox="0 0 20 20" fill="white" strokeWidth="2" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>');
+    @include checked;
   }
 }
 
 .radio {
   border-radius: $rounded-full;
+  @include selection;
+
+  &:focus {
+    @include focus;
+  }
 
   &:checked {
     background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
+    @include checked;
   }
 }
 
-.input, .checkbox, .radio {
-  &:focus {
-    border-color: $breadboard-color;
-    box-shadow: $shadow-outline;
-    outline: 0;
-  }
+label, legend {
+  display: inline-block;
+  margin-bottom: $size-1;
 }
 
 a {

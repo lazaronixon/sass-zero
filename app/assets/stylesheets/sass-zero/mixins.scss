@@ -22,6 +22,28 @@
   }
 }
 
+@mixin focus {
+  border-color: $breadboard-color;
+  box-shadow: $shadow-outline;
+  outline: 0;
+}
+
+@mixin selection {
+  appearance: none;
+  border-width: $border;
+  color: $breadboard-primary;
+  margin-bottom: -0.2rem;
+  height: $size-4;
+  width: $size-4;
+}
+
+@mixin checked {
+  border-color: transparent;
+  background-color: currentColor;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @mixin make-container($padding-x, $max-width) {
   width: 100%;
   padding-right: $padding-x;
