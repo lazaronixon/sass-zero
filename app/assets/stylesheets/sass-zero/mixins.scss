@@ -44,6 +44,30 @@
   background-repeat: no-repeat;
 }
 
+@mixin space-x($space, $reverse: false) {
+  & > :not(template) ~ :not(template) {
+    @if $reverse {
+      margin-left:  $size-0;
+      margin-right: $space;
+    } @else {
+      margin-left:  $space;      
+      margin-right: $size-0;
+    }
+  }
+}
+
+@mixin space-y($space, $reverse: false) {
+  & > :not(template) ~ :not(template) {
+    @if $reverse {
+      margin-top:    $size-0;
+      margin-bottom: $space;
+    } @else {
+      margin-top:    $space;
+      margin-bottom: $size-0;
+    }
+  }
+}
+
 @mixin make-container($padding-x, $max-width) {
   width: 100%;
   padding-right: $padding-x;
