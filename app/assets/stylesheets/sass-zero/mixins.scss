@@ -47,11 +47,9 @@
 @mixin space-x($space, $reverse: false) {
   & > :not(template) ~ :not(template) {
     @if $reverse {
-      margin-left:  $size-0;
       margin-right: $space;
     } @else {
-      margin-left:  $space;      
-      margin-right: $size-0;
+      margin-left: $space;
     }
   }
 }
@@ -59,11 +57,9 @@
 @mixin space-y($space, $reverse: false) {
   & > :not(template) ~ :not(template) {
     @if $reverse {
-      margin-top:    $size-0;
       margin-bottom: $space;
     } @else {
-      margin-top:    $space;
-      margin-bottom: $size-0;
+      margin-top: $space;
     }
   }
 }
