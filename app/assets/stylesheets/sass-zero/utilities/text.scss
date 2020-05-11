@@ -49,12 +49,6 @@
     @include ellipsis;
   }
 
-  &--highlight {
-    background-color: $gray-200;
-    border-radius: $rounded;
-    padding: $size-0 $size-1;
-  }
-
   &--normal {
     font-weight: $font-normal;
   }
