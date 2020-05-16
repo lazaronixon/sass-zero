@@ -4,98 +4,94 @@
 @import "sass-zero/variables/colors";
 @import "sass-zero/mixins";
 
-.txt {
-  &--xs {
-    font-size: $text-xs;
-  }
-
-  &--sm {
-    font-size: $text-sm;
-  }
-
-  &--md {
-    font-size: $text-base;
-  }
-
-  &--lg {
-    font-size: $text-lg;
-  }
-
-  &--xl {
-    font-size: $text-xl;
-  }
-
-  &--2xl {
-    font-size: $text-2xl;
-  }
-
-  &--3xl {
-    font-size: $text-3xl;
-  }
-
-  &--nowrap {
-    white-space: nowrap;
-  }
-
-  &--break-words {
-    word-wrap: break-word;
-  }
-
-  &--break-all {
-    word-break: break-all;
-  }
-
-  &--ellipsis {
-    @include ellipsis;
-  }
-
-  &--normal {
-    font-weight: $font-normal;
-  }
-
-  &--bold {
-    font-weight: $font-bold;
-  }
-
-  &--subtle {
-    color: $gray-700;
-  }
-
-  &--very-subtle {
-    color: $gray-600;
-  }
-
-  &--underline {
-    text-decoration: underline;
-  }
-
-  &--uppercase {
-    text-transform: uppercase;
-  }
+.txt--xs {
+  font-size: $text-xs;
 }
 
-.align {
-  &--top {
-    vertical-align: top;
-  }
+.txt--sm {
+  font-size: $text-sm;
+}
 
-  &--middle {
-    vertical-align: middle;
-  }
+.txt--md {
+  font-size: $text-base;
+}
 
-  &--bottom {
-    vertical-align: bottom;
-  }
+.txt--lg {
+  font-size: $text-lg;
+}
 
-  &--left {
-    text-align: left;
-  }
+.txt--xl {
+  font-size: $text-xl;
+}
 
-  &--center {
-    text-align: center;
-  }
+.txt--2xl {
+  font-size: $text-2xl;
+}
 
-  &--right {
-    text-align: right;
-  }
+.txt--3xl {
+  font-size: $text-3xl;
+}
+
+.txt--nowrap {
+  white-space: nowrap;
+}
+
+.txt--break-words {
+  word-wrap: break-word;
+}
+
+.txt--break-all {
+  word-break: break-all;
+}
+
+.txt--ellipsis {
+  @include ellipsis;
+}
+
+.txt--normal {
+  font-weight: $font-normal;
+}
+
+.txt--bold {
+  font-weight: $font-bold;
+}
+
+.txt--subtle {
+  color: $gray-700;
+}
+
+.txt--very-subtle {
+  color: $gray-600;
+}
+
+.txt--underline {
+  text-decoration: underline;
+}
+
+.txt--uppercase {
+  text-transform: uppercase;
+}
+
+.align--top {
+  vertical-align: top;
+}
+
+.align--middle {
+  vertical-align: middle;
+}
+
+.align--bottom {
+  vertical-align: bottom;
+}
+
+.align--left {
+  text-align: left;
+}
+
+.align--center {
+  text-align: center;
+}
+
+.align--right {
+  text-align: right;
 }

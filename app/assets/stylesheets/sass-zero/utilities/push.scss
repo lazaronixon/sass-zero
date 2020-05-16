@@ -7,31 +7,31 @@
 @each $scale, $size in $size-map {
   .push-#{$scale} {
     margin: $size !important;
+  }
 
-    &--top {
-      margin-top: $size !important;
-    }
+  .push-#{$scale}--top {
+    margin-top: $size !important;
+  }
 
-    &--right {
-      margin-right: $size !important;
-    }
+  .push-#{$scale}--right {
+    margin-right: $size !important;
+  }
 
-    &--bottom {
-      margin-bottom: $size !important;
-    }
+  .push-#{$scale}--bottom {
+    margin-bottom: $size !important;
+  }
 
-    &--left {
-      margin-left: $size !important;
-    }
+  .push-#{$scale}--left {
+    margin-left: $size !important;
+  }
 
-    &--ends {
-      margin-top: $size !important;
-      margin-bottom: $size !important;
-    }
+  .push-#{$scale}--ends {
+    margin-top: $size !important;
+    margin-bottom: $size !important;
+  }
 
-    &--sides {
-      margin-right: $size !important;
-      margin-left: $size !important;
-    }
+  .push-#{$scale}--sides {
+    margin-right: $size !important;
+    margin-left: $size !important;
   }
 }

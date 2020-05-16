@@ -1,23 +1,15 @@
+.position-context {
+  position: relative;
+}
+
 .position {
   position: absolute;
 
-  &--right {
-    right: 0;
-  }
+  &--right { right: 0; }
 
-  &--left {
-    left: 0;
-  }
+  &--left { left: 0; }
 
-  &--top {
-    top: 0;
-  }
+  &--top { top: 0; }
 
-  &--bottom {
-    bottom: 0;
-  }
-}
-
-.position-context {
-  position: relative;
+  &--bottom { bottom: 0; }
 }
