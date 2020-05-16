@@ -144,6 +144,11 @@ ol {
   list-style: decimal inside;
 }
 
+td, th {
+  &:first-child { padding-left:  $size-0; }
+  &:last-child  { padding-right: $size-0; }
+}
+
 dt, dd, li {
   &:last-child { margin-bottom: $size-0; }
 }
