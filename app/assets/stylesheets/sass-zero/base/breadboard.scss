@@ -134,20 +134,11 @@ ol {
   list-style: decimal inside;
 }
 
-td, th {
-  &:first-child { padding-left:  $size-0; }
-  &:last-child  { padding-right: $size-0; }
-}
-
-dt, dd, li {
-  &:last-child { margin-bottom: $size-0; }
-}
-
 h1, h2, h3, h4, h5, h6, .hdg {
   margin-bottom: $size-2;
 }
 
-dt, dd, li, .btn {
+dd, .btn {
   margin-bottom: $size-2;
 }
 
