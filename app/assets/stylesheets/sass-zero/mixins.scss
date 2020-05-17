@@ -1,3 +1,7 @@
+@import "sass-zero/variables/border";
+@import "sass-zero/variables/effects";
+@import "sass-zero/variables/spacing";
+
 @mixin ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -23,15 +27,15 @@
 }
 
 @mixin focus {
-  border-color: $breadboard-color;
+  border-color: #a4cafe;
   box-shadow: $shadow-outline;
   outline: 0;
 }
 
-@mixin selection {
+@mixin selection($color) {
   appearance: none;
   border-width: $border;
-  color: $breadboard-primary;
+  color: $color;
   margin-bottom: -0.2rem;
   height: $size-4;
   width: $size-4;
