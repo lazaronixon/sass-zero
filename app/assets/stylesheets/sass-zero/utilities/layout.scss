@@ -1,5 +1,11 @@
 @import "sass-zero/variables/breakpoints";
+@import "sass-zero/variables/effects";
 @import "sass-zero/mixins";
+
+.u-disabled {
+  pointer-events: none;
+  opacity: $opacity-50;
+}
 
 .u-full-width {
   width: 100%;
@@ -27,7 +33,7 @@
 
 .u-centered {
   margin-right: auto;
-  margin-left: auto;
+  margin-left:  auto;
 }
 
 .u-clearfix {
