@@ -13,8 +13,12 @@
   @include space-y($size-2);
 }
 
-.list--inline li {
-  margin-bottom: $size-0;
+.list--ruled > li {
+  padding: $size-3 $size-4;
+  border-top-width: $border;
+}
+
+.list--inline > li {
   margin-right:  $size-2;
   display: inline-block;
 }
