@@ -1,4 +1,5 @@
 @import "sass-zero/variables/spacing";
+@import "sass-zero/mixins";
 
 .list--unindented {
   padding-left: $size-8;
@@ -6,6 +7,10 @@
 
 .list--unbulleted {
  list-style: none;
+}
+
+.list--spaced {
+  @include space-y($size-2);
 }
 
 .list--inline li {
