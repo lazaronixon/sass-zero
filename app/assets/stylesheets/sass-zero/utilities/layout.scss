@@ -2,13 +2,17 @@
 @import "sass-zero/variables/effects";
 @import "sass-zero/mixins";
 
+.u-full-width {
+  width: 100%;
+}
+
+.u-min-width {
+  min-width: 0;
+}
+
 .u-disabled {
   pointer-events: none;
   opacity: $opacity-50;
-}
-
-.u-full-width {
-  width: 100%;
 }
 
 .u-unscrollable {
