@@ -32,15 +32,6 @@
   outline: 0;
 }
 
-@mixin selection($color) {
-  appearance: none;
-  border-width: $border;
-  color: $color;
-  margin-bottom: -0.2rem;
-  height: $size-4;
-  width: $size-4;
-}
-
 @mixin checked {
   border-color: transparent;
   background-color: currentColor;
@@ -75,4 +66,13 @@
   margin-right: $size-auto;
   margin-left:  $size-auto;
   max-width: $max-width;
+}
+
+@mixin input-selection($color) {
+  appearance: none;
+  border-width: $border;
+  color: $color;
+  margin-bottom: -0.1rem;
+  height: $size-4;
+  width: $size-4;
 }
