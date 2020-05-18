@@ -117,7 +117,7 @@ hr {
   &:focus { @include focus; }
 }
 
-label, legend {
+label, legend, dt {
   display: inline-block;
   margin-bottom: $size-1;
 }
@@ -135,10 +135,6 @@ ol {
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
-  margin-bottom: $size-2;
-}
-
-dd {
   margin-bottom: $size-2;
 }
 
