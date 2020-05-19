@@ -1,6 +1,7 @@
 @import "sass-zero/variables/typography";
 @import "sass-zero/variables/spacing";
 @import "sass-zero/variables/colors";
+@import "sass-zero/variables/border";
 @import "sass-zero/mixins";
 
 .txt--xs {
@@ -81,6 +82,12 @@
 
 .txt--uppercase {
   text-transform: uppercase;
+}
+
+.txt--highlight {
+  background-color: $gray-200;
+  border-radius: $rounded-full;
+  padding: $size-0 $size-1;
 }
 
 .align--top {
