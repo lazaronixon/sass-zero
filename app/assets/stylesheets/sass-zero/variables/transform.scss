@@ -19,7 +19,12 @@ $scale-150: 1.50;
 // Variables for rotating elements with transform.
 // transform: rotate($rotate-45);
 // *******************************************************************
-$rotate-0:   0;
+$rotate-0:   0deg;
+$rotate-1:   1deg;
+$rotate-2:   2deg;
+$rotate-3:   3deg;
+$rotate-6:   6deg;
+$rotate-12:  12deg;
 $rotate-45:  45deg;
 $rotate-90:  90deg;
 $rotate-180: 180deg;
@@ -29,7 +34,9 @@ $rotate-180: 180deg;
 // Variables for skewing elements with transform.
 // transform: skew($skew-3);
 // *******************************************************************
-$skew-0:  0;
+$skew-0:  0deg;
+$skew-1:  1deg;
+$skew-2:  2deg;
 $skew-3:  3deg;
 $skew-6:  6deg;
 $skew-12: 12deg;

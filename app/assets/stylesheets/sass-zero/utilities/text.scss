@@ -6,42 +6,67 @@
 
 .txt--xs {
   font-size: $text-xs;
+  line-height: $leading-4;
 }
 
 .txt--sm {
   font-size: $text-sm;
+  line-height: $leading-5;
 }
 
 .txt--md {
   font-size: $text-base;
+  line-height: $leading-6;
 }
 
 .txt--lg {
   font-size: $text-lg;
+  line-height: $leading-7;
 }
 
 .txt--xl {
   font-size: $text-xl;
+  line-height: $leading-7;
 }
 
 .txt--2xl {
   font-size: $text-2xl;
+  line-height: $leading-8;
 }
 
 .txt--3xl {
   font-size: $text-3xl;
+  line-height: $leading-9;
 }
 
 .txt--4xl {
   font-size: $text-4xl;
+  line-height: $leading-10;
 }
 
 .txt--5xl {
   font-size: $text-5xl;
+  line-height: $leading-4;
 }
 
 .txt--6xl {
   font-size: $text-6xl;
+  line-height: $leading-4;
+}
+
+.txt--7xl {
+  font-size: $text-7xl;
+  line-height: $leading-4;
+}
+
+.txt--8xl {
+  font-size: $text-8xl;
+  line-height: $leading-4;
+}
+
+.txt--9xl {
+  font-size: $text-9xl;
+  line-height: $leading-4;
 }
 
 .txt--nowrap {

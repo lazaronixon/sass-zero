@@ -35,14 +35,18 @@ $w-11-12: 91.666667%;
 // Variables for setting the minimum width of an element
 // min-width: $min-w-0;
 // *******************************************************************
-$min-w-0:    0;
+$min-w-0:    0px;
 $min-w-full: 100%;
+$min-w-min:  min-content;
+$min-w-max:  max-content;
 
 // *******************************************************************
 // Max-Width
 // Variables for setting the maximum width of an element
 // max-width: $max-w-xs;
 // *******************************************************************
+$max-w-none: none;
+$max-w-0:    0rem;
 $max-w-xs:   20rem;
 $max-w-sm:   24rem;
 $max-w-md:   28rem;
@@ -55,14 +59,15 @@ $max-w-5xl:  64rem;
 $max-w-6xl:  72rem;
 $max-w-7xl:  80rem;
 $max-w-full: 100%;
-$max-w-none: none;
+$max-w-min:  min-content;
+$max-w-max:  max-content;
 
 // *******************************************************************
 // Min-Height
 // Variables for setting the minimum height of an element
 // min-height: $min-h-0;
 // *******************************************************************
-$min-h-0:      0;
+$min-h-0:      0px;
 $min-h-full:   100%;
 $min-h-screen: 100vh;
 

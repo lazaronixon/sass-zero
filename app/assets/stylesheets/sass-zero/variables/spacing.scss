@@ -3,28 +3,42 @@
 // By default, Tailwind includes a generous and comprehensive numeric spacing scale.
 // Use as padding, margin, width, height, transform
 // *******************************************************************
-$size-0:  0;
+$size-px: 1px;
+$size-0:  0px;
 $size-1:  0.25rem;
 $size-2:  0.5rem;
 $size-3:  0.75rem;
 $size-4:  1rem;
 $size-5:  1.25rem;
 $size-6:  1.5rem;
+$size-7:  1.75rem;
 $size-8:  2rem;
+$size-9:  2.25rem;
 $size-10: 2.5rem;
+$size-11: 2.75rem;
 $size-12: 3rem;
+$size-14: 3.5rem;
 $size-16: 4rem;
 $size-20: 5rem;
 $size-24: 6rem;
+$size-28: 7rem;
 $size-32: 8rem;
+$size-36: 9rem;
 $size-40: 10rem;
+$size-44: 11rem;
 $size-48: 12rem;
+$size-52: 13rem;
 $size-56: 14rem;
+$size-60: 15rem;
 $size-64: 16rem;
-$size-px: 1px;
+$size-72: 18rem;
+$size-80: 20rem;
+$size-96: 24rem;
 
 $size-auto:   auto;
 $size-full:   100%;
 $size-screen: 100vw;
+$size-min:    min-content;
+$size-max:    max-content;
 
 $size-map: ("xs": $size-1, "sm": $size-2, "md": $size-4, "lg": $size-6, "xl": $size-8, "2xl": $size-10, "3xl": $size-12);

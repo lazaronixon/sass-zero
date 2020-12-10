@@ -3,7 +3,6 @@
 // Variables for controlling the box shadow of an element.
 // box-shadow: $shadow;
 // *******************************************************************
-$shadow-xs:      0 0 0 1px rgba(0, 0, 0, 0.05);
 $shadow-sm:      0 1px 2px 0 rgba(0, 0, 0, 0.05);
 $shadow:         0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 $shadow-md:      0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -11,8 +10,6 @@ $shadow-lg:      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 
 $shadow-xl:      0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 $shadow-2xl:     0 25px 50px -12px rgba(0, 0, 0, 0.25);
 $shadow-inner:   inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-$shadow-outline: 0 0 0 3px rgba(164, 202, 254, .45);
-$shadow-solid:   0 0 0 2px currentColor;
 $shadow-none:    none;
 
 // *******************************************************************
@@ -21,7 +18,17 @@ $shadow-none:    none;
 // opacity: $opacity-25;
 // *******************************************************************
 $opacity-0:   0;
+$opacity-5:   0.05;
+$opacity-10:  0.1;
+$opacity-20:  0.2;
 $opacity-25:  0.25;
-$opacity-50:  0.50;
+$opacity-30:  0.3;
+$opacity-40:  0.4;
+$opacity-50:  0.5;
+$opacity-60:  0.6;
+$opacity-70:  0.7;
 $opacity-75:  0.75;
+$opacity-80:  0.8;
+$opacity-90:  0.9;
+$opacity-95:  0.95;
 $opacity-100: 1;
