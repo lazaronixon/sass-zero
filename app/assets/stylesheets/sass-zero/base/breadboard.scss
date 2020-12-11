@@ -90,7 +90,7 @@ hr {
     padding-right: $size-8;
   }
 
-  &:focus { @include ring; }
+  &:focus { box-shadow: ring(); }
 }
 
 .checkbox {
@@ -102,7 +102,7 @@ hr {
     @include checked;
   }
 
-  &:focus { @include ring; }
+  &:focus { box-shadow: ring(); }
 }
 
 .radio {
@@ -114,7 +114,7 @@ hr {
     @include checked;
   }
 
-  &:focus { @include ring; }
+  &:focus { box-shadow: ring(); }
 }
 
 label, legend, dt {
