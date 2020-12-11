@@ -26,12 +26,6 @@
   }
 }
 
-@mixin focus {
-  border-color: #a4cafe;
-  box-shadow: $shadow-outline;
-  outline: 0;
-}
-
 @mixin checked {
   border-color: transparent;
   background-color: currentColor;
@@ -75,4 +69,18 @@
   margin-bottom: -0.1rem;
   height: $size-4;
   width: $size-4;
+}
+
+@mixin ring($width: $ring, $color: $blue-500, $offset-width: 0px, $offset-color: #fff, $opacity: 0.5, $inset: false)  {
+  $ring-color: rgba($color, $opacity);
+
+  @if $inset {
+    $ring-offset-shadow: inset 0 0 0 $offset-width $offset-color;
+    $ring-shadow: inset 0 0 0 ($width + $offset-width) $ring-color;
+    box-shadow: $ring-offset-shadow, $ring-shadow, 0 0 #0000;
+  } @else {
+    $ring-offset-shadow: 0 0 0 $offset-width $offset-color;
+    $ring-shadow: 0 0 0 ($width + $offset-width) $ring-color;
+    box-shadow: $ring-offset-shadow, $ring-shadow, 0 0 #0000;
+  }
 }

@@ -32,3 +32,15 @@ $opacity-80:  0.8;
 $opacity-90:  0.9;
 $opacity-95:  0.95;
 $opacity-100: 1;
+
+// *******************************************************************
+// Ring
+// Utilities for use with ring mixin
+// @include ring($width: $ring-4);
+// *******************************************************************
+$ring:   3px;
+$ring-0: 0px;
+$ring-1: 1px;
+$ring-2: 2px;
+$ring-4: 4px;
+$ring-8: 8px;
