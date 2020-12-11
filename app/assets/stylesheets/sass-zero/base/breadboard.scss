@@ -5,7 +5,7 @@ $breadboard-primary:     $gray-900;
 $breadboard-color:       $gray-800;
 $breadboard-placeholder: $gray-500;
 $breadboard-border:      $gray-300;
-$breadboard-background:  $gray-200;
+$breadboard-blackboard:  $gray-200;
 
 html {
   color: $breadboard-color;
@@ -55,7 +55,7 @@ blockquote {
 }
 
 code {
-  background-color: $breadboard-background;
+  background-color: $breadboard-blackboard;
   border-radius: $rounded;
   font-size: $text-sm;
   margin: $size-0 $size-1;
@@ -64,7 +64,7 @@ code {
 }
 
 pre {
-  background-color: $breadboard-background;
+  background-color: $breadboard-blackboard;
   border-color: $breadboard-primary;
   border-left-width: $border-4;
   overflow-y: hidden;
