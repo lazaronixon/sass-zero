@@ -1,9 +1,25 @@
 // *******************************************************************
 // Flex
 // Variables for controlling how flex items both grow and shrink.
-// flex: $$flex-1;
+// flex: $flex-1;
 // *******************************************************************
 $flex-1:       1 1 0%;
 $flex-auto:    1 1 auto;
 $flex-initial: 0 1 auto;
 $flex-none:    none;
+
+// *******************************************************************
+// Flex Grow
+// Utilities for controlling how flex items grow.
+// flex-grow: $flex-grow-0;
+// *******************************************************************
+$flex-grow-0: 0;
+$flex-grow:   1;
+
+// *******************************************************************
+// Flex Shrink
+// Utilities for controlling how flex items shrink.
+// flex-shrink: $flex-shrink-0;
+// *******************************************************************
+$flex-shrink-0: 0;
+$flex-shrink:   1;
