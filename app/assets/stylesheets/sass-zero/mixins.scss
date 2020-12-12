@@ -33,8 +33,22 @@
   background-repeat: no-repeat;
 }
 
+@mixin input-selection($color) {
+  appearance: none;
+  border-width: $border;
+  color: $color;
+  margin-bottom: -0.1rem;
+  height: $size-4;
+  width: $size-4;
+}
+
+@mixin outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @mixin space-x($space, $reverse: false) {
-  & > :not(template) ~ :not(template) {
+  & > :not([hidden]) ~ :not([hidden]) {
     @if $reverse {
       margin-right: $space;
     } @else {
@@ -44,7 +58,7 @@
 }
 
 @mixin space-y($space, $reverse: false) {
-  & > :not(template) ~ :not(template) {
+  & > :not([hidden]) ~ :not([hidden]) {
     @if $reverse {
       margin-bottom: $space;
     } @else {
@@ -60,18 +74,4 @@
   margin-right: $size-auto;
   margin-left:  $size-auto;
   max-width: $max-width;
-}
-
-@mixin input-selection($color) {
-  appearance: none;
-  border-width: $border;
-  color: $color;
-  margin-bottom: -0.1rem;
-  height: $size-4;
-  width: $size-4;
-}
-
-@mixin outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
