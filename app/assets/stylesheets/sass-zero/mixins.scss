@@ -3,9 +3,9 @@
 @import "sass-zero/variables/spacing";
 
 @mixin ellipsis {
-  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;  
 }
 
 @mixin antialiased {

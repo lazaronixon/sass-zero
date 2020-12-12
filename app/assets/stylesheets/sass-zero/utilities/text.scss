@@ -77,6 +77,10 @@
   word-wrap: break-word;
 }
 
+.txt--break-words-alt {
+  word-break: break-word;
+}
+
 .txt--break-all {
   word-break: break-all;
 }
@@ -86,7 +90,7 @@
 }
 
 .txt--normal {
-  font-weight: $font-normal;
+  font-weight: $font-normal !important;
 }
 
 .txt--bold {
