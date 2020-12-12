@@ -1,0 +1,84 @@
+// *******************************************************************
+// Grid Template Columns
+// Utilities for specifying the columns in a grid layout.
+// grid-template-columns: $grid-cols-1;
+// *******************************************************************
+$grid-cols-1:    repeat(1, minmax(0, 1fr));
+$grid-cols-2:    repeat(2, minmax(0, 1fr));
+$grid-cols-3:    repeat(3, minmax(0, 1fr));
+$grid-cols-4:    repeat(4, minmax(0, 1fr));
+$grid-cols-5:    repeat(5, minmax(0, 1fr));
+$grid-cols-6:    repeat(6, minmax(0, 1fr));
+$grid-cols-7:    repeat(7, minmax(0, 1fr));
+$grid-cols-8:    repeat(8, minmax(0, 1fr));
+$grid-cols-9:    repeat(9, minmax(0, 1fr));
+$grid-cols-10:   repeat(10, minmax(0, 1fr));
+$grid-cols-11:   repeat(11, minmax(0, 1fr));
+$grid-cols-12:   repeat(12, minmax(0, 1fr));
+
+// *******************************************************************
+// Grid Column Start / End
+// Utilities for controlling how elements are sized and placed across grid columns.
+// grid-column: $col-span-1;
+// *******************************************************************
+$col-auto:      auto;
+$col-span-1:    span 1 / span 1;
+$col-span-2:    span 2 / span 2;
+$col-span-3:    span 3 / span 3;
+$col-span-4:    span 4 / span 4;
+$col-span-5:    span 5 / span 5;
+$col-span-6:    span 6 / span 6;
+$col-span-7:    span 7 / span 7;
+$col-span-8:    span 8 / span 8;
+$col-span-9:    span 9 / span 9;
+$col-span-10:   span 10 / span 10;
+$col-span-11:   span 11 / span 11;
+$col-span-12:   span 12 / span 12;
+$col-span-full:	1 / -1;
+
+// *******************************************************************
+// Grid Template Rows
+// Utilities for specifying the rows in a grid layout.
+// grid-template-rows: $grid-rows-1;
+// *******************************************************************
+$grid-rows-1:    repeat(1, minmax(0, 1fr));
+$grid-rows-2:    repeat(2, minmax(0, 1fr));
+$grid-rows-3:    repeat(3, minmax(0, 1fr));
+$grid-rows-4:    repeat(4, minmax(0, 1fr));
+$grid-rows-5:    repeat(5, minmax(0, 1fr));
+$grid-rows-6:    repeat(6, minmax(0, 1fr));
+$grid-rows-none: none;
+
+// *******************************************************************
+// Grid Row Start / End
+// Utilities for controlling how elements are sized and placed across grid rows.
+// grid-row: $row-span-1;
+// *******************************************************************
+$row-auto:      auto;
+$row-span-1:    span 1 / span 1;
+$row-span-2:    span 2 / span 2;
+$row-span-3:    span 3 / span 3;
+$row-span-4:    span 4 / span 4;
+$row-span-5:    span 5 / span 5;
+$row-span-6:    span 6 / span 6;
+$row-span-full: 1 / -1;
+
+// *******************************************************************
+// Grid Auto Columns
+// Utilities for controlling the size of implicitly-created grid columns.
+// grid-auto-columns: $auto-cols-auto;
+// *******************************************************************
+$auto-cols-auto: auto;
+$auto-cols-min:  min-content;
+$auto-cols-max:  max-content;
+$auto-cols-fr:   minmax(0, 1fr);
+
+// *******************************************************************
+// Grid Auto Rows
+// Utilities for controlling the size of implicitly-created grid rows.
+// grid-auto-rows: $auto-rows-auto;
+// *******************************************************************
+$auto-rows-auto: auto;
+$auto-rows-min:  min-content;
+$auto-rows-max:  max-content;
+$auto-rows-fr:   minmax(0, 1fr);
