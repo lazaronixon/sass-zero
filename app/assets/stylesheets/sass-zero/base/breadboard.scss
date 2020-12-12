@@ -9,7 +9,7 @@ $breadboard-blackboard:  $gray-200;
 
 html {
   color: $breadboard-color;
-  font-size: 14px;
+  font-size: $text-sm;
 }
 
 main {
@@ -198,6 +198,6 @@ h6, .hdg--base {
 }
 
 @media (min-width: $breakpoint-md) {
-  html { font-size: 16px; }
-  main { @include make-container($size-10, $breakpoint-lg); }
+  html { font-size: $text-base; }
+  main { @include make-container($size-10, $breakpoint-xl); }
 }
