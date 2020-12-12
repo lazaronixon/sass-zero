@@ -5,7 +5,7 @@
 @mixin ellipsis {
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 @mixin antialiased {
@@ -44,6 +44,16 @@
 
 @mixin outline-none {
   outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@mixin outline-white {
+  outline: 2px dotted white;
+  outline-offset: 2px;
+}
+
+@mixin outline-black {
+  outline: 2px dotted black;
   outline-offset: 2px;
 }
 

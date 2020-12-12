@@ -32,6 +32,10 @@ blockquote {
   padding: $size-2 $size-4;
   cursor: pointer;
 
+  &:focus {
+    @include outline-black;
+  }
+
   &:disabled {
     pointer-events: none;
     opacity: $opacity-50;
