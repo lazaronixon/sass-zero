@@ -78,6 +78,7 @@ Add this line to your application.css:
 ```css
  *= require sass-zero/base
  *= require sass-zero/utilities
+ *= require sass-zero/breadboard 
 ```
 
 Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](https://github.com/lazaronixon/sass-zero/blob/master/vendor/assets/stylesheets/sass-zero/variables.scss):
