@@ -98,6 +98,7 @@ hr {
 
   &:focus {
     box-shadow: ring();
+    @include outline-none;
   }
 }
 
@@ -112,6 +113,7 @@ hr {
 
   &:focus {
     box-shadow: ring();
+    @include outline-none;
   }
 }
 
@@ -126,6 +128,7 @@ hr {
 
   &:focus {
     box-shadow: ring();
+    @include outline-none;
   }
 }
 

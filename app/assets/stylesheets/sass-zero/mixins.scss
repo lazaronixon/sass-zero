@@ -70,3 +70,8 @@
   height: $size-4;
   width: $size-4;
 }
+
+@mixin outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
