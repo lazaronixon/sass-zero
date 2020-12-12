@@ -38,7 +38,7 @@ $opacity-100: 1;
 // Utilities for use with ring mixin
 // box-shadow: ring($width: 4px);
 // *******************************************************************
-@function ring($width: 3px, $color: #3b82f6, $offset-width: 0px, $offset-color: #fff, $opacity: 0.5, $inset: false)  {
+@function ring($width: 3px, $color: $gray-900, $offset-width: 0px, $offset-color: $white, $opacity: 0.5, $inset: false)  {
   $ring-color: rgba($color, $opacity);
 
   @if $inset {
