@@ -3,7 +3,6 @@
 
 $breadboard-primary:     $gray-900;
 $breadboard-color:       $gray-800;
-$breadboard-placeholder: $gray-500;
 $breadboard-blackboard:  $gray-100;
 
 html {
@@ -17,6 +16,7 @@ main {
 }
 
 blockquote {
+  border-color: $breadboard-primary;
   border-left-width: $border-4;
   padding: $size-3 $size-4;
 }
@@ -100,7 +100,7 @@ hr {
   }
 
   &:focus {
-    box-shadow: ring();
+    box-shadow: ring($color: $breadboard-primary);
     @include outline-none;
   }
 }
@@ -115,7 +115,7 @@ hr {
   }
 
   &:focus {
-    box-shadow: ring();
+    box-shadow: ring($color: $breadboard-primary);
     @include outline-none;
   }
 }
@@ -130,7 +130,7 @@ hr {
   }
 
   &:focus {
-    box-shadow: ring();
+    box-shadow: ring($color: $breadboard-primary);
     @include outline-none;
   }
 }
