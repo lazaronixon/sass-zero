@@ -2,7 +2,7 @@
 @import "sass-zero/mixins";
 
 $breadboard-primary:    $gray-900;
-$breadboard-blackboard: $gray-100;
+$breadboard-background: $gray-100;
 
 html {
   font-size: 14px;
@@ -56,7 +56,7 @@ blockquote {
 }
 
 code {
-  background-color: $breadboard-blackboard;
+  background-color: $breadboard-background;
   border-radius: $rounded;
   font-size: $text-sm;
   margin: $size-0 $size-1;
@@ -65,7 +65,7 @@ code {
 }
 
 pre {
-  background-color: $breadboard-blackboard;
+  background-color: $breadboard-background;
   border-color: $breadboard-primary;
   border-left-width: $border-4;
   overflow-y: hidden;
