@@ -31,7 +31,7 @@ Developers should be able to produce your own design, [Refactoring UI](https://r
 ### Breadboard Theme
 
 - [Example](https://github.com/lazaronixon/sass-zero/blob/master/Example.html)
-- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/base/breadboard.scss)
+- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
 
 ### Variables
 
@@ -78,7 +78,7 @@ Add this line to your application.css:
 ```css
  *= require sass-zero/base
  *= require sass-zero/utilities
- *= require sass-zero/breadboard 
+ *= require sass-zero/breadboard
 ```
 
 Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](https://github.com/lazaronixon/sass-zero/blob/master/vendor/assets/stylesheets/sass-zero/variables.scss):
