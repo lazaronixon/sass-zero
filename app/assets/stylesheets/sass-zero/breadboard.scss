@@ -1,9 +1,10 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
-$breadboard-primary:     $gray-900;
-$breadboard-color:       $gray-800;
-$breadboard-blackboard:  $gray-100;
+$breadboard-primary:    $gray-900;
+$breadboard-color:      $gray-800;
+$breadboard-blackboard: $gray-100;
+$breadboard-radius:     $rounded;
 
 html {
   color: $breadboard-color;
@@ -23,7 +24,7 @@ blockquote {
 
 .btn {
   background-color: $white;
-  border-radius: $rounded;
+  border-radius: $breadboard-radius;
   border-width: $border;
   color: $breadboard-color;
   display: inline-block;
