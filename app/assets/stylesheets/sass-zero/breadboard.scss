@@ -2,12 +2,9 @@
 @import "sass-zero/mixins";
 
 $breadboard-primary:    $gray-900;
-$breadboard-color:      $gray-800;
 $breadboard-blackboard: $gray-100;
-$breadboard-radius:     $rounded;
 
 html {
-  color: $breadboard-color;
   font-size: 14px;
 }
 
@@ -24,9 +21,9 @@ blockquote {
 
 .btn {
   background-color: $white;
-  border-radius: $breadboard-radius;
+  border-radius: $rounded;
   border-width: $border;
-  color: $breadboard-color;
+  color: $breadboard-primary;
   display: inline-block;
   font-weight: $font-bold;
   padding: $size-2 $size-4;

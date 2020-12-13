@@ -150,6 +150,5 @@
 
 .decorated--subtle {
   color: $gray-700;
-  font-weight: $font-normal;
-  &:hover { text-decoration: underline; }
+  text-decoration: underline;
 }
