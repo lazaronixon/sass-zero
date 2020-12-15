@@ -38,7 +38,8 @@ blockquote {
   cursor: pointer;
 
   &:focus {
-    @include outline-black;
+    outline: 2px dotted var(--color-primary);
+    outline-offset: 2px;
   }
 
   &:disabled {
