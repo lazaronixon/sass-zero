@@ -7,7 +7,7 @@
   --color-primary:          #{$gray-900};
   --color-txt:              #{$gray-900};
   --color-focus-ring:       #{rgba($gray-900, 0.5)};
-  --image-bg-select:        url('data:image/svg+xml,<svg viewBox="0 0 20 20  fill="none"  xmlns="http://www.w3.org/2000/svg"><path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>');
+  --image-bg-select:        url('data:image/svg+xml,<svg viewBox="0 0 20 20" fill="none"  xmlns="http://www.w3.org/2000/svg"><path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>');
   --image-checked-checkbox: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
   --image-checked-radio:    url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
 }
@@ -218,7 +218,7 @@ h6, .hdg--base {
     --color-primary:          #{$white};
     --color-txt:              #{$white};
     --color-focus-ring:       #{rgba($gray-100, 0.5)};
-    --image-bg-select:        url('data:image/svg+xml,<svg viewBox="0 0 20 20  fill="none"  xmlns="http://www.w3.org/2000/svg"><path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>');
+    --image-bg-select:        url('data:image/svg+xml,<svg viewBox="0 0 20 20" fill="none"  xmlns="http://www.w3.org/2000/svg"><path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>');
     --image-checked-checkbox: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
     --image-checked-radio:    url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
   }
