@@ -38,16 +38,14 @@ $opacity-100: 1;
 // Utilities for creating outline rings with box-shadows.
 // box-shadow: ring($width: 4px);
 // *******************************************************************
-@function ring($width: 3px, $color: $blue-500, $offset-width: 0px, $offset-color: $white, $opacity: 0.5, $inset: false)  {
-  $ring-color: rgba($color, $opacity);
-
+@function ring($width: 3px, $color: rgba($blue-500, 0.5), $offset-width: 0px, $offset-color: $white, $inset: false)  {
   @if $inset {
     $ring-offset-shadow: inset 0 0 0 $offset-width $offset-color;
-    $ring-shadow: inset 0 0 0 ($width + $offset-width) $ring-color;
+    $ring-shadow: inset 0 0 0 ($width + $offset-width) $color;
     @return $ring-offset-shadow, $ring-shadow, 0 0 #0000;
   } @else {
     $ring-offset-shadow: 0 0 0 $offset-width $offset-color;
-    $ring-shadow: 0 0 0 ($width + $offset-width) $ring-color;
+    $ring-shadow: 0 0 0 ($width + $offset-width) $color;
     @return $ring-offset-shadow, $ring-shadow, 0 0 #0000;
   }
 }
