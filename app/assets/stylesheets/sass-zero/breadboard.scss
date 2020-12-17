@@ -71,7 +71,7 @@ blockquote {
 
 code {
   background-color: $color-bg--surface;
-  border-radius: $rounded;
+  border-radius: $rounded-xl;
   font-size: $text-sm;
   margin: $size-0 $size-1;
   padding: $size-1 $size-2;
@@ -157,12 +157,16 @@ a {
   font-weight: $font-bold;
 }
 
+ul, ol {
+  padding-left: $size-10;
+}
+
 ul {
-  list-style: disc inside;
+  list-style: disc outside;
 }
 
 ol {
-  list-style: decimal inside;
+  list-style: decimal outside;
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {

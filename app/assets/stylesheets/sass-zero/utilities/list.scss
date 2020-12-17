@@ -2,11 +2,16 @@
 @import "sass-zero/variables/colors";
 @import "sass-zero/mixins";
 
-.list--indented {
-  padding-left: $size-8;
+.list--unindented {
+  padding-left: $size-4;
+}
+
+.list--flush {
+  padding-left: $size-0;
 }
 
 .list--unbulleted {
+  padding-left: $size-0;
   list-style: none;
 }
 
@@ -14,10 +19,15 @@
   @include space-y($size-2);
 }
 
+.list--inside-bulleted {
+  padding-left: $size-0;
+  list-style-position: inside;
+}
+
 .list--boxed {
   background-color: $gray-100;
-  padding: $size-4;
-  border-radius: $rounded;
+  padding: $size-4 $size-6;
+  border-radius: $rounded-xl;
 }
 
 .list--ruled-top {
