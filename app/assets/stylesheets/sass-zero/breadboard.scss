@@ -1,6 +1,11 @@
 @import "sass-zero/variables";
 @import "sass-zero/mixins";
 
+$font-family: $font-sans;
+
+$radius-input:  $rounded;
+$radius-button: $rounded;
+
 $color-bg--main:    $white;
 $color-bg--surface: $gray-100;
 $color-primary:     $gray-900;
@@ -14,6 +19,7 @@ $image-checked-radio-white:    url('data:image/svg+xml,<svg viewBox="0 0 16 16" 
 html {
   background: $color-bg--main;
   color: $color-txt;
+  font-family: $font-family;
   font-size: 14px;
 }
 
@@ -29,7 +35,7 @@ blockquote {
 }
 
 .btn {
-  border-radius: $rounded;
+  border-radius: $radius-button;
   border-width: $border;
   display: inline-block;
   font-weight: $font-bold;
@@ -93,7 +99,7 @@ hr {
 .input {
   appearance: none;
   background-color: $transparent;
-  border-radius: $rounded;
+  border-radius: $radius-input;
   border-width: $border;
   padding: $size-2 $size-3;
   width: $size-full;
