@@ -1,6 +1,5 @@
 @import "sass-zero/variables/typography";
 @import "sass-zero/variables/spacing";
-@import "sass-zero/variables/colors";
 @import "sass-zero/variables/border";
 @import "sass-zero/mixins";
 
@@ -21,20 +20,20 @@
 }
 
 .txt--subtle {
-  color: $gray-700;
+  color: $color-txt--subtle;
 }
 
 .txt--subtle-reversed {
-  color: $white;
+  color: $color-txt--subtle-reversed;
 }
 
 .txt--full-contrast {
-  color: $gray-900;
+  color: $color-txt;
 }
 
 .txt--meta {
   font-size: $text-sm;
-  color: $gray-700;
+  color: $color-txt--subtle;
 }
 
 .txt--nowrap {
@@ -66,7 +65,7 @@
 }
 
 .txt--highlight {
-  background-color: $gray-100;
+  background-color: $color-bg--highlight;
   border-radius: $rounded-full;
   padding: $size-0 $size-1;
 }
@@ -141,12 +140,12 @@
 }
 
 .decorated {
-  color: $blue-500;
+  color: $color-txt--decorated;
   text-decoration: underline;
 }
 
 .decorated--subtle {
-  color: $gray-700;
+  color: $color-txt--subtle;
   text-decoration: underline;
 }
 

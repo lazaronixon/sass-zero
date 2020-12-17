@@ -1,5 +1,4 @@
 @import "sass-zero/variables/spacing";
-@import "sass-zero/variables/colors";
 @import "sass-zero/mixins";
 
 .list--unindented {
@@ -25,7 +24,7 @@
 }
 
 .list--boxed {
-  background-color: $gray-100;
+  background-color: $color-bg--list-boxed;
   padding: $size-4 $size-6;
   border-radius: $rounded-xl;
 }
