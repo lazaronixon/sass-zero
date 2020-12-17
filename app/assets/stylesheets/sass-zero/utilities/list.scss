@@ -34,12 +34,15 @@
   border-top-width: $border;
 }
 
-.list--ruled > li {
-  padding: $size-4 $size-2;
-  border-top-width: $border;
+.list--inline {
+  @include space-x($size-2);
 }
 
 .list--inline > li {
   display: inline-block;
-  vertical-align: middle;
+}
+
+.list--ruled > li {
+  padding: $size-4 $size-2;
+  border-top-width: $border;
 }
