@@ -6,13 +6,26 @@
   width: 100%;
 }
 
+.u-full-height {
+  height:100%
+}
+
 .u-min-width {
   min-width: 0;
 }
 
 .u-disabled {
   pointer-events: none;
-  opacity: $opacity-50;
+  opacity: $opacity-30;
+}
+
+.u-off-screen {
+  position: absolute;
+  left: -9999em;
+}
+
+.u-overflow-auto {
+  overflow: auto;
 }
 
 .u-unscrollable {
@@ -35,9 +48,25 @@
   display: none !important;
 }
 
-.u-centered {
-  margin-right: auto;
+.u-visibility-hidden {
+  visibility: hidden;
+}
+
+.u-pointer-events-n {
+  pointer-events: none;
+}
+
+.u-margin-centered {
   margin-left:  auto;
+  margin-right: auto;
+}
+
+.u-wrap {
+  display: block;
+}
+
+.u-nowrap {
+  white-space: nowrap;
 }
 
 .u-clearfix {
@@ -66,6 +95,14 @@
 
 .u-float-clear-r {
   clear: right;
+}
+
+.u-hide {
+  display: none;
+}
+
+.u-hide-focus {
+  outline: none !important;
 }
 
 @media (max-width: $breakpoint-md - 1) {
