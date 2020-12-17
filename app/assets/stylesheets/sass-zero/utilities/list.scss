@@ -2,7 +2,7 @@
 @import "sass-zero/variables/colors";
 @import "sass-zero/mixins";
 
-.list--unindented {
+.list--indented {
   padding-left: $size-8;
 }
 
@@ -15,17 +15,21 @@
 }
 
 .list--boxed {
-  background-color: $gray-200;
+  background-color: $gray-100;
   padding: $size-4;
   border-radius: $rounded;
 }
 
+.list--ruled-top {
+  border-top-width: $border;
+}
+
 .list--ruled > li {
-  padding: $size-3 $size-4;
+  padding: $size-4 $size-2;
   border-top-width: $border;
 }
 
 .list--inline > li {
-  margin-right: $size-2;
   display: inline-block;
+  vertical-align: middle;
 }
