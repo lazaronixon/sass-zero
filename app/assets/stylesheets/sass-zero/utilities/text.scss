@@ -4,6 +4,77 @@
 @import "sass-zero/variables/border";
 @import "sass-zero/mixins";
 
+.txt--normal {
+  font-weight: $font-normal !important;
+}
+
+.txt--bold {
+  font-weight: $font-bold;
+}
+
+.txt--underline {
+  text-decoration: underline;
+}
+
+.txt--uppercase {
+  text-transform: uppercase;
+}
+
+.txt--subtle {
+  color: $gray-700;
+}
+
+.txt--subtle-reversed {
+  color: $white;
+}
+
+.txt--full-contrast {
+  color: $gray-900;
+}
+
+.txt--meta {
+  font-size: $text-sm;
+  color: $gray-700;
+}
+
+.txt--nowrap {
+  white-space: nowrap;
+}
+
+.txt--break-words {
+  word-wrap: break-word;
+}
+
+.txt--break-words-alt {
+  word-break: break-word;
+}
+
+.txt--break-all {
+  word-break: break-all;
+}
+
+.txt--ellipsis {
+  @include ellipsis;
+}
+
+.txt--dimmed {
+  opacity: $opacity-75;
+}
+
+.txt--very-dimmed {
+  opacity: $opacity-50;
+}
+
+.txt--highlight {
+  background-color: $gray-100;
+  border-radius: $rounded-full;
+  padding: $size-0 $size-1;
+}
+
+.txt--overflow-hidden {
+  overflow: hidden;
+}
+
 .txt--xs {
   font-size: $text-xs;
   line-height: $leading-4;
@@ -69,76 +140,6 @@
   line-height: $leading-none;
 }
 
-.txt--nowrap {
-  white-space: nowrap;
-}
-
-.txt--break-words {
-  word-wrap: break-word;
-}
-
-.txt--break-words-alt {
-  word-break: break-word;
-}
-
-.txt--break-all {
-  word-break: break-all;
-}
-
-.txt--ellipsis {
-  @include ellipsis;
-}
-
-.txt--normal {
-  font-weight: $font-normal !important;
-}
-
-.txt--bold {
-  font-weight: $font-bold;
-}
-
-.txt--subtle {
-  color: $gray-700;
-}
-
-.txt--underline {
-  text-decoration: underline;
-}
-
-.txt--uppercase {
-  text-transform: uppercase;
-}
-
-.txt--highlight {
-  background-color: $gray-100;
-  border-radius: $rounded-full;
-  padding: $size-0 $size-1;
-}
-
-.align--top {
-  vertical-align: top;
-}
-
-.align--middle {
-  vertical-align: middle;
-}
-
-.align--bottom {
-  vertical-align: bottom;
-}
-
-.align--left {
-  text-align: left;
-}
-
-.align--center {
-  text-align: center;
-}
-
-.align--right {
-  text-align: right;
-}
-
 .decorated {
   color: $blue-500;
   text-decoration: underline;
@@ -147,4 +148,9 @@
 .decorated--subtle {
   color: $gray-700;
   text-decoration: underline;
+}
+
+.undecorated {
+  color: inherit;
+  text-decoration: none;
 }
