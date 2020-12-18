@@ -143,11 +143,6 @@ hr {
   }
 }
 
-label, legend, dt {
-  display: inline-block;
-  margin-bottom: $size-1;
-}
-
 a {
   font-weight: $font-bold;
 }
@@ -162,6 +157,10 @@ ul {
 
 ol {
   list-style: decimal outside;
+}
+
+label, legend, dt {
+  margin-bottom: $size-1;
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
