@@ -23,12 +23,6 @@
   list-style-position: inside;
 }
 
-.list--boxed {
-  background-color: $color-bg--list-boxed;
-  padding: $size-4 $size-6;
-  border-radius: $rounded-xl;
-}
-
 .list--ruled-top {
   border-top-width: $border;
 }
