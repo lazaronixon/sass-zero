@@ -1,6 +1,7 @@
 @import "sass-zero/variables/border";
 @import "sass-zero/variables/effects";
 @import "sass-zero/variables/spacing";
+@import "sass-zero/variables/zindex";
 
 @mixin antialiased {
   -webkit-font-smoothing: antialiased;
@@ -55,6 +56,22 @@
 @mixin outline-black {
   outline: 2px dotted black;
   outline-offset: 2px;
+}
+
+@mixin divider($color) {
+  position: relative;
+  z-index: $z-10;
+
+  ::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: $size-0;
+    right: $size-0;
+    height: $size-px;
+    background-color: $color;
+    z-index: -1;
+  }
 }
 
 @mixin space-x($space, $reverse: false) {
