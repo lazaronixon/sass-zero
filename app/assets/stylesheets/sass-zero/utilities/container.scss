@@ -1,0 +1,36 @@
+@import "sass-zero/variables/breakpoints";
+@import "sass-zero/mixins";
+
+.container {
+  @include make-container;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .container {
+    max-width: $breakpoint-sm;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .container {
+    max-width: $breakpoint-md;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .container {
+    max-width: $breakpoint-lg;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .container {
+    max-width: $breakpoint-xl;
+  }
+}
+
+@media (min-width: $breakpoint-2xl) {
+  .container {
+    max-width: $breakpoint-2xl;
+  }
+}

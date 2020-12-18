@@ -20,12 +20,7 @@ html {
   background: $color-bg--main;
   color: $color-txt;
   font-family: $font-family;
-  font-size: 14px;
-}
-
-main {
-  padding-right: $size-2;
-  padding-left:  $size-2;
+  font-size: 16px;
 }
 
 blockquote {
@@ -218,9 +213,4 @@ h5, .hdg--lg {
 
 h6, .hdg--base {
   font-size: $text-base;
-}
-
-@media (min-width: $breakpoint-md) {
-  html { font-size: 16px; }
-  main { @include make-container($size-10, $breakpoint-xl); }
 }

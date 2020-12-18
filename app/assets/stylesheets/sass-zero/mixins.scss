@@ -2,12 +2,6 @@
 @import "sass-zero/variables/effects";
 @import "sass-zero/variables/spacing";
 
-@mixin ellipsis {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 @mixin antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,11 +20,10 @@
   }
 }
 
-@mixin checked {
-  border-color: transparent;
-  background-color: currentColor;
-  background-position: center;
-  background-repeat: no-repeat;
+@mixin ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @mixin input-selection($color) {
@@ -40,6 +33,13 @@
   margin-bottom: -0.1rem;
   height: $size-4;
   width: $size-4;
+}
+
+@mixin checked {
+  border-color: transparent;
+  background-color: currentColor;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @mixin outline-none {
@@ -77,11 +77,10 @@
   }
 }
 
-@mixin make-container($padding-x, $max-width) {
+@mixin make-container($padding-x: $size-4) {
   width: 100%;
   padding-right: $padding-x;
   padding-left: $padding-x;
   margin-right: $size-auto;
   margin-left:  $size-auto;
-  max-width: $max-width;
 }
