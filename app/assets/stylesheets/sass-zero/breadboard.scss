@@ -182,7 +182,7 @@ table {
 td, th {
   border-bottom-width: $border;
   padding: $size-3 $size-4;
-  text-align: left;
+  text-align: inherit;
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
