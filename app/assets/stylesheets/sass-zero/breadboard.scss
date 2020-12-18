@@ -33,7 +33,7 @@ blockquote {
   border-radius: $radius-button;
   border-width: $border;
   display: inline-block;
-  font-weight: $font-bold;
+  font-weight: $font-semibold;
   padding: $size-2 $size-4;
   cursor: pointer;
 
@@ -144,7 +144,7 @@ hr {
 }
 
 a {
-  font-weight: $font-bold;
+  font-weight: $font-semibold;
 }
 
 ul, ol {
