@@ -6,19 +6,21 @@ $font-family: $font-sans;
 $radius-input:  $rounded;
 $radius-button: $rounded;
 
-$color-bg--main:    $white;
-$color-bg--surface: $gray-100;
-$color-primary:     $gray-900;
-$color-txt:         $gray-900;
-$color-focus-ring:  rgba($gray-900, $opacity-50);
+:root {
+  --color-bg--main:    #{$white};
+  --color-bg--surface: #{$gray-100};
+  --color-primary:     #{$gray-900};
+  --color-txt:         #{$gray-900};
+  --color-focus-ring:  #{rgba($gray-900, $opacity-50)};
 
-$image-bg-select:        url('data:image/svg+xml,<svg viewBox="0 0 20 20" fill="none"  xmlns="http://www.w3.org/2000/svg"><path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>');
-$image-checked-checkbox: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
-$image-checked-radio:    url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
+  --image-bg-select:        url('data:image/svg+xml,<svg viewBox="0 0 20 20" fill="none"  xmlns="http://www.w3.org/2000/svg"><path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>');
+  --image-checked-checkbox: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
+  --image-checked-radio:    url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>');
+}
 
 html {
-  background: $color-bg--main;
-  color: $color-txt;
+  background: var(--color-bg--main);
+  color: var(--color-txt);
   font-family: $font-family;
   font-size: 16px;
 }
@@ -32,7 +34,7 @@ html {
   cursor: pointer;
 
   &:focus {
-    outline: 2px dotted $color-primary;
+    outline: 2px dotted var(--color-primary);
     outline-offset: 2px;
   }
 
@@ -42,14 +44,14 @@ html {
   }
 
   &--primary {
-    background-color: $color-primary;
-    border-color: $color-primary;
-    color: $color-bg--main;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-bg--main);
   }
 
   &--secondary {
-    background-color: $color-bg--main;
-    border-color: $color-primary;
+    background-color: var(--color-bg--main);
+    border-color: var(--color-primary);
   }
 
   &--tertiary {
@@ -67,7 +69,7 @@ html {
   width: $size-full;
 
   &--select {
-    background-image: $image-bg-select;
+    background-image: var(--image-bg-select);
     background-position: right $size-2 center;
     background-repeat: no-repeat;
     background-size: auto $size-5;
@@ -75,37 +77,37 @@ html {
   }
 
   &:focus {
-    box-shadow: ring($color: $color-focus-ring);
+    box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
   }
 }
 
 .checkbox {
   border-radius: $rounded;
-  @include input-selection($color-primary);
+  @include input-selection(var(--color-primary));
 
   &:checked {
-    background-image: $image-checked-checkbox;
+    background-image: var(--image-checked-checkbox);
     @include checked;
   }
 
   &:focus {
-    box-shadow: ring($color: $color-focus-ring);
+    box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
   }
 }
 
 .radio {
   border-radius: $rounded-full;
-  @include input-selection($color-primary);
+  @include input-selection(var(--color-primary));
 
   &:checked {
-    background-image: $image-checked-radio;
+    background-image: var(--image-checked-radio);
     @include checked;
   }
 
   &:focus {
-    box-shadow: ring($color: $color-focus-ring);
+    box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
   }
 }
@@ -116,7 +118,7 @@ blockquote {
 }
 
 code {
-  background-color: $color-bg--surface;
+  background-color: var(--color-bg--surface);
   border-radius: $rounded;
   font-size: $text-sm;
   margin: $size-0 $size-1;
@@ -125,7 +127,7 @@ code {
 }
 
 pre {
-  background-color: $color-bg--surface;
+  background-color: var(--color-bg--surface);
   overflow-y: hidden;
 
   & > code {
