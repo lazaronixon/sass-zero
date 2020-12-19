@@ -23,12 +23,6 @@ html {
   font-size: 16px;
 }
 
-blockquote {
-  border-color: $color-primary;
-  border-left-width: $border-4;
-  padding: $size-3 $size-4;
-}
-
 .btn {
   border-radius: $radius-button;
   border-width: $border;
@@ -62,33 +56,6 @@ blockquote {
     background-color: $transparent;
     border-color: $transparent;
   }
-}
-
-code {
-  background-color: $color-bg--surface;
-  border-radius: $rounded-xl;
-  font-size: $text-sm;
-  margin: $size-0 $size-1;
-  padding: $size-1 $size-2;
-  white-space: nowrap;
-}
-
-pre {
-  background-color: $color-bg--surface;
-  border-color: $color-primary;
-  border-left-width: $border-4;
-  overflow-y: hidden;
-
-  & > code {
-    border-radius: $rounded-none;
-    display: block;
-    padding: $size-2 $size-3;
-    white-space: pre;
-  }
-}
-
-hr {
-  margin: $size-6 $size-0;
 }
 
 .input {
@@ -141,6 +108,35 @@ hr {
     box-shadow: ring($color: $color-focus-ring);
     @include outline-none;
   }
+}
+
+blockquote {
+  border-left-width: $border-4;
+  padding: $size-3 $size-4;
+}
+
+code {
+  background-color: $color-bg--surface;
+  border-radius: $rounded;
+  font-size: $text-sm;
+  margin: $size-0 $size-1;
+  padding: $size-1 $size-2;
+  white-space: nowrap;
+}
+
+pre {
+  background-color: $color-bg--surface;
+  overflow-y: hidden;
+
+  & > code {
+    display: block;
+    padding: $size-2 $size-3;
+    white-space: pre;
+  }
+}
+
+hr {
+  margin: $size-6 $size-0;
 }
 
 a {
