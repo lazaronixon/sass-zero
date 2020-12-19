@@ -18,23 +18,6 @@
   text-transform: uppercase;
 }
 
-.txt--subtle {
-  color: $color-txt--subtle;
-}
-
-.txt--subtle-reversed {
-  color: $color-txt--subtle-reversed;
-}
-
-.txt--full-contrast {
-  color: $color-txt;
-}
-
-.txt--meta {
-  font-size: $text-sm;
-  color: $color-txt--subtle;
-}
-
 .txt--nowrap {
   white-space: nowrap;
 }
@@ -61,12 +44,6 @@
 
 .txt--very-dimmed {
   opacity: $opacity-50;
-}
-
-.txt--highlight {
-  background-color: $color-bg--highlight;
-  border-radius: $rounded-full;
-  padding: $size-0 $size-1;
 }
 
 .txt--overflow-hidden {
@@ -136,16 +113,6 @@
 .txt--9xl {
   font-size: $text-9xl;
   line-height: $leading-none;
-}
-
-.decorated {
-  color: $color-txt--decorated;
-  text-decoration: underline;
-}
-
-.decorated--subtle {
-  color: $color-txt--subtle;
-  text-decoration: underline;
 }
 
 .undecorated {
