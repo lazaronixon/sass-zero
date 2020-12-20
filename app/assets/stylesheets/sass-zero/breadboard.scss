@@ -33,11 +33,6 @@ html {
   padding: $size-2 $size-4;
   cursor: pointer;
 
-  &:focus {
-    outline: 2px dotted var(--color-primary);
-    outline-offset: 2px;
-  }
-
   &:disabled {
     pointer-events: none;
     opacity: $opacity-50;
