@@ -123,9 +123,11 @@ code {
 
 pre {
   background-color: var(--color-bg--surface);
+  border-left-width: $border-4;
   overflow-y: hidden;
 
   & > code {
+    border-radius: $rounded-none;
     display: block;
     padding: $size-2 $size-3;
     white-space: pre;
