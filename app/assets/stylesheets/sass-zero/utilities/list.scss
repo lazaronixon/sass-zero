@@ -14,8 +14,8 @@
   list-style: none;
 }
 
-.list--spaced {
-  @include space-y($size-2);
+.list--spaced > li + li {
+  margin-top: $size-2;
 }
 
 .list--inside-bulleted {
@@ -27,12 +27,12 @@
   border-top-width: $border;
 }
 
-.list--inline {
-  @include space-x($size-2);
-}
-
 .list--inline > li {
   display: inline-block;
+}
+
+.list--inline > li + li {
+  margin-left: $size-2;
 }
 
 .list--ruled > li {

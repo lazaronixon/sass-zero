@@ -58,42 +58,6 @@
   outline-offset: 2px;
 }
 
-@mixin divider($color) {
-  position: relative;
-  z-index: $z-10;
-
-  ::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: $size-0;
-    right: $size-0;
-    height: $size-px;
-    background-color: $color;
-    z-index: -1;
-  }
-}
-
-@mixin space-x($space, $reverse: false) {
-  & > :not([hidden]) ~ :not([hidden]) {
-    @if $reverse {
-      margin-right: $space;
-    } @else {
-      margin-left: $space;
-    }
-  }
-}
-
-@mixin space-y($space, $reverse: false) {
-  & > :not([hidden]) ~ :not([hidden]) {
-    @if $reverse {
-      margin-bottom: $space;
-    } @else {
-      margin-top: $space;
-    }
-  }
-}
-
 @mixin make-container($padding-x: $size-4) {
   width: 100%;
   padding-right: $padding-x;
