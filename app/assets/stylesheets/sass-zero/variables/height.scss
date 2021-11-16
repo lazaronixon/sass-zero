@@ -27,6 +27,9 @@ $h-per-5-6: 83.333333%;
 $min-h-0:      0px;
 $min-h-full:   100%;
 $min-h-screen: 100vh;
+$min-h-min:    min-content;
+$min-h-max:    max-content;
+$min-h-fit:    fit-content;
 
 // *******************************************************************
 // Max-Height
@@ -35,3 +38,6 @@ $min-h-screen: 100vh;
 // *******************************************************************
 $max-h-full:   100%;
 $max-h-screen: 100vh;
+$max-h-min:    min-content;
+$max-h-max:    max-content;
+$max-h-fit:    fit-content;
