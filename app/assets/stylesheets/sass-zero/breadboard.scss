@@ -63,7 +63,7 @@ html {
   border-radius: $radius-input;
   border-width: $border;
   padding: $size-2 $size-3;
-  width: $size-full;
+  width: $w-full;
 
   &--select {
     background-image: var(--image-bg-select);
@@ -173,7 +173,7 @@ blockquote, figure, p, pre, table, ul, ol, dl {
 }
 
 table {
-  width: $size-full;
+  width: $w-full;
 }
 
 td, th {
