@@ -4,12 +4,20 @@
 
 .u-position {
   position: absolute;
+}
 
-  &--right { right: 0; }
+.u-position--right {
+  right: 0;
+}
 
-  &--left { left: 0; }
+.u-position--left {
+  left: 0;
+}
 
-  &--top { top: 0; }
+.u-position--top {
+  top: 0;
+}
 
-  &--bottom { bottom: 0; }
+.u-position--bottom {
+  bottom: 0;
 }
