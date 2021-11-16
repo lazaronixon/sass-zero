@@ -71,7 +71,6 @@ Add this to your application's Gemfile:
 
 ```ruby
 gem 'sass-zero'
-gem 'autoprefixer-rails'
 ```
 
 ## Usage
