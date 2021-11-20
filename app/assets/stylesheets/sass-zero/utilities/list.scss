@@ -14,28 +14,11 @@
   list-style: none;
 }
 
-.list--spaced > li + li {
-  margin-top: $size-2;
-}
-
-.list--inside-bulleted {
-  padding-left: $size-0;
-  list-style-position: inside;
-}
-
-.list--ruled-top {
-  border-top-width: $border;
-}
-
-.list--inline > li {
+.list--inline li {
   display: inline-block;
+  vertical-align: middle;
 }
 
-.list--inline > li + li {
-  margin-left: $size-2;
-}
-
-.list--ruled > li {
-  padding: $size-4 $size-2;
-  border-top-width: $border;
+.list--dividers li:not(:last-child) {
+  border-bottom-width: $border;
 }
