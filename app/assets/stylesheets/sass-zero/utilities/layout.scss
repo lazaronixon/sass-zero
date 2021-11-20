@@ -2,16 +2,52 @@
 @import "sass-zero/variables/effects";
 @import "sass-zero/mixins";
 
+.u-display-n {
+  display: none !important;
+}
+
+.u-display-b {
+  display: block;
+}
+
+.u-display-i {
+  display: inline;
+}
+
+.u-display-ib {
+  display: inline-block;
+}
+
+.u-visibility-hidden {
+  visibility: hidden;
+}
+
+.u-hide {
+  display: none;
+}
+
+.u-float-l {
+  float: left;
+}
+
+.u-float-r {
+  float: right;
+}
+
+.u-nowrap {
+  white-space: nowrap;
+}
+
 .u-full-width {
   width: 100%;
 }
 
-.u-full-height {
-  height:100%
-}
-
 .u-min-width {
   min-width: 0;
+}
+
+.u-full-height {
+  height: 100%
 }
 
 .u-disabled {
@@ -28,81 +64,8 @@
   overflow: auto;
 }
 
-.u-unscrollable {
+.u-overflow-hidden {
   overflow: hidden;
-}
-
-.u-display-i {
-  display: inline;
-}
-
-.u-display-b {
-  display: block;
-}
-
-.u-display-ib {
-  display: inline-block;
-}
-
-.u-display-n {
-  display: none !important;
-}
-
-.u-visibility-hidden {
-  visibility: hidden;
-}
-
-.u-pointer-events-n {
-  pointer-events: none;
-}
-
-.u-margin-centered {
-  margin-left:  auto;
-  margin-right: auto;
-}
-
-.u-wrap {
-  display: block;
-}
-
-.u-nowrap {
-  white-space: nowrap;
-}
-
-.u-clearfix {
-  @include clearfix;
-}
-
-.u-float-l {
-  float: left;
-}
-
-.u-float-r {
-  float: right;
-}
-
-.u-float-n {
-  float: none;
-}
-
-.u-float-clear {
-  clear: both;
-}
-
-.u-float-clear-l {
-  clear: left;
-}
-
-.u-float-clear-r {
-  clear: right;
-}
-
-.u-hide {
-  display: none;
-}
-
-.u-hide-focus {
-  outline: none !important;
 }
 
 @media (max-width: $breakpoint-md - 1) {
