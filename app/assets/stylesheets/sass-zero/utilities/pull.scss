@@ -5,33 +5,24 @@
 // $size-map: ("xs": $size-1, "sm": $size-2, "md": $size-4, "lg": $size-6, "xl": $size-8, "2xl": $size-10, "3xl": $size-12);
 // *******************************************************************
 @each $scale, $size in $size-map {
-  .pull-#{$scale} {
-    margin: -$size !important;
-  }
-
   .pull-#{$scale}--top {
-    margin-top: -$size !important;
+    margin-top: $size * -1 !important;
   }
 
   .pull-#{$scale}--right {
-    margin-right: -$size !important;
+    margin-right: $size * -1 !important;
   }
 
   .pull-#{$scale}--bottom {
-    margin-bottom: -$size !important;
+    margin-bottom: $size * -1 !important;
   }
 
   .pull-#{$scale}--left {
-    margin-left: -$size !important;
-  }
-
-  .pull-#{$scale}--ends {
-    margin-top: -$size !important;
-    margin-bottom: -$size !important;
+    margin-left: $size * -1 !important;
   }
 
   .pull-#{$scale}--sides {
-    margin-right: -$size !important;
-    margin-left: -$size !important;
+    margin-right: $size * -1 !important;
+    margin-left: $size * -1 !important;
   }
 }
