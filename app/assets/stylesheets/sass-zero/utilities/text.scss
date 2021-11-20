@@ -4,6 +4,7 @@
 
 .txt--normal {
   font-weight: $font-normal !important;
+  font-style: normal !important;
 }
 
 .txt--bold {
@@ -20,6 +21,10 @@
 
 .txt--nowrap {
   white-space: nowrap;
+}
+
+.txt--wrap {
+  white-space: normal;
 }
 
 .txt--break-words {

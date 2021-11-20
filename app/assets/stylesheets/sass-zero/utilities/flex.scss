@@ -2,28 +2,28 @@
   display: flex;
 }
 
-.i-flex {
-  display: inline-flex;
-}
-
 .flex--column {
   flex-direction: column;
-}
-
-.flex--centered {
-  justify-content: center;
 }
 
 .flex--space-items {
   justify-content: space-between;
 }
 
+.flex--wrap {
+  flex-wrap: wrap;
+}
+
+.flex--centered {
+  justify-content: center;
+}
+
 .flex--align-center {
   align-items: center;
 }
 
-.flex--wrap {
-  flex-wrap: wrap;
+.i-flex {
+  display: inline-flex;
 }
 
 .flex-item--grow {
