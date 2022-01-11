@@ -91,11 +91,11 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 .block {
   color: $red-300;
 
-  &__elem {
+  &__element {
     color: $red-400;
   }
 
-  &--mod {
+  &--modifier {
     color: $red-500;
   }
 }
