@@ -19,22 +19,6 @@
   overflow: hidden;
 }
 
-@mixin input-selection($color) {
-  appearance: none;
-  border-width: $border;
-  color: $color;
-  margin-bottom: -0.1rem;
-  height: $size-4;
-  width: $size-4;
-}
-
-@mixin checked {
-  border-color: transparent;
-  background-color: currentColor;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @mixin outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;

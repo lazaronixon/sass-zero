@@ -12,13 +12,10 @@ $radius-button: $rounded;
   --color-primary:     #{$gray-900};
   --color-text:        #{$gray-900};
   --color-focus-ring:  #{rgba($gray-900, $opacity-50)};
-
-  --image-bg-select:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' ><path d='M6 8l4 4 4-4' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg>");
-  --image-checked-checkbox: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/></svg>");
-  --image-checked-radio:    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><circle cx='8' cy='8' r='3'/></svg>");
 }
 
 html {
+  accent-color: var(--color-primary);
   background: var(--color-bg--main);
   color: var(--color-text);
   font-family: $font-family;
@@ -71,11 +68,10 @@ html {
   width: $w-full;
 
   &--select {
-    background-image: var(--image-bg-select);
-    background-position: right $size-2 center;
+    background-image: linear-gradient(45deg, transparent 49%, var(--color-primary) 51%), linear-gradient(135deg, var(--color-primary) 51%, transparent 49%);
+    background-position: calc(100% - 20px), calc(100% - 15px);
     background-repeat: no-repeat;
-    background-size: auto $size-5;
-    padding-right: $size-8;
+    background-size: 5px 5px, 5px 5px;
   }
 
   &:focus {
@@ -84,32 +80,11 @@ html {
   }
 }
 
-.checkbox {
-  border-radius: $rounded;
-  @include input-selection(var(--color-primary));
-
-  &:checked {
-    background-image: var(--image-checked-checkbox);
-    @include checked;
-  }
+input[type="checkbox"], input[type="radio"] {
+  transform: scale(1.2, 1.2);
 
   &:focus {
-    box-shadow: ring($color: var(--color-focus-ring));
-    @include outline-none;
-  }
-}
-
-.radio {
-  border-radius: $rounded-full;
-  @include input-selection(var(--color-primary));
-
-  &:checked {
-    background-image: var(--image-checked-radio);
-    @include checked;
-  }
-
-  &:focus {
-    box-shadow: ring($color: var(--color-focus-ring));
+    box-shadow: ring($width: 1.5px, $color: var(--color-focus-ring));
     @include outline-none;
   }
 }
