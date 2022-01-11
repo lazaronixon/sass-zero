@@ -19,7 +19,6 @@ html {
   background: var(--color-bg--main);
   color: var(--color-text);
   font-family: $font-family;
-  font-size: 16px;
 }
 
 .btn {
@@ -68,7 +67,7 @@ html {
   width: $w-full;
 
   &--select {
-    background-image: linear-gradient(45deg, transparent 49%, var(--color-primary) 51%), linear-gradient(135deg, var(--color-primary) 51%, transparent 49%);
+    background-image: linear-gradient(45deg, transparent 49%, var(--color-text) 51%), linear-gradient(135deg, var(--color-text) 51%, transparent 49%);
     background-position: calc(100% - 20px), calc(100% - 15px);
     background-repeat: no-repeat;
     background-size: 5px 5px, 5px 5px;
@@ -82,9 +81,10 @@ html {
 
 input[type="checkbox"], input[type="radio"] {
   transform: scale(1.2, 1.2);
+  margin: $size-1;
 
   &:focus {
-    box-shadow: ring($width: 1.5px, $color: var(--color-focus-ring));
+    box-shadow: ring($width: 2px, $color: var(--color-focus-ring));
     @include outline-none;
   }
 }
