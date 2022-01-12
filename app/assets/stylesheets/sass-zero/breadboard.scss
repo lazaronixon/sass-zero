@@ -7,11 +7,12 @@ $radius-input:  $rounded;
 $radius-button: $rounded;
 
 :root {
-  --color-bg--main:    #{$white};
-  --color-bg--surface: #{$gray-100};
-  --color-primary:     #{$gray-900};
-  --color-text:        #{$gray-900};
-  --color-focus-ring:  #{rgba($gray-900, $opacity-50)};
+  --color-bg--main:      #{$white};
+  --color-bg--surface:   #{$gray-100};
+  --color-bg--highlight: #{$gray-200};
+  --color-primary:       #{$gray-900};
+  --color-text:          #{$gray-900};
+  --color-focus-ring:    #{rgba($gray-900, $opacity-50)};
 }
 
 html {
@@ -128,6 +129,7 @@ kbd {
 }
 
 mark {
+  background-color: var(--color-bg--highlight);
   border-radius: $rounded;
   padding: $size-1 $size-2;
 }
