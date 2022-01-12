@@ -70,7 +70,8 @@ Developers should be able to produce your own design, [Refactoring UI](https://r
 Add this to your application's Gemfile:
 
 ```ruby
-gem 'sass-zero'
+gem "sass-zero"
+gem "autoprefixer-rails"
 ```
 
 ## Usage
