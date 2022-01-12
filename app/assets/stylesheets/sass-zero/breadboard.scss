@@ -119,6 +119,19 @@ pre {
   }
 }
 
+kbd {
+  background-color: var(--color-primary);
+  border-radius: $rounded;
+  font-size: $text-sm;
+  padding: $size-1 $size-2;
+  color: var(--color-bg--main);
+}
+
+mark {
+  border-radius: $rounded;
+  padding: $size-1 $size-2;
+}
+
 hr {
   margin: $size-6 $size-0;
 }
@@ -151,8 +164,18 @@ fieldset, .input {
   margin-bottom: $size-6;
 }
 
-blockquote, figure, p, pre, table, ul, ol, dl {
+table, details, blockquote, p, pre, ul, ol, dl {
   margin-bottom: $size-6;
+}
+
+details {
+  padding: $size-2 $size-3;
+  background-color: var(--color-bg--surface);
+  border-left-width: $border-4;
+}
+
+summary {
+  cursor: pointer;
 }
 
 table {
