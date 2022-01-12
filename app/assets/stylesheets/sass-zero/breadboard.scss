@@ -12,7 +12,18 @@ $radius-button: $rounded;
   --color-bg--highlight: #{$gray-200};
   --color-primary:       #{$gray-900};
   --color-text:          #{$gray-900};
-  --color-focus-ring:    #{rgba($gray-900, $opacity-50)};
+  --color-focus-ring:    #{rgba($black, $opacity-60)};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg--main:      #{$gray-900};
+    --color-bg--surface:   #{$gray-800};
+    --color-bg--highlight: #{$gray-700};
+    --color-primary:       #{$white};
+    --color-text:          #{$white};
+    --color-focus-ring:    #{rgba($white, $opacity-60)};
+  }
 }
 
 html {
@@ -61,7 +72,7 @@ html {
 .input {
   resize: none;
   appearance: none;
-  background-color: $transparent;
+  background-color: var(--color-bg--main);
   border-radius: $radius-input;
   border-width: $border;
   padding: $size-2 $size-3;
@@ -105,7 +116,7 @@ code {
   background-color: var(--color-bg--surface);
   border-radius: $rounded;
   font-size: $text-sm;
-  padding: $size-1 $size-2;
+  padding: $size-1;
   white-space: nowrap;
 }
 
@@ -126,14 +137,15 @@ kbd {
   background-color: var(--color-primary);
   border-radius: $rounded;
   font-size: $text-sm;
-  padding: $size-1 $size-2;
+  padding: $size-1;
   color: var(--color-bg--main);
 }
 
 mark {
   background-color: var(--color-bg--highlight);
   border-radius: $rounded;
-  padding: $size-1 $size-2;
+  padding: $size-1;
+  color: inherit;
 }
 
 hr {
