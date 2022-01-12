@@ -94,6 +94,10 @@ blockquote {
   padding: $size-3 $size-4;
 }
 
+cite {
+  font-size: $text-sm;
+}
+
 code {
   background-color: var(--color-bg--surface);
   border-radius: $rounded;
