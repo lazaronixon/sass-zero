@@ -1,5 +1,5 @@
 module Sass
   module Zero
-    VERSION = "0.0.58"
+    VERSION = "1.0.0"
   end
 end
