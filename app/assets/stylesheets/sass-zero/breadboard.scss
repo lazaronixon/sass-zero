@@ -70,6 +70,8 @@ html {
 }
 
 .input {
+  -webkit-appearance: none;
+
   resize: none;
   appearance: none;
   background-color: var(--color-bg--main);
