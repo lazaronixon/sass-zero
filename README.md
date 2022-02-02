@@ -102,6 +102,12 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 }
 ```
 
+```html
+<div class="block block--modifier">
+  <div class="block__element" />
+</div>
+```
+
 ## References
 
 - [SASS](https://sass-lang.com)
