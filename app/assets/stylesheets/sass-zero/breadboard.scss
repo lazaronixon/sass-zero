@@ -93,6 +93,11 @@ html {
     box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
   }
+
+  &:disabled {
+    pointer-events: none;
+    opacity: $opacity-50;
+  }
 }
 
 input[type="checkbox"], input[type="radio"] {
