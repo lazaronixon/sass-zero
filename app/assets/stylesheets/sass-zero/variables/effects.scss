@@ -14,7 +14,7 @@ $shadow-none:  none;
 
 // *******************************************************************
 // Opacity
-// Utilities for controlling the opacity of an element.
+// Variables for controlling the opacity of an element.
 // opacity: $opacity-25;
 // *******************************************************************
 $opacity-0:   0;
@@ -35,7 +35,7 @@ $opacity-100: 1;
 
 // *******************************************************************
 // Ring
-// Utilities for creating outline rings with box-shadows.
+// Function for creating outline rings with box-shadows.
 // box-shadow: ring($width: 4px);
 // *******************************************************************
 @function ring($width: 3px, $color: rgba($blue-500, 0.5), $offset-width: 0px, $offset-color: $white, $inset: false)  {
