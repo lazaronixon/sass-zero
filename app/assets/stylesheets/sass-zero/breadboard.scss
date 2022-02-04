@@ -110,10 +110,6 @@ blockquote {
   padding: $size-3 $size-4;
 }
 
-cite {
-  font-size: $text-sm;
-}
-
 code {
   background-color: var(--color-bg--surface);
   border-radius: $rounded;
@@ -237,4 +233,8 @@ h5, .hdg--lg {
 
 h6, .hdg--base {
   font-size: $text-base;
+}
+
+figcaption, cite {
+  font-size: $text-sm;
 }
