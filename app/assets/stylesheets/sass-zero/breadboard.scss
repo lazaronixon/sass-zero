@@ -58,6 +58,10 @@ html {
     border-color: $transparent;
   }
 
+  &--small {
+    font-size: $text-sm;
+  }
+
   &:focus {
     box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
