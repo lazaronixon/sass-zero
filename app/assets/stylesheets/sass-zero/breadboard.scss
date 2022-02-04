@@ -192,6 +192,10 @@ details {
   border-left-width: $border-4;
 }
 
+details[open] > summary {
+  margin-bottom: $size-1;
+}
+
 summary {
   cursor: pointer;
 }
