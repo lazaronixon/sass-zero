@@ -116,6 +116,7 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 - [BEM](http://getbem.com/naming)
 - [Refactoring UI](https://refactoringui.com/book)
 - [Shape UP](https://basecamp.com/shapeup)
+- [Boxicons](https://boxicons.com)
 
 ## License
 

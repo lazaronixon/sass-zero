@@ -62,6 +62,11 @@ html {
     font-size: $text-sm;
   }
 
+  & > i {
+    vertical-align: sub;
+    font-size: 1.25em;
+  }
+
   &:focus {
     box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
