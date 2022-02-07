@@ -114,7 +114,7 @@ input[type="checkbox"], input[type="radio"] {
   margin: $size-1;
 
   &:focus {
-    box-shadow: ring($width: 2px, $color: var(--color-focus-ring));
+    box-shadow: ring($color: var(--color-focus-ring));
     @include outline-none;
   }
 }
