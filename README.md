@@ -10,7 +10,7 @@ SASS-ZERO is a css framework that brings concepts from [tailwindcss](https://tai
 
 SASS-ZERO comes with a basic grayscale theme that help you to bring your ideas to life, questions about font, color, spacing and layout can be resolved after the raw affordances.
 
-### Tailwindcss
+### Tailwind CSS
 
 "Instead of hand-picking values from a limitless pool any time you need to make a decision, start with a smaller set of options." - [Refactoring UI](https://refactoringui.com/book).
 
@@ -111,7 +111,7 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 ## References
 
 - [SASS](https://sass-lang.com)
-- [Tailwindcss](https://tailwindcss.com)
+- [Tailwind CSS](https://tailwindcss.com)
 - [Milligram](https://milligram.io)
 - [BEM](http://getbem.com/naming)
 - [Refactoring UI](https://refactoringui.com/book)
