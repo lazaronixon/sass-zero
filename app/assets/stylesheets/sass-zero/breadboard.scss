@@ -3,8 +3,8 @@
 
 $font-family: $font-sans;
 
-$radius-input:  $rounded;
-$radius-button: $rounded;
+$radius-input:   $rounded;
+$radius-default: $rounded;
 
 :root {
   --color-bg--main:      #{$white};
@@ -34,7 +34,7 @@ html {
 }
 
 .btn {
-  border-radius: $radius-button;
+  border-radius: $radius-default;
   border-width: $border;
   display: inline-block;
   font-weight: $font-bold;
@@ -200,18 +200,25 @@ table, progress, details, blockquote, figure, pre, ul, ol, dl, p {
   margin-bottom: $size-6;
 }
 
-@include progress-bar {
-  background-color: var(--color-primary);
+dialog {
+  background-color: var(--color-bg--surface);
+  padding: $size-3 $size-4;
+  box-shadow: $shadow-md;
+  border-radius: $radius-default;
 }
 
 progress {
   background-color: var(--color-bg--surface);
 }
 
+@include progress-bar {
+  background-color: var(--color-primary);
+}
+
 details {
-  padding: $size-2 $size-3;
   background-color: var(--color-bg--surface);
   border-left-width: $border-4;
+  padding: $size-2 $size-3;
 }
 
 summary {
