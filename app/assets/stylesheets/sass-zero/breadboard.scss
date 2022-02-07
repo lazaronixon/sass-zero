@@ -196,8 +196,16 @@ fieldset, .input {
   margin-bottom: $size-6;
 }
 
-table, details, blockquote, figure, p, pre, ul, ol, dl {
+table, progress, details, blockquote, figure, pre, ul, ol, dl, p {
   margin-bottom: $size-6;
+}
+
+@include progress-bar {
+  background-color: var(--color-primary);
+}
+
+progress {
+  background-color: var(--color-bg--surface);
 }
 
 details {
@@ -212,7 +220,7 @@ summary {
   cursor: pointer;
 }
 
-table {
+table, progress {
   width: $w-full;
 }
 
