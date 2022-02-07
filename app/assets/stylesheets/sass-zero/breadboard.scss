@@ -202,11 +202,8 @@ details {
   border-left-width: $border-4;
 }
 
-details[open] > summary {
-  margin-bottom: $size-1;
-}
-
 summary {
+  padding: $size-1 $size-0;
   cursor: pointer;
 }
 
