@@ -30,6 +30,16 @@
     <label for="nameField" class="u-display-b txt--bold">Name</label>
     <input type="text" placeholder="CJ Patoilo" id="nameField" class="input">
 
+    <label for="iceCreamField" class="u-display-b txt--bold">Choose a flavor:</label>
+    <input list="iceCreamFlavors" id="iceCreamField" class="input" />
+    <datalist id="iceCreamFlavors">
+        <option value="Chocolate">
+        <option value="Coconut">
+        <option value="Mint">
+        <option value="Strawberry">
+        <option value="Vanilla">
+    </datalist>
+
     <label for="ageRangeField" class="u-display-b txt--bold">Age Range</label>
     <select id="ageRangeField" class="input input--select">
       <option value="0-13">0-13</option>
@@ -41,7 +51,9 @@
     <label for="commentField" class="u-display-b txt--bold">Comment</label>
     <textarea placeholder="Hi CJ …" id="commentField" rows="3" class="input"></textarea>
 
-    <div class="push-md--bottom">
+    <fieldset>
+      <legend>Choose your options</legend>
+
       <div>
         <input type="checkbox" id="option1" name="option1" value="1" checked>
         <label for="option1" class="u-display-ib">Option 1</label>
@@ -54,9 +66,11 @@
         <input type="checkbox" id="option3" name="option3" value="3">
         <label for="option3" class="u-display-ib">Option 3</label>
       </div>
-    </div>
+    </fieldset>
 
-    <div class="push-md--bottom">
+    <fieldset>
+      <legend>Choose your option</legend>
+
       <div>
         <input type="radio" id="radio1" name="radio" value="1" checked>
         <label for="radio1" class="u-display-ib">Option 1</label>
@@ -69,7 +83,7 @@
         <input type="radio" id="radio3" name="radio" value="3">
         <label for="radio3" class="u-display-ib">Option 3</label>
       </div>
-    </div>
+    </fieldset>
 
     <input type="submit" value="Send" class="btn btn--primary">
   </form>
