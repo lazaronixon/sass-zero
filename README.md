@@ -2,7 +2,7 @@
 
 SASS-ZERO is a css framework that brings concepts from [tailwindcss](https://tailwindcss.com) and [milligram](https://milligram.io) but with ideas from [BEM](http://getbem.com/naming), [Refactoring UI](https://refactoringui.com/book) and [Shape UP](https://basecamp.com/shapeup).
 
-![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/sass-zero-screenshot.png)
+![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/sass-zero-screenshot-2.png)
 
 ### Milligram
 
