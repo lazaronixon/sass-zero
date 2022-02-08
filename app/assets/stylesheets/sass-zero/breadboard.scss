@@ -12,7 +12,7 @@ $radius-default: $rounded;
   --color-bg--highlight: #{$gray-200};
   --color-primary:       #{$gray-900};
   --color-text:          #{$gray-900};
-  --color-focus-ring:    #{rgba($black, $opacity-60)};
+  --color-focus-ring:    #{rgba($black, $opacity-50)};
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@ $radius-default: $rounded;
     --color-bg--highlight: #{$gray-700};
     --color-primary:       #{$white};
     --color-text:          #{$white};
-    --color-focus-ring:    #{rgba($white, $opacity-60)};
+    --color-focus-ring:    #{rgba($white, $opacity-50)};
   }
 }
 
@@ -50,7 +50,6 @@ html {
   &--secondary {
     background-color: var(--color-bg--main);
     border-color: var(--color-primary);
-    color: var(--color-primary);
   }
 
   &--tertiary {
@@ -202,9 +201,14 @@ table, progress, details, blockquote, figure, pre, ul, ol, dl, p {
 
 dialog {
   background-color: var(--color-bg--surface);
+  border-radius: $radius-default;
   padding: $size-3 $size-4;
   box-shadow: $shadow-md;
-  border-radius: $radius-default;
+  color: inherit;
+}
+
+dialog::backdrop {
+  background-color: rgba($gray-500, $opacity-75);
 }
 
 progress {
