@@ -148,11 +148,11 @@ a {
   font-weight: $font-bold;
 }
 
-ul, ol {
+menu, ul, ol {
   padding-left: $size-10;
 }
 
-ul {
+menu, ul {
   list-style: disc outside;
 }
 
@@ -176,7 +176,7 @@ fieldset, .input {
   margin-bottom: $size-6;
 }
 
-table, progress, details, blockquote, figure, pre, ul, ol, dl, p {
+table, progress, details, blockquote, figure, pre, menu, ul, ol, dl, p {
   margin-bottom: $size-6;
 }
 
