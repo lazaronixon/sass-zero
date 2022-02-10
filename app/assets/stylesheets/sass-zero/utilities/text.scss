@@ -1,6 +1,6 @@
-@import "sass-zero/variables/typography";
-@import "sass-zero/variables/spacing";
-@import "sass-zero/mixins";
+@import "../variables/typography";
+@import "../variables/spacing";
+@import "../mixins";
 
 .txt--normal {
   font-weight: $font-normal !important;

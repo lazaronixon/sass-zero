@@ -1,5 +1,5 @@
-@import "sass-zero/variables/breakpoints";
-@import "sass-zero/mixins";
+@import "../variables/breakpoints";
+@import "../mixins";
 
 .container {
   @include make-container;

@@ -1,6 +1,6 @@
-@import "sass-zero/variables/breakpoints";
-@import "sass-zero/variables/effects";
-@import "sass-zero/mixins";
+@import "../variables/breakpoints";
+@import "../variables/effects";
+@import "../mixins";
 
 .debug * {
   outline: 1px red solid !important;
