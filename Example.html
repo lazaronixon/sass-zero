@@ -19,7 +19,19 @@
   <button class="btn btn--tertiary">Button Tertiary</button>
 
   <a href="#" class="btn btn--secondary">Link Button</a>
+
   <input type="submit" value="Submit Button" class="btn btn--secondary" />
+
+  <details>
+    <summary class="btn btn--secondary">Popup Button</summary>
+    <div class="popup-menu push-xs--top u-position--right">
+      <ul class="list--unindented u-nowrap flush">
+        <li>Unordered list item 1</li>
+        <li>Unordered list item 2</li>
+        <li>Unordered list item 3</li>
+      </ul>
+    </div>
+  </details>
 
   <button class="btn btn--secondary"><span class="btn__icon bx bx-plus"></span> Icon Button</button>
   <button class="btn btn--secondary btn--small">Small Button</button>
@@ -115,11 +127,6 @@
     </tbody>
   </table>
 
-  <details>
-    <summary>Some details</summary>
-    <p>More info about the details.</p>
-  </details>
-
   <blockquote>
     <p class="flush--bottom">Friends don’t spy; true friendship is about privacy, too.</p>
     <cite class="txt--sm">– Stephen King</cite>
@@ -137,11 +144,6 @@
     </code>
   </div>
 
-  <div class="push-md--bottom">
-    <label for="progres" class="u-display-b txt--bold">Progress</label>
-    <progress id="progres" max="100" value="70">70%</progress>
-  </div>
-
   <div class="push-3xl--bottom">
     <dialog open>
       <form method="dialog">
@@ -149,6 +151,11 @@
         <button type="submit" value="dismiss" class="push-xs--left txt--lg">&times;</button>
       </form>
     </dialog>
+  </div>
+
+  <div class="push-md--bottom">
+    <label for="progres" class="u-display-b txt--bold">Progress</label>
+    <progress id="progres" max="100" value="70">70%</progress>
   </div>
 
   <hr>

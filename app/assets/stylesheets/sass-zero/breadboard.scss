@@ -3,8 +3,8 @@
 
 $font-family: $font-sans;
 
-$radius-input:   $rounded;
-$radius-default: $rounded;
+$radius-primary:   $rounded;
+$radius-secondary: $rounded;
 
 :root {
   --color-bg--main:      #{$white};
@@ -32,7 +32,7 @@ html {
 }
 
 .btn {
-  border-radius: $radius-default;
+  border-radius: $radius-primary;
   border-width: $border;
   display: inline-block;
   font-weight: $font-bold;
@@ -74,7 +74,7 @@ html {
   @include appearance-none;
   resize: none;
   background-color: var(--color-bg--main);
-  border-radius: $radius-input;
+  border-radius: $radius-secondary;
   border-width: $border;
   padding: $size-2 $size-3;
   width: $w-full;
@@ -92,6 +92,14 @@ html {
     pointer-events: none;
     opacity: $opacity-50;
   }
+}
+
+.popup-menu {
+  background-color: var(--color-bg--surface);
+  border-radius: $radius-secondary;
+  padding: $size-2 $size-3;
+  box-shadow: $shadow-md;
+  position: absolute;
 }
 
 input[type="checkbox"], input[type="radio"] {
@@ -176,15 +184,15 @@ fieldset, .input {
   margin-bottom: $size-6;
 }
 
-table, progress, details, blockquote, figure, pre, menu, ul, ol, dl, p {
+table, progress, blockquote, figure, pre, menu, ul, ol, dl, p {
   margin-bottom: $size-6;
 }
 
 dialog {
   background-color: var(--color-bg--surface);
-  border-radius: $radius-default;
+  border-radius: $radius-primary;
   padding: $size-3 $size-4;
-  box-shadow: $shadow-md;
+  box-shadow: $shadow-lg;
   color: inherit;
 }
 
@@ -201,15 +209,16 @@ progress {
 }
 
 details {
-  background-color: var(--color-bg--surface);
-  border-left-width: $border-4;
-  padding: $size-2 $size-3;
+  position: relative;
+  display: inline-block;
 }
 
 summary {
-  padding: $size-1 $size-0;
-  font-weight: $font-bold;
-  cursor: pointer;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
 }
 
 table, progress {
