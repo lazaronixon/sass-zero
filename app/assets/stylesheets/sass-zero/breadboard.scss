@@ -103,7 +103,7 @@ html {
   z-index: $z-10;
 }
 
-input[type="checkbox"], input[type="radio"] {
+[type="checkbox"], [type="radio"] {
   transform: scale(1.2, 1.2);
   margin: $size-1;
 }
