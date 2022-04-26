@@ -1,0 +1,31 @@
+linters:
+  SelectorFormat:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  SingleLinePerSelector:
+    enabled: false
+  SingleLinePerProperty:
+    enabled: false
+  SpaceAfterPropertyColon:
+    enabled: false
+  Comment:
+    enabled: false
+  LeadingZero:
+    enabled: false
+  ImportantRule:
+    enabled: false
+  ColorVariable:
+    enabled: false
+  MergeableSelector:
+    enabled: false
+  ZeroUnit:
+    enabled: false
+  VendorPrefix:
+    enabled: false
+  EmptyLineBetweenBlocks:
+    enabled: false
+  PseudoElement:
+    enabled: false
+  StringQuotes:
+    enabled: false

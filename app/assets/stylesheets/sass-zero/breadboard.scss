@@ -25,7 +25,7 @@ $radius-secondary: $rounded;
 }
 
 html {
-  accent-color: var(--color-primary);
+  accent-color: var(--color-primary); // scss-lint:disable all
   background: var(--color-bg--main);
   color: var(--color-text);
   font-family: $font-family;
@@ -126,7 +126,7 @@ pre {
   border-left-width: $border-4;
   overflow-y: hidden;
 
-  & > code {
+  > code {
     border-radius: $rounded-none;
     display: block;
     padding: $size-2 $size-3;

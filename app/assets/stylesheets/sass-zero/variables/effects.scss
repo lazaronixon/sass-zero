@@ -38,7 +38,7 @@ $opacity-100: 1;
 // Function for creating outline rings with box-shadows.
 // box-shadow: ring($width: 4px);
 // *******************************************************************
-@function ring($width: 2px, $color: rgba($blue-500, 0.5), $offset-width: 0px, $offset-color: $white, $inset: false)  {
+@function ring($width: 2px, $color: rgba($blue-500, 0.5), $offset-width: 0px, $offset-color: $white, $inset: false) {
   @if $inset {
     $ring-offset-shadow: inset 0 0 0 $offset-width $offset-color;
     $ring-shadow: inset 0 0 0 ($width + $offset-width) $color;
