@@ -24,11 +24,6 @@
   outline-offset: 2px;
 }
 
-@mixin appearance-none {
-  -webkit-appearance: none;
-  appearance: none;
-}
-
 @mixin progress-bar {
   ::-webkit-progress-value {
     @content;
