@@ -95,10 +95,10 @@ html {
 }
 
 .popup-menu {
-  background-color: var(--color-bg--surface);
-  border-radius: $radius-secondary;
-  padding: $size-2 $size-3;
-  box-shadow: $shadow-md;
+  background-color: var(--color-bg--main);
+  border-width: $border; border-radius: $radius-primary;
+  padding: $size-3 $size-4;
+  box-shadow: $shadow-lg;
   position: absolute;
   z-index: $z-10;
 }
@@ -190,8 +190,8 @@ table, progress, blockquote, figure, pre, menu, ul, ol, dl, p {
 }
 
 dialog {
-  background-color: var(--color-bg--surface);
-  border-radius: $radius-primary;
+  background-color: var(--color-bg--main);
+  border-width: $border; border-radius: $radius-primary;
   padding: $size-3 $size-4;
   box-shadow: $shadow-lg;
   color: inherit;
