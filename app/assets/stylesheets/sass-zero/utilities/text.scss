@@ -19,6 +19,10 @@
   text-transform: uppercase;
 }
 
+.txt--spread {
+  letter-spacing: $tracking-widest;
+}
+
 .txt--nowrap {
   white-space: nowrap;
 }

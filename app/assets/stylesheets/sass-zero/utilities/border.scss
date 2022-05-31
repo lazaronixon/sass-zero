@@ -1,0 +1,17 @@
+@import "../variables/border";
+
+.border--top {
+  border-top-width: $border;
+}
+
+.border--bottom {
+  border-bottom-width: $border;
+}
+
+.border--left {
+  border-left-width: $border !important;
+}
+
+.border--all {
+  border-width: $border !important;
+}
