@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sass-zero (1.0.20)
+    sass-zero (1.0.21)
 
 GEM
   remote: https://rubygems.org/
@@ -16,4 +16,4 @@ DEPENDENCIES
   sass-zero!
 
 BUNDLED WITH
-   2.3.9
+   2.3.19
