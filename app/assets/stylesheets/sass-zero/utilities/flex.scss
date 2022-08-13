@@ -1,3 +1,5 @@
+@import "../variables/spacing";
+
 .flex {
   display: flex;
 }
@@ -27,7 +29,7 @@
 }
 
 .flex--gap {
-  gap: 0.5rem;
+  gap: $size-3;
 }
 
 .i-flex {
@@ -56,4 +58,30 @@
 
 .flex-item--align-end {
   align-self: end;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .flex\@sm {
+    display: flex;
+  }
+
+  .flex--centered\@sm {
+    justify-content: center;
+  }
+
+  .flex--align-center\@sm {
+    align-items: center;
+  }
+
+  .flex--space-items\@sm {
+    justify-content: space-between;
+  }
+
+  .flex--align-center\@sm {
+    align-items: center;
+  }
+
+  .flex--align-bottom\@sm {
+    align-items: flex-end;
+  }
 }

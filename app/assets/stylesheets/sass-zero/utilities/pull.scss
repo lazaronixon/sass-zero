@@ -1,11 +1,12 @@
+@import "../variables/breakpoints";
 @import "../variables/spacing";
 
 // *******************************************************************
 // Pull Utilities
-// .pull-[xs|md|lg|xl|2xl|3xl]--top
-// .pull-[xs|md|lg|xl|2xl|3xl]--right
-// .pull-[xs|md|lg|xl|2xl|3xl]--bottom
-// .pull-[xs|md|lg|xl|2xl|3xl]--left
+// .pull-[xs|sm|md|lg|xl|2xl|3xl]--top
+// .pull-[xs|sm|md|lg|xl|2xl|3xl]--right
+// .pull-[xs|sm|md|lg|xl|2xl|3xl]--bottom
+// .pull-[xs|sm|md|lg|xl|2xl|3xl]--left
 // *******************************************************************
 @each $scale, $size in $size-map {
   .pull-#{$scale}--top {
@@ -22,5 +23,12 @@
 
   .pull-#{$scale}--left {
     margin-left: $size * -1 !important;
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .pull--sides\@sm {
+    margin-left:  $size-3 * -1 !important;
+    margin-right: $size-3 * -1 !important;
   }
 }
