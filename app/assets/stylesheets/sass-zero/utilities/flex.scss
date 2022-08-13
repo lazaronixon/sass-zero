@@ -22,6 +22,14 @@
   align-items: center;
 }
 
+.flex--align-bottom {
+  align-items: flex-end;
+}
+
+.flex--gap {
+  gap: 0.5rem;
+}
+
 .i-flex {
   display: inline-flex;
 }
@@ -40,4 +48,12 @@
 
 .flex-item--align-center {
   align-self: center;
+}
+
+.flex-item--align-start {
+  align-self: start;
+}
+
+.flex-item--align-end {
+  align-self: end;
 }
