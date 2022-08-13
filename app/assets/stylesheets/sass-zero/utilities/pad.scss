@@ -1,0 +1,26 @@
+@import "../variables/spacing";
+
+// *******************************************************************
+// Pad Utilities
+// .pad-[xs|md|lg|xl|2xl|3xl]--top
+// .pad-[xs|md|lg|xl|2xl|3xl]--right
+// .pad-[xs|md|lg|xl|2xl|3xl]--bottom
+// .pad-[xs|md|lg|xl|2xl|3xl]--left
+// *******************************************************************
+@each $scale, $size in $size-map {
+  .pad-#{$scale}--top {
+    padding-top: $size !important;
+  }
+
+  .pad-#{$scale}--right {
+    padding-right: $size !important;
+  }
+
+  .pad-#{$scale}--bottom {
+    padding-bottom: $size !important;
+  }
+
+  .pad-#{$scale}--left {
+    padding-left: $size !important;
+  }
+}
