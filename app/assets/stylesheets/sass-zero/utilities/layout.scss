@@ -1,6 +1,5 @@
 @import "../variables/breakpoints";
 @import "../variables/effects";
-@import "../mixins";
 
 .debug * {
   outline: 1px #f00 solid !important;
@@ -20,6 +19,10 @@
 
 .u-display-ib {
   display: inline-block;
+}
+
+.u-display-c {
+  display: contents;
 }
 
 .u-visibility-hidden {

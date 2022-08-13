@@ -1,5 +1,3 @@
-@import "../variables/breakpoints";
-
 .align--top {
   vertical-align: top;
 }
@@ -31,10 +29,4 @@
 .centered {
   margin-left:  auto;
   margin-right: auto;
-}
-
-@media (min-width: $breakpoint-sm) {
-  .align--center\@sm {
-    text-align: center;
-  }
 }
