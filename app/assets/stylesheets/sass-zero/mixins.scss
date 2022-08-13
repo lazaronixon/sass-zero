@@ -1,7 +1,7 @@
-@import "./variables/border";
-@import "./variables/effects";
-@import "./variables/spacing";
-@import "./variables/zindex";
+@import "variables/border";
+@import "variables/effects";
+@import "variables/spacing";
+@import "variables/zindex";
 
 @mixin antialiased {
   -webkit-font-smoothing: antialiased;
