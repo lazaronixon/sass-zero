@@ -104,8 +104,7 @@ html {
 }
 
 [type="checkbox"], [type="radio"] {
-  transform: scale(1.2, 1.2);
-  margin: $size-1;
+  transform: scale(1.2); margin: $size-1;
 }
 
 blockquote {
