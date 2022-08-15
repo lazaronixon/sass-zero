@@ -2,10 +2,10 @@
 
 // *******************************************************************
 // Pull Utilities
-// .pull-[xs|sm|md|lg|xl|2xl|3xl]--top
-// .pull-[xs|sm|md|lg|xl|2xl|3xl]--right
-// .pull-[xs|sm|md|lg|xl|2xl|3xl]--bottom
-// .pull-[xs|sm|md|lg|xl|2xl|3xl]--left
+// .pull-[xs|sm|md|lg|xl]--top
+// .pull-[xs|sm|md|lg|xl]--right
+// .pull-[xs|sm|md|lg|xl]--bottom
+// .pull-[xs|sm|md|lg|xl]--left
 // *******************************************************************
 @each $scale, $size in $size-map {
   .pull-#{$scale}--top {

@@ -2,13 +2,13 @@
 
 // *******************************************************************
 // Push Utilities
-// .push-[xs|sm|md|lg|xl|2xl|3xl]
-// .push-[xs|sm|md|lg|xl|2xl|3xl]--top
-// .push-[xs|sm|md|lg|xl|2xl|3xl]--right
-// .push-[xs|sm|md|lg|xl|2xl|3xl]--bottom
-// .push-[xs|sm|md|lg|xl|2xl|3xl]--left
-// .push-[xs|sm|md|lg|xl|2xl|3xl]--ends
-// .push-[xs|sm|md|lg|xl|2xl|3xl]--sides
+// .push-[xs|sm|md|lg|xl]
+// .push-[xs|sm|md|lg|xl]--top
+// .push-[xs|sm|md|lg|xl]--right
+// .push-[xs|sm|md|lg|xl]--bottom
+// .push-[xs|sm|md|lg|xl]--left
+// .push-[xs|sm|md|lg|xl]--ends
+// .push-[xs|sm|md|lg|xl]--sides
 // *******************************************************************
 @each $scale, $size in $size-map {
   .push-#{$scale} {

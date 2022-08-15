@@ -35,11 +35,9 @@ $size-80: 20rem;
 $size-96: 24rem;
 
 $size-map: (
-  "xs":  $size-2,
-  "sm":  $size-4,
-  "md":  $size-6,
-  "lg":  $size-12,
-  "xl":  $size-16,
-  "2xl": $size-24,
-  "3xl": $size-32
+  "xs": $size-2,
+  "sm": $size-4,
+  "md": $size-8,
+  "lg": $size-16,
+  "xl": $size-32
 );

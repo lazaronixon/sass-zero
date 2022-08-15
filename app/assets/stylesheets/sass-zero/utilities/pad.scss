@@ -2,10 +2,10 @@
 
 // *******************************************************************
 // Pad Utilities
-// .pad-[xs|sm|md|lg|xl|2xl|3xl]--top
-// .pad-[xs|sm|md|lg|xl|2xl|3xl]--right
-// .pad-[xs|sm|md|lg|xl|2xl|3xl]--bottom
-// .pad-[xs|sm|md|lg|xl|2xl|3xl]--left
+// .pad-[xs|sm|md|lg|xl]--top
+// .pad-[xs|sm|md|lg|xl]--right
+// .pad-[xs|sm|md|lg|xl]--bottom
+// .pad-[xs|sm|md|lg|xl]--left
 // *******************************************************************
 @each $scale, $size in $size-map {
   .pad-#{$scale}--top {
