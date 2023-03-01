@@ -6,21 +6,22 @@ SASS-ZERO is a css framework that brings concepts from [tailwindcss](https://tai
 
 ## Installation
 
-Add this to your application's Gemfile:
-
 ```ruby
-gem "sass-zero"
+bundle add sassc-rails
+bundle add sass-zero
 ```
 
 ## Usage
 
-Add this line to your application.css:
+Add these lines to your application.css:
 
 ```css
  *= require sass-zero/base
  *= require sass-zero/utilities
  *= require sass-zero/breadboard
 ```
+
+### Using variables
 
 Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](https://github.com/lazaronixon/sass-zero/blob/master/vendor/assets/stylesheets/sass-zero/variables.scss):
 
@@ -45,6 +46,11 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
   <div class="block__element" />
 </div>
 ```
+
+### Breadboard Theme
+
+- [Example](https://github.com/lazaronixon/sass-zero/blob/master/example/index.html)
+- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
 
 ### Variables
 
@@ -80,11 +86,6 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 - [Flex Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/flex.scss)
 - [Position Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/position.scss)
 - [List Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/list.scss)
-
-### Breadboard Theme
-
-- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
-- [Example](https://github.com/lazaronixon/sass-zero/blob/master/example/index.html)
 
 ## References
 
