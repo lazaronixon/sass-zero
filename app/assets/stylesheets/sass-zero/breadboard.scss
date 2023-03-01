@@ -25,7 +25,7 @@ $radius-secondary: $rounded;
 }
 
 html {
-  accent-color: var(--color-primary); // scss-lint:disable all
+  accent-color: var(--color-primary);
   background: var(--color-bg--main);
   color: var(--color-text);
   font-family: $font-family;

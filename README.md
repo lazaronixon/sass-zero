@@ -84,7 +84,7 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 ### Breadboard Theme
 
 - [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
-- [Example](https://github.com/lazaronixon/sass-zero/blob/master/Example.html)
+- [Example](https://github.com/lazaronixon/sass-zero/blob/master/example/index.html)
 
 ## References
 
