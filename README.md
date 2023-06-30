@@ -1,6 +1,6 @@
 # SASS-ZERO
 
-SASS-ZERO is a css framework that mixes concepts from [Tailwindcss](https://tailwindcss.com), [Milligram](https://milligram.io), [BEM](http://getbem.com/naming), [Refactoring UI](https://refactoringui.com/book) and [Shape UP](https://basecamp.com/shapeup).
+SASS-ZERO is a css framework that mixes concepts from [Tailwind CSS](https://tailwindcss.com), [Milligram](https://milligram.io), [BEM](http://getbem.com/naming), [Refactoring UI](https://refactoringui.com/book), and [Shape UP](https://basecamp.com/shapeup).
 
 ## Installation
 
@@ -95,12 +95,12 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 
 ### Visual Studio Code
 
-1. Install [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss).
-2. Just copy `.sass-zero-references.scss` to the root of your application.
+1. Copy `.sass-zero-references.scss` to the root of your application.
+2. Install [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss).
 
 ### Atom/TextMate
 
-1. Just copy `.sass-zero-references.scss` to the root of your application.
+1. Copy `.sass-zero-references.scss` to the root of your application.
 
 ## Development
 
