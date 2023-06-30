@@ -1,5 +1,4 @@
 @import "../variables/breakpoints";
-@import "../variables/effects";
 
 .debug * {
   outline: 1px #f00 solid !important;
@@ -63,7 +62,7 @@
 
 .u-disabled {
   pointer-events: none;
-  opacity: $opacity-50;
+  opacity: 0.5;
 }
 
 .u-off-screen {

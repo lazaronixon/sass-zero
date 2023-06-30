@@ -1,5 +1,4 @@
 @import "../variables/typography";
-@import "../variables/sizing";
 @import "../mixins";
 
 .txt--normal {
@@ -48,11 +47,11 @@
 }
 
 .txt--dimmed {
-  opacity: $opacity-75;
+  opacity: 0.75;
 }
 
 .txt--very-dimmed {
-  opacity: $opacity-50;
+  opacity: 0.5;
 }
 
 .txt--tight-lines {

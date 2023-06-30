@@ -1,21 +1,19 @@
-@import "../variables/border";
-
 .border--top {
-  border-top-width: $border;
+  border-top-width: 1px;
 }
 
 .border--bottom {
-  border-bottom-width: $border;
+  border-bottom-width: 1px;
 }
 
 .border--left {
-  border-left-width: $border !important;
+  border-left-width: 1px !important;
 }
 
 .border--all {
-  border-width: $border !important;
+  border-width: 1px !important;
 }
 
 .border--round {
-  border-radius: $rounded-full !important;
+  border-radius: 9999px !important;
 }

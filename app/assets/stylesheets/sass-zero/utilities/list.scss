@@ -1,16 +1,13 @@
-@import "../variables/sizing";
-@import "../variables/border";
-
 .list--unindented {
   padding-left: 1.2em;
 }
 
 .list--flush {
-  padding-left: $size-0;
+  padding-left: 0;
 }
 
 .list--unbulleted {
-  padding-left: $size-0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -20,5 +17,5 @@
 }
 
 .list--dividers li:not(:last-child) {
-  border-bottom-width: $border;
+  border-bottom-width: 1px;
 }
