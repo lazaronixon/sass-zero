@@ -376,10 +376,10 @@ $sepia:   sepia(100%);
 // flex.scss
 // *******************************************************************
 
-$flex-1:       1 1 0%;
-$flex-auto:    1 1 auto;
-$flex-initial: 0 1 auto;
-$flex-none:    none;
+$flex-1:       1 1 0%;   // Allow grow and shrink, ignoring its initial size.
+$flex-auto:    1 1 auto; // Allow grow and shrink, considering its initial size.
+$flex-initial: 0 1 auto; // Allow shrink but not grow, considering its initial size.
+$flex-none:    none;     // Prevent grow or shrink.
 
 $flex-grow-0: 0;
 $flex-grow:   1;
