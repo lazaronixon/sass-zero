@@ -33,8 +33,9 @@ Add these lines to your application.css:
 - [Typography](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/typography.scss)
 - [Width](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/width.scss)
 
-#### Others
+#### Mixins and Others
 
+- [Mixins](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/mixins.scss)
 - [Breakpoints](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/breakpoints.scss)
 - [Filters](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/filters.scss)
 - [Transform](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/transform.scss)
