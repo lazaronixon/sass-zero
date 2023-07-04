@@ -34,18 +34,18 @@
   }
 }
 
-@mixin make-container($padding-x: $size-4) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left:  auto;
-}
-
 @mixin gradient($direction, $from, $to: transparent, $via: null) {
   @if $via {
     background-image: linear-gradient($direction, $from, $via, $to);
   } @else {
     background-image: linear-gradient($direction, $from, $to);
   }
+}
+
+@mixin make-container($padding-x: $size-4) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left:  auto;
 }
