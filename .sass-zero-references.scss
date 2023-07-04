@@ -734,3 +734,4 @@ $z-50:   50;
 @mixin outline-none {}
 @mixin progress-bar {}
 @mixin make-container($padding-x: $size-4) {}
+@mixin gradient($direction, $from, $to: transparent, $via: null) {}
