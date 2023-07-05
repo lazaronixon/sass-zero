@@ -59,40 +59,42 @@ Add these lines to your application.css:
 - [Position Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_position.scss)
 - [Text Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_text.scss)
 
-### Breadboard
-
-- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
-- [Example](https://github.com/lazaronixon/sass-zero/blob/master/example.html)
-
 ## Breadboard
 
 This is an optional black-and-white theme that you can use as design foundation.
 
-![screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/sass-zero-screenshot-3.png)
+- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
+- [Screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/sass-zero-screenshot-3.png)
+- [Example](https://github.com/lazaronixon/sass-zero/blob/master/example.html)
 
 ## Using variables
 
-Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](https://github.com/lazaronixon/sass-zero/blob/master/vendor/assets/stylesheets/sass-zero/variables.scss):
+Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](https://github.com/lazaronixon/sass-zero/blob/master/vendor/assets/stylesheets/sass-zero/_variables.scss):
 
 ```scss
 @import "sass-zero/variables";
 
 .block {
-  color: $red-300;
+  color: $rose-500;
 
-  &__element {
-    color: $red-400;
+  &__element_one {
+    color: $fuchsia-500;
+  }
+
+  &__element_two {
+    color: $purple-500;
   }
 
   &--modifier {
-    color: $red-500;
+    color: $violet-500;
   }
 }
 ```
 
 ```html
 <div class="block block--modifier">
-  <div class="block__element" />
+  <div class="block__element_one" />
+  <div class="block__element_two" />
 </div>
 ```
 
@@ -103,9 +105,33 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 1. Copy `.sass-zero-references.scss` to the root of your application.
 2. Install [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss).
 
-### Atom/TextMate
+### Pulsar/TextMate
 
 1. Copy `.sass-zero-references.scss` to the root of your application.
+
+## Customization
+
+### Breadboard
+
+When you are sure about the style of your application you should make a copy of `breadboard.scss` and customize fonts, borders, and colors.
+
+You will need to remove the breadboard from application.css:
+
+```css
+*= require sass-zero/base
+*= require sass-zero/utilities
+```
+
+### Variables
+
+Instead of using the default variables you can add or change variables, I recommend you make a copy of `_variables.scss` to your application and change it as you want.
+
+```scss
+@import "sass-zero/variables/border";
+@import "sass-zero/variables/breakpoints";
+@import "design-system/colors";
+...
+```
 
 ## Development
 
