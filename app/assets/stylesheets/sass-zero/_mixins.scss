@@ -1,7 +1,4 @@
-@import "variables/border";
-@import "variables/effects";
 @import "variables/sizing";
-@import "variables/zindex";
 
 @mixin antialiased {
   -webkit-font-smoothing: antialiased;
@@ -39,7 +36,7 @@
   padding-right: $padding-x;
   padding-left: $padding-x;
   margin-right: auto;
-  margin-left:  auto;
+  margin-left: auto;
 }
 
 @mixin gradient($direction, $from, $to: transparent, $via: null) {
