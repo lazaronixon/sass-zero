@@ -21,6 +21,8 @@ Add these lines to your application.css:
 
 ### Variables
 
+Instead of hand-picking values from a limitless pool any time you need to make a decision, start with a smaller set of options.
+
 #### Essential
 
 - [Border](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_border.scss)
@@ -30,6 +32,7 @@ Add these lines to your application.css:
 - [Sizing](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_sizing.scss)
 - [Typography](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_typography.scss)
 - [Width](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_width.scss)
+- [Z-Index](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_zindex.scss)
 
 #### Others
 
@@ -39,10 +42,11 @@ Add these lines to your application.css:
 - [Grid](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_grid.scss)
 - [Transform](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_transform.scss)
 - [Transition](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_transition.scss)
-- [Z-Index](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_zindex.scss)
 - [Mixins](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/_mixins.scss)
 
 ### Utility classes
+
+This can be useful for dealing with similar components, and positioning.
 
 - [Align](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_align.scss)
 - [Animation](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_animation.scss)
@@ -61,7 +65,7 @@ Add these lines to your application.css:
 
 ## Breadboard
 
-This is an optional black-and-white theme that you can use as design foundation.
+This is an optional grayscale theme that you can use as design foundation.
 
 - [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
 - [Screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/sass-zero-screenshot-3.png)
@@ -92,6 +96,11 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 ```
 
 ```html
+<div class="block">
+  <div class="block__element_one" />
+  <div class="block__element_two" />
+</div>
+
 <div class="block block--modifier">
   <div class="block__element_one" />
   <div class="block__element_two" />
@@ -115,7 +124,7 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 
 When you are sure about the style of your application you should make a copy of `breadboard.scss` and customize fonts, borders, and colors.
 
-You will need to remove the breadboard from application.css:
+You will need to remove the original breadboard from application.css:
 
 ```css
 *= require sass-zero/base
