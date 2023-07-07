@@ -437,16 +437,6 @@ $row-span-5:    span 5 / span 5;
 $row-span-6:    span 6 / span 6;
 $row-span-full: calc(1 / -1);
 
-$auto-cols-auto: auto;
-$auto-cols-min:  min-content;
-$auto-cols-max:  max-content;
-$auto-cols-fr:   minmax(0, 1fr);
-
-$auto-rows-auto: auto;
-$auto-rows-min:  min-content;
-$auto-rows-max:  max-content;
-$auto-rows-fr:   minmax(0, 1fr);
-
 // *******************************************************************
 // Height
 // *******************************************************************

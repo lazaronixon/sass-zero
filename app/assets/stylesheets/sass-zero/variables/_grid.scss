@@ -63,23 +63,3 @@ $row-span-4:    span 4 / span 4;
 $row-span-5:    span 5 / span 5;
 $row-span-6:    span 6 / span 6;
 $row-span-full: calc(1 / -1);
-
-// *******************************************************************
-// Grid Auto Columns
-// Variables for controlling the size of implicitly-created grid columns.
-// grid-auto-columns: $auto-cols-auto;
-// *******************************************************************
-$auto-cols-auto: auto;
-$auto-cols-min:  min-content;
-$auto-cols-max:  max-content;
-$auto-cols-fr:   minmax(0, 1fr);
-
-// *******************************************************************
-// Grid Auto Rows
-// Variables for controlling the size of implicitly-created grid rows.
-// grid-auto-rows: $auto-rows-auto;
-// *******************************************************************
-$auto-rows-auto: auto;
-$auto-rows-min:  min-content;
-$auto-rows-max:  max-content;
-$auto-rows-fr:   minmax(0, 1fr);
