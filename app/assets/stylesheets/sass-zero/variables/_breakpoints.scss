@@ -3,8 +3,8 @@
 // Five breakpoints inspired by common device resolutions.
 // @media (min-width: $breakpoint-md) {   }
 // *******************************************************************
-$breakpoint-sm:  640px;
-$breakpoint-md:  768px;
-$breakpoint-lg:  1024px;
-$breakpoint-xl:  1280px;
-$breakpoint-2xl: 1536px;
+$breakpoint-sm:  640px  !default;
+$breakpoint-md:  768px  !default;
+$breakpoint-lg:  1024px !default;
+$breakpoint-xl:  1280px !default;
+$breakpoint-2xl: 1536px !default;
