@@ -124,11 +124,12 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 
 When you are sure about the style of your application you should make a copy of `breadboard.scss` and customize fonts, borders, and colors.
 
-You will need to remove the original breadboard from application.css:
+You will need to replace the original breadboard in application.css:
 
 ```css
 *= require sass-zero/base
 *= require sass-zero/utilities
+*= require design-system/breadboard
 ```
 
 ### Variables
@@ -141,6 +142,10 @@ Instead of using the default variables you can add more or change the existents,
 @import "design-system/colors";
 ...
 ```
+
+## References
+
+[The 35 CSS properties you must know to do 80% of the work](https://github.com/lazaronixon/css-properties-counter)
 
 ## Development
 
