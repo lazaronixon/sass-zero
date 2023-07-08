@@ -65,7 +65,7 @@ This can be useful for dealing with similar components, and positioning.
 
 ## Breadboard
 
-This is an optional grayscale theme that you can use as design foundation.
+These default styles ensure that even without custom styling, the content is usable and understandable, if your development process is mostly reproducing Figma designs, you might don't need it.
 
 - [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
 - [Screenshot](https://nixo-etc.s3-sa-east-1.amazonaws.com/sass-zero-screenshot-3.png)
