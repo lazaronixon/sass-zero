@@ -1,6 +1,6 @@
 // *******************************************************************
-// Default color palette
-// Sass-zero includes an expertly-crafted default color palette
+// Default Color Palette
+// SASS-ZERO includes an expertly-crafted default color palette
 // out-of-the-box that is a great starting point if you don’t
 // have your own specific branding in mind.
 // *******************************************************************
@@ -251,3 +251,16 @@ $blue-gray-600: #475569;
 $blue-gray-700: #334155;
 $blue-gray-800: #1e293b;
 $blue-gray-900: #0f172a;
+
+// *******************************************************************
+// Gradient function
+// Function for creating gradient colors.
+// background: gradient(to right, $indigo-500);
+// *******************************************************************
+@function gradient($direction, $from, $to: transparent, $via: null) {
+  @if $via {
+    @return linear-gradient($direction, $from, $via, $to);
+  } @else {
+    @return linear-gradient($direction, $from, $to);
+  }
+}
