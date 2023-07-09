@@ -10,7 +10,8 @@ $radius-secondary: $rounded;
   --color-bg--main:      #{$white};
   --color-bg--surface:   #{$gray-100};
   --color-bg--highlight: #{$gray-200};
-  --color-primary:       #{$gray-900};
+  --color-border:        #{$gray-300};
+  --color-primary:       #{$gray-800};
   --color-text:          #{$gray-900};
 }
 
@@ -19,9 +20,14 @@ $radius-secondary: $rounded;
     --color-bg--main:      #{$gray-900};
     --color-bg--surface:   #{$gray-800};
     --color-bg--highlight: #{$gray-700};
+    --color-border:        #{$gray-600};
     --color-primary:       #{$white};
     --color-text:          #{$white};
   }
+}
+
+*, ::before, ::after {
+  border-color: var(--color-border);
 }
 
 html {
