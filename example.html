@@ -1,42 +1,49 @@
-<main class="container">
-  <p>The base type is 1.6rem (16px) over 1.6 line height (24px)</p>
-  <a href="#" class="txt--underline">Anchor</a>
-  <em>Emphasis</em>
-  <small>Small</small>
-  <strong>Strong</strong>
-  <u>Underline</u>
-  <kbd>CTRL+C</kbd>
-  <mark>Highlighted text</mark>
-  <h1>Heading</h1>
-  <h2>Heading</h2>
-  <h3>Heading</h3>
-  <h4>Heading</h4>
-  <h5>Heading</h5>
-  <h6>Heading</h6>
-
-  <button class="btn btn--primary">Button Primary</button>
-  <button class="btn btn--secondary">Button Secondary</button>
-  <button class="btn btn--tertiary">Button Tertiary</button>
-
-  <a href="#" class="btn btn--secondary">Link Button</a>
-
-  <input type="submit" value="Submit Button" class="btn btn--secondary" />
-
-  <details class="u-position-context">
-    <summary class="btn btn--secondary">Popup Button</summary>
-    <div class="dropdown push-xs--top u-position--right">
-      <ul class="list--unindented u-nowrap flush">
-        <li>Unordered list item 1</li>
-        <li>Unordered list item 2</li>
-        <li>Unordered list item 3</li>
-      </ul>
+<main class="container container--lg push-md--ends">
+  <div class="push-md--bottom">
+    <div class="push-sm--bottom">
+      <p>The base type is 1.6rem (16px) over 1.6 line height (24px)</p>
+      <a href="#" class="txt--underline">Anchor</a>
+      <em>Emphasis</em>
+      <small>Small</small>
+      <strong>Strong</strong>
+      <u>Underline</u>
+      <kbd>CTRL+C</kbd>
+      <mark>Highlighted text</mark>
     </div>
-  </details>
 
-  <button class="btn btn--secondary"><span class="btn__icon bx bx-plus"></span> Icon Button</button>
-  <button class="btn btn--secondary btn--small">Small Button</button>
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+  </div>
 
-  <hr>
+  <div class="push-md--bottom">
+    <div class="push-xs--bottom">
+      <button class="btn btn--primary">Button Primary</button>
+      <button class="btn btn--secondary">Button Secondary</button>
+      <button class="btn btn--tertiary">Button Tertiary</button>
+    </div>
+
+    <a href="#" class="btn btn--secondary">Link Button</a>
+
+    <input type="submit" value="Submit Button" class="btn btn--secondary" />
+
+    <details class="u-position-context">
+      <summary class="btn btn--secondary">Dropdown Button</summary>
+      <div class="dropdown push-xs--top u-position--right">
+        <ul class="list--unindented u-nowrap flush">
+          <li>Unordered list item 1</li>
+          <li>Unordered list item 2</li>
+          <li>Unordered list item 3</li>
+        </ul>
+      </div>
+    </details>
+
+    <button class="btn btn--secondary"><span class="btn__icon bx bx-plus"></span> Icon Button</button>
+    <button class="btn btn--secondary btn--small">Small Button</button>
+  </div>
 
   <form class="push-md--bottom">
     <label for="nameField" class="u-display-b txt--bold">Name</label>
@@ -100,9 +107,7 @@
     <input type="submit" value="Send" class="btn btn--primary">
   </form>
 
-  <hr>
-
-  <table>
+  <table class="push-md--bottom">
     <thead>
       <tr>
         <th>Name</th>
@@ -127,54 +132,47 @@
     </tbody>
   </table>
 
+  <div class="push-md--bottom">
+    <ul class="list--unindented">
+      <li>Unordered list item 1</li>
+      <li>Unordered list item 2</li>
+      <li>Unordered list item 3</li>
+    </ul>
+
+    <ol class="list--unindented">
+      <li>Ordered list item 1</li>
+      <li>Ordered list item 2</li>
+      <li>Ordered list item 3</li>
+    </ol>
+
+    <dl>
+      <dd>A description list is perfect for defining terms.</dd>
+      <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem.</dd>
+    </dl>
+  </div>
+
+  <div class="push-md--bottom">
+    <code>.block { color: #9b4dca; }</code>
+  </div>
+
+  <pre><code>.block { color: #9b4dca; }</code></pre>
+
   <blockquote>
     <p class="flush--bottom">Friends don’t spy; true friendship is about privacy, too.</p>
     <cite class="txt--sm">– Stephen King</cite>
   </blockquote>
 
-  <pre><code>.milligram {
-  color: #9b4dca;
-}</code></pre>
-
-  <div class="push-md--bottom">
-    <code>
-    .milligram {
-      color: #9b4dca;
-    }
-    </code>
+  <div>
+    <label for="progress" class="u-display-b txt--bold">Progress</label>
+    <progress id="progress" max="100" value="70">70%</progress>
   </div>
 
-  <div class="push-md--bottom" style="height: 55px;">
+  <div style="height: 55px;">
     <dialog open>
       <form method="dialog">
-        <span>User was successfully created.</span>
+        <span>This is a native dialog with a close button.</span>
         <button type="submit" value="dismiss" class="push-xs--left txt--lg">&times;</button>
       </form>
     </dialog>
   </div>
-
-  <div class="push-md--bottom">
-    <label for="progres" class="u-display-b txt--bold">Progress</label>
-    <progress id="progres" max="100" value="70">70%</progress>
-  </div>
-
-  <hr>
-
-  <ul class="list--unindented">
-    <li>Unordered list item 1</li>
-    <li>Unordered list item 2</li>
-    <li>Unordered list item 3</li>
-  </ul>
-
-  <ol class="list--unindented">
-    <li>Ordered list item 1</li>
-    <li>Ordered list item 2</li>
-    <li>Ordered list item 3</li>
-  </ol>
-
-  <dl>
-    <dt>Description lists</dt>
-    <dd>A description list is perfect for defining terms.</dd>
-    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem.</dd>
-  </dl>
 </main>
