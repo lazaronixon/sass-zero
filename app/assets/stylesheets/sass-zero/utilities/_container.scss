@@ -6,31 +6,31 @@
 }
 
 @media (min-width: $breakpoint-sm) {
-  .container {
+  .container--sm {
     max-width: $breakpoint-sm;
   }
 }
 
 @media (min-width: $breakpoint-md) {
-  .container {
+  .container--md {
     max-width: $breakpoint-md;
   }
 }
 
 @media (min-width: $breakpoint-lg) {
-  .container {
+  .container--lg {
     max-width: $breakpoint-lg;
   }
 }
 
 @media (min-width: $breakpoint-xl) {
-  .container {
+  .container--xl {
     max-width: $breakpoint-xl;
   }
 }
 
 @media (min-width: $breakpoint-2xl) {
-  .container {
+  .container--2xl {
     max-width: $breakpoint-2xl;
   }
 }
