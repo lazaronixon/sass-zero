@@ -41,7 +41,6 @@ html {
   border-radius: $radius-primary;
   border-width: $border;
   display: inline-block;
-  font-weight: $font-bold;
   padding: $size-2 $size-3;
   cursor: pointer;
 
@@ -156,10 +155,6 @@ mark {
 
 hr {
   margin: $size-6 $size-0;
-}
-
-a {
-  font-weight: $font-bold;
 }
 
 menu, ul, ol {
