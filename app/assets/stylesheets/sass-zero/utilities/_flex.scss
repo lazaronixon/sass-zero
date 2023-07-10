@@ -61,28 +61,28 @@
   align-self: end;
 }
 
-@media (min-width: $breakpoint-sm) {
-  .flex\@sm {
+@media (min-width: $breakpoint-md) {
+  .flex\@md {
     display: flex;
   }
 
-  .flex--centered\@sm {
+  .flex--centered\@md {
     justify-content: center;
   }
 
-  .flex--align-center\@sm {
+  .flex--align-center\@md {
     align-items: center;
   }
 
-  .flex--space-items\@sm {
+  .flex--space-items\@md {
     justify-content: space-between;
   }
 
-  .flex--align-center\@sm {
+  .flex--align-center\@md {
     align-items: center;
   }
 
-  .flex--align-bottom\@sm {
+  .flex--align-bottom\@md {
     align-items: flex-end;
   }
 }

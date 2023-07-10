@@ -78,16 +78,16 @@
   overflow: hidden;
 }
 
-@media (min-width: $breakpoint-sm) {
-  .u-show--inline\@sm {
+@media (min-width: $breakpoint-md) {
+  .u-show--inline\@md {
     display: inline;
   }
 
-  .u-show\@sm {
+  .u-show\@md {
     display: block;
   }
 
-  .u-hide\@sm {
+  .u-hide\@md {
     display: none;
   }
 }
