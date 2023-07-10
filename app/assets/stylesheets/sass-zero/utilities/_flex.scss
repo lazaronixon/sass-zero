@@ -66,6 +66,14 @@
     display: flex;
   }
 
+  .flex--row\@md {
+    flex-direction: row;
+  }
+
+  .flex--column\@md {
+    flex-direction: column;
+  }  
+
   .flex--centered\@md {
     justify-content: center;
   }
