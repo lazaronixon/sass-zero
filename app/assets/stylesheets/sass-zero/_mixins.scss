@@ -1,13 +1,15 @@
 @import "variables/sizing";
 
-@mixin antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+// *******************************************************************
+// General
+// *******************************************************************
 
-@mixin subpixel-antialiased {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
+@mixin make-container($padding-x: $size-4) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @mixin ellipsis {
@@ -16,9 +18,14 @@
   overflow: hidden;
 }
 
-@mixin outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
+@mixin antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 @mixin progress-bar {
@@ -31,10 +38,22 @@
   }
 }
 
-@mixin make-container($padding-x: $size-4) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left: auto;
+// *******************************************************************
+// Animations
+// *******************************************************************
+
+@mixin animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@mixin animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+ @mixin animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@mixin animate-bounce {
+  animation: bounce 1s infinite;
 }

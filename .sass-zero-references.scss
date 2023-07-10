@@ -720,9 +720,12 @@ $z-50:   50;
 // Mixins
 // *******************************************************************
 
+@mixin make-container($padding-x: $size-4) {}
+@mixin ellipsis {}
 @mixin antialiased {}
 @mixin subpixel-antialiased {}
-@mixin ellipsis {}
-@mixin outline-none {}
 @mixin progress-bar {}
-@mixin make-container($padding-x: $size-4) {}
+@mixin animate-spin {}
+@mixin animate-ping {}
+@mixin animate-pulse {}
+@mixin animate-bounce {}

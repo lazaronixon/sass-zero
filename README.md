@@ -25,55 +25,60 @@ Instead of hand-picking values from a limitless pool any time you need to make a
 
 #### Essential
 
-- [Border](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_border.scss)
-- [Colors](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_colors.scss)
-- [Effects](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_effects.scss)
-- [Height](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_height.scss)
-- [Sizing](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_sizing.scss)
-- [Typography](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_typography.scss)
-- [Width](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_width.scss)
-- [Z-Index](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_zindex.scss)
+- [Border](app/assets/stylesheets/sass-zero/variables/_border.scss)
+- [Colors](app/assets/stylesheets/sass-zero/variables/_colors.scss)
+- [Effects](app/assets/stylesheets/sass-zero/variables/_effects.scss)
+- [Height](app/assets/stylesheets/sass-zero/variables/_height.scss)
+- [Sizing](app/assets/stylesheets/sass-zero/variables/_sizing.scss)
+- [Typography](app/assets/stylesheets/sass-zero/variables/_typography.scss)
+- [Width](app/assets/stylesheets/sass-zero/variables/_width.scss)
+- [Z-Index](app/assets/stylesheets/sass-zero/variables/_zindex.scss)
 
 #### Others
 
-- [Breakpoints](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_breakpoints.scss)
-- [Filters](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_filters.scss)
-- [Flex](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_flex.scss)
-- [Grid](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_grid.scss)
-- [Transform](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_transform.scss)
-- [Transition](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/variables/_transition.scss)
-- [Mixins](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/_mixins.scss)
+- [Breakpoints](app/assets/stylesheets/sass-zero/variables/_breakpoints.scss)
+- [Filters](app/assets/stylesheets/sass-zero/variables/_filters.scss)
+- [Flex](app/assets/stylesheets/sass-zero/variables/_flex.scss)
+- [Grid](app/assets/stylesheets/sass-zero/variables/_grid.scss)
+- [Transform](app/assets/stylesheets/sass-zero/variables/_transform.scss)
+- [Transition](app/assets/stylesheets/sass-zero/variables/_transition.scss)
+- [Mixins](app/assets/stylesheets/sass-zero/_mixins.scss)
 
 ### Utility classes
 
 This can be useful for dealing with similar components, and positioning.
 
-- [Align](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_align.scss)
-- [Animation](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_animation.scss)
-- [Border](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_border.scss)
-- [Container](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_container.scss)
-- [Flex Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_flex.scss)
-- [Layout Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_layout.scss)
-- [List Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_list.scss)
-- [Margin Pull](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_pull.scss)
-- [Margin Push](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_push.scss)
-- [Margin Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_flush.scss)
-- [Padding](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_pad.scss)
-- [Padding Reset](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_unpad.scss)
-- [Position Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_position.scss)
-- [Text Utilities](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/utilities/_text.scss)
+- [Align](app/assets/stylesheets/sass-zero/utilities/_align.scss)
+- [Border](app/assets/stylesheets/sass-zero/utilities/_border.scss)
+- [Container](app/assets/stylesheets/sass-zero/utilities/_container.scss)
+- [Flex Utilities](app/assets/stylesheets/sass-zero/utilities/_flex.scss)
+- [Layout Utilities](app/assets/stylesheets/sass-zero/utilities/_layout.scss)
+- [List Utilities](app/assets/stylesheets/sass-zero/utilities/_list.scss)
+- [Margin Pull](app/assets/stylesheets/sass-zero/utilities/_pull.scss)
+- [Margin Push](app/assets/stylesheets/sass-zero/utilities/_push.scss)
+- [Margin Reset](app/assets/stylesheets/sass-zero/utilities/_flush.scss)
+- [Padding](app/assets/stylesheets/sass-zero/utilities/_pad.scss)
+- [Padding Reset](app/assets/stylesheets/sass-zero/utilities/_unpad.scss)
+- [Position Utilities](app/assets/stylesheets/sass-zero/utilities/_position.scss)
+- [Text Utilities](app/assets/stylesheets/sass-zero/utilities/_text.scss)
 
 ## Breadboard
 
 These default styles ensure that even without custom styling, the content is usable and understandable, if your development process is mostly reproducing Figma designs, you might don't need it.
 
-- [Breadboard](https://github.com/lazaronixon/sass-zero/blob/master/app/assets/stylesheets/sass-zero/breadboard.scss)
+- [Breadboard](app/assets/stylesheets/sass-zero/breadboard.scss)
 - [Screenshot](screenshot.png)
-- [Example](https://github.com/lazaronixon/sass-zero/blob/master/example.html)
+- [Example](example.html)
+
+## Animations
+
+Pre-built keyframes you can use to create your animations.
+
+- [Animations](app/assets/stylesheets/sass-zero/animations.scss)
 
 ## Using variables
 
-Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](https://github.com/lazaronixon/sass-zero/blob/master/vendor/assets/stylesheets/sass-zero/_variables.scss):
+Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Variables](app/assets/stylesheets/sass-zero/_variables.scss):
 
 ```scss
 @import "sass-zero/variables";
