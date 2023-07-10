@@ -81,11 +81,11 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 .block {
   color: $rose-500;
 
-  &__element_one {
+  &__element-one {
     color: $fuchsia-500;
   }
 
-  &__element_two {
+  &__element-two {
     color: $purple-500;
   }
 
@@ -97,13 +97,13 @@ Create some stylesheet using [BEM](http://getbem.com/naming) and [SASS-ZERO Vari
 
 ```html
 <div class="block">
-  <div class="block__element_one" />
-  <div class="block__element_two" />
+  <div class="block__element-one" />
+  <div class="block__element-two" />
 </div>
 
 <div class="block block--modifier">
-  <div class="block__element_one" />
-  <div class="block__element_two" />
+  <div class="block__element-one" />
+  <div class="block__element-two" />
 </div>
 ```
 
