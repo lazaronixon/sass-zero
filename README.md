@@ -19,7 +19,7 @@ Add these lines to your application.css:
 *= require sass-zero/breadboard
 ```
 
-### Variables
+### Variables / Mixins
 
 Instead of hand-picking values from a limitless pool any time you need to make a decision, start with a smaller set of options.
 
@@ -69,12 +69,6 @@ These default styles ensure that even without custom styling, the content is usa
 - [Breadboard](app/assets/stylesheets/sass-zero/breadboard.scss)
 - [Screenshot](screenshot.png)
 - [Example](example.html)
-
-## Animations
-
-Pre-built keyframes you can use to create your animations.
-
-- [Animations](app/assets/stylesheets/sass-zero/animations.scss)
 
 ## Using variables
 
