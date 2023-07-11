@@ -16,6 +16,7 @@ Add these lines to your application.css:
 ```css
 *= require sass-zero/base
 *= require sass-zero/utilities
+*= require sass-zero/keyframes
 *= require sass-zero/breadboard
 ```
 
