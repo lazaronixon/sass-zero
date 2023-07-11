@@ -1,3 +1,5 @@
+@import "../variables/sizing";
+
 // *******************************************************************
 // Pull Utilities
 // .pull-[xs|sm|md|lg|xl]--top
@@ -5,8 +7,6 @@
 // .pull-[xs|sm|md|lg|xl]--bottom
 // .pull-[xs|sm|md|lg|xl]--left
 // *******************************************************************
-
-@import "../variables/sizing";
 
 @each $scale, $size in $size-map {
   .pull-#{$scale}--top {

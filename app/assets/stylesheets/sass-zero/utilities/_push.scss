@@ -1,3 +1,5 @@
+@import "../variables/sizing";
+
 // *******************************************************************
 // Push Utilities
 // .push-[xs|sm|md|lg|xl]
@@ -8,8 +10,6 @@
 // .push-[xs|sm|md|lg|xl]--ends
 // .push-[xs|sm|md|lg|xl]--sides
 // *******************************************************************
-
-@import "../variables/sizing";
 
 @each $scale, $size in $size-map {
   .push-#{$scale} {

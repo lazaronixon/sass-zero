@@ -1,3 +1,5 @@
+@import "../variables/sizing";
+
 // *******************************************************************
 // Pad Utilities
 // .pad-[xs|sm|md|lg|xl]--top
@@ -5,8 +7,6 @@
 // .pad-[xs|sm|md|lg|xl]--bottom
 // .pad-[xs|sm|md|lg|xl]--left
 // *******************************************************************
-
-@import "../variables/sizing";
 
 @each $scale, $size in $size-map {
   .pad-#{$scale}--top {
