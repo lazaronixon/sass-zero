@@ -25,22 +25,22 @@ Instead of hand-picking values from a limitless pool any time you need to make a
 
 #### Essential
 
-- [Border](app/assets/stylesheets/sass-zero/variables/_border.scss)
-- [Colors](app/assets/stylesheets/sass-zero/variables/_colors.scss)
-- [Effects](app/assets/stylesheets/sass-zero/variables/_effects.scss)
-- [Height](app/assets/stylesheets/sass-zero/variables/_height.scss)
 - [Sizing](app/assets/stylesheets/sass-zero/variables/_sizing.scss)
-- [Typography](app/assets/stylesheets/sass-zero/variables/_typography.scss)
+- [Colors](app/assets/stylesheets/sass-zero/variables/_colors.scss)
 - [Width](app/assets/stylesheets/sass-zero/variables/_width.scss)
+- [Height](app/assets/stylesheets/sass-zero/variables/_height.scss)
+- [Border](app/assets/stylesheets/sass-zero/variables/_border.scss)
+- [Effects](app/assets/stylesheets/sass-zero/variables/_effects.scss)
+- [Typography](app/assets/stylesheets/sass-zero/variables/_typography.scss)
 - [Z-Index](app/assets/stylesheets/sass-zero/variables/_zindex.scss)
 
 #### Others
 
 - [Breakpoints](app/assets/stylesheets/sass-zero/variables/_breakpoints.scss)
 - [Filters](app/assets/stylesheets/sass-zero/variables/_filters.scss)
-- [Flex](app/assets/stylesheets/sass-zero/variables/_flex.scss)
-- [Grid](app/assets/stylesheets/sass-zero/variables/_grid.scss)
 - [Transform](app/assets/stylesheets/sass-zero/variables/_transform.scss)
+- [Grid](app/assets/stylesheets/sass-zero/variables/_grid.scss)
+- [Flex](app/assets/stylesheets/sass-zero/variables/_flex.scss)
 - [Transition](app/assets/stylesheets/sass-zero/variables/_transition.scss)
 - [Mixins](app/assets/stylesheets/sass-zero/_mixins.scss)
 

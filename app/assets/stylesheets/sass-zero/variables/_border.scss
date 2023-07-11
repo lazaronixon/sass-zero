@@ -1,4 +1,15 @@
 // *******************************************************************
+// Border Width
+// Variables for controlling the width of an element's borders.
+// border-width: $border;
+// *******************************************************************
+$border-0: 0;
+$border:   1px;
+$border-2: 2px;
+$border-4: 4px;
+$border-8: 8px;
+
+// *******************************************************************
 // Border Style
 // Variables for controlling the border radius of an element.
 // border-radius: $rounded-none;
@@ -12,14 +23,3 @@ $rounded-xl:   0.75rem;
 $rounded-2xl:  1rem;
 $rounded-3xl:  1.5rem;
 $rounded-full: 9999px;
-
-// *******************************************************************
-// Border Width
-// Variables for controlling the width of an element's borders.
-// border-width: $border;
-// *******************************************************************
-$border-0: 0;
-$border:   1px;
-$border-2: 2px;
-$border-4: 4px;
-$border-8: 8px;
