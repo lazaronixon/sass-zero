@@ -725,7 +725,37 @@ $z-50:   50;
 @mixin antialiased {}
 @mixin subpixel-antialiased {}
 @mixin progress-bar {}
+
+// *******************************************************************
+// Animations
+// *******************************************************************
+
 @mixin animate-spin {}
 @mixin animate-ping {}
 @mixin animate-pulse {}
 @mixin animate-bounce {}
+@mixin animate-pop-open {}
+@mixin animate-appear {}
+@mixin animate-fade-out {}
+@mixin animate-fade-in-out {}
+@mixin animate-appear-then-fade {}
+@mixin animate-appear-then-fade-extended {}
+@mixin animate-slide-up-then-down {}
+@mixin animate-wiggle {}
+@mixin animate-fade-in-up {}
+@mixin animate-fade-in-down {}
+@mixin animate-fade-out-up {}
+@mixin animate-fade-out-down {}
+@mixin animate-flip-up {}
+@mixin animate-slide-right {}
+@mixin animate-slide-left {}
+@mixin animate-slide-in-from-left {}
+@mixin animate-slide-in-from-bottom {}
+@mixin animate-slide-in-from-bottom-no-fade {}
+@mixin animate-slide-in-from-bottom-no-bounce {}
+@mixin animate-slide-in-tilt-left {}
+@mixin animate-slide-in-tilt-right {}
+@mixin animate-pop {}
+@mixin animate-burst {}
+@mixin animate-bubble-burst {}
+@mixin animate-shake {}

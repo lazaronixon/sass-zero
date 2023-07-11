@@ -52,24 +52,6 @@
   }
 }
 
-@keyframes blind-open {
-  from {
-    max-height: 0;
-  }
-  to {
-    max-height: 100rem;
-  }
-}
-
-@keyframes blind-close {
-  from {
-    max-height: 100rem;
-  }
-  to {
-    max-height: 0;
-  }
-}
-
 @keyframes appear {
   from {
     opacity: 0;
@@ -124,14 +106,6 @@
   }
 }
 
-@keyframes hide {
-  to {
-    max-height: 0;
-    max-width: 0;
-    visibility: hidden;
-  }
-}
-
 @keyframes wiggle {
   0% {
     transform: rotate(0deg);
@@ -150,23 +124,6 @@
   }
   100% {
     transform: rotate(0deg);
-  }
-}
-
-@keyframes pop-visible {
-  0% {
-    transform: scale(0.75);
-    text-indent: 0;
-  }
-  33% {
-    transform: scale(0.85);
-  }
-  67% {
-    transform: scale(1.25);
-  }
-  100% {
-    transform: scale(1);
-    text-indent: 2.3em;
   }
 }
 
@@ -420,15 +377,6 @@
   }
 }
 
-@keyframes bump {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-}
-
 @keyframes shake {
   0% {
     transform: translateX(-2rem);
@@ -444,11 +392,10 @@
   }
 }
 
-@keyframes dancing-ants {
-  0% {
-    background-position: left top,right bottom,left bottom,right top;
-  }
-  100% {
-    background-position: left 1.5rem top,right 1.5rem bottom,left bottom 1.5rem,right top 1.5rem;
+@keyframes hide {
+  to {
+    max-height: 0;
+    max-width: 0;
+    visibility: hidden;
   }
 }

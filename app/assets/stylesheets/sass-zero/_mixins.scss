@@ -50,10 +50,110 @@
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
- @mixin animate-pulse {
+@mixin animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 @mixin animate-bounce {
   animation: bounce 1s infinite;
+}
+
+@mixin animate-pop-open {
+  animation: pop-open .1s both;
+}
+
+@mixin animate-appear {
+  animation: appear .3s ease-out both;
+}
+
+@mixin animate-fade-out {
+  animation: fade-out 2s .3s both;
+}
+
+@mixin animate-fade-in-out {
+  animation: fade-in-out 1.5s infinite both;
+}
+
+@mixin animate-appear-then-fade {
+  animation: appear-then-fade 4s .3s both;
+}
+
+@mixin animate-appear-then-fade-extended {
+  animation: appear-then-fade-extended 12s .3s both;
+}
+
+@mixin animate-slide-up-then-down {
+  animation: slide-up-then-down 2s both;
+}
+
+@mixin animate-wiggle {
+  animation: wiggle .4s both;
+}
+
+@mixin animate-fade-in-up {
+  animation: fade-in-up .5s both;
+}
+
+@mixin animate-fade-in-down {
+  animation: fade-in-down .3s both ease-in-out;
+}
+
+@mixin animate-fade-out-up {
+  animation: fade-out-up .3s both;
+}
+
+@mixin animate-fade-out-down {
+  animation: fade-out-down .3s ease-in both;
+}
+
+@mixin animate-flip-up {
+  animation: flip-up .1s ease;
+}
+
+@mixin animate-slide-right {
+  animation: slide-right 2.5s ease-in infinite;
+}
+
+@mixin animate-slide-left {
+  animation: slide-left 2.5s ease-in infinite;
+}
+
+@mixin animate-slide-in-from-left {
+  animation: slide-in-from-left .5s both;
+}
+
+@mixin animate-slide-in-from-bottom {
+  animation: slide-in-from-bottom .5s .5s both;
+}
+
+@mixin animate-slide-in-from-bottom-no-fade {
+  animation: slide-in-from-bottom-no-fade .33s ease both;
+}
+
+@mixin animate-slide-in-from-bottom-no-bounce {
+  animation: slide-in-from-bottom-no-bounce .5s ease-out both;
+}
+
+@mixin animate-slide-in-tilt-left {
+  animation: slide-in-tilt-left .5s both;
+}
+
+@mixin animate-slide-in-tilt-right {
+  animation: slide-in-tilt-right .5s both;
+}
+
+@mixin animate-pop {
+  animation: pop 2.5s ease infinite;
+}
+
+@mixin animate-burst {
+  animation: burst 2.5s 2.2s ease infinite;
+}
+
+@mixin animate-bubble-burst {
+  animation: bubble-burst .16s ease-out .16s forwards;
+}
+
+@mixin animate-shake {
+  animation: shake .3s both;
 }
