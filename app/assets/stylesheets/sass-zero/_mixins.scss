@@ -28,16 +28,6 @@
   -moz-osx-font-smoothing: auto;
 }
 
-@mixin progress-bar {
-  ::-webkit-progress-value {
-    @content;
-  }
-
-  ::-moz-progress-bar {
-    @content;
-  }
-}
-
 // *******************************************************************
 // Animations
 // *******************************************************************
