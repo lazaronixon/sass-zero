@@ -158,7 +158,7 @@ hr {
 }
 
 menu, ul, ol {
-  padding-left: $size-10;
+  padding-left: $size-8;
 }
 
 menu, ul {
@@ -173,7 +173,7 @@ dt {
   font-weight: $font-bold;
 }
 
-label, legend, dt, dd, li {
+label, legend {
   margin-bottom: $size-1;
 }
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6, .hdg {
 }
 
 fieldset, .input {
-  margin-bottom: $size-6;
+  margin-bottom: $size-5;
 }
 
 table, progress, blockquote, figure, pre, menu, ul, ol, dl, p {
