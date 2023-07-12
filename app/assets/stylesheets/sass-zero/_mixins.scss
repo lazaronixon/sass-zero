@@ -4,12 +4,9 @@
 // General
 // *******************************************************************
 
-@mixin make-container($padding-x: $size-4) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left: auto;
+@mixin make-container($padding: $size-4) {
+  width: 100%; margin: 0 auto;
+  padding: $padding;
 }
 
 @mixin ellipsis {
