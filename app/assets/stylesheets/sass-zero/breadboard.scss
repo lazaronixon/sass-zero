@@ -30,18 +30,23 @@ $radius-secondary: $rounded;
   border-color: var(--color-border);
 }
 
-html {
+body {
   accent-color: var(--color-primary);
   background: var(--color-bg--main);
   color: var(--color-text);
   font-family: $font-family;
 }
 
+@media (max-width: $breakpoint-md - 1) {
+  body { font-size: $text-sm; }
+}
+
 .btn {
   border-radius: $radius-primary;
   border-width: $border;
   display: inline-block;
-  padding: $size-2 $size-3;
+  padding: $size-1-5 $size-4;
+  font-weight: $font-medium;
   cursor: pointer;
 
   &--primary {
@@ -81,7 +86,7 @@ html {
   background-color: var(--color-bg--surface);
   border-radius: $radius-secondary;
   border-width: $border;
-  padding: $size-2 $size-3;
+  padding: $size-2-5;
   width: $w-full;
 
   &--select {
@@ -102,19 +107,19 @@ html {
 .dropdown {
   background-color: var(--color-bg--surface);
   border-width: $border; border-radius: $radius-primary;
-  padding: $size-3 $size-4;
+  padding: $size-6;
   box-shadow: $shadow-lg;
   position: absolute;
   z-index: $z-10;
 }
 
 [type="checkbox"], [type="radio"] {
-  transform: scale(1.2); margin: $size-1;
+  transform: scale(1.7); margin: $size-1;
 }
 
 blockquote {
   border-left-width: $border-4;
-  padding: $size-3 $size-4;
+  padding: $size-3;
 }
 
 code {
@@ -133,7 +138,7 @@ pre {
   > code {
     border-radius: $rounded-none;
     display: block;
-    padding: $size-2 $size-3;
+    padding: $size-3;
     white-space: pre;
   }
 }
@@ -173,26 +178,22 @@ dt {
   font-weight: $font-bold;
 }
 
-label, legend {
-  margin-bottom: $size-1;
+fieldset, .input {
+  margin-bottom: $size-6;
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
-  margin-bottom: $size-4;
+  margin-bottom: $size-6;
 }
 
-fieldset, .input {
-  margin-bottom: $size-5;
-}
-
-table, progress, blockquote, figure, pre, menu, ul, ol, dl, p {
+table, progress, blockquote, pre, menu, ul, ol, dl, p {
   margin-bottom: $size-6;
 }
 
 dialog {
   background-color: var(--color-bg--surface);
   border-width: $border; border-radius: $radius-primary;
-  padding: $size-3 $size-4;
+  padding: $size-6;
   box-shadow: $shadow-lg;
   color: inherit;
 }
@@ -219,7 +220,7 @@ table {
 
 td, th {
   border-bottom-width: $border;
-  padding: $size-3 $size-4;
+  padding: $size-4;
   text-align: left;
 }
 
@@ -228,26 +229,26 @@ h1, h2, h3, h4, h5, h6, .hdg {
   line-height: $leading-tight;
 }
 
-h1, .hdg--4xl {
+h1, .hdg--xx-large {
+  font-size: $text-5xl;
+}
+
+h2, .hdg--x-large {
   font-size: $text-4xl;
 }
 
-h2, .hdg--3xl {
+h3, .hdg--large {
   font-size: $text-3xl;
 }
 
-h3, .hdg--2xl {
+h4, .hdg--medium {
   font-size: $text-2xl;
 }
 
-h4, .hdg--xl {
+h5, .hdg--small {
   font-size: $text-xl;
 }
 
-h5, .hdg--lg {
+h6, .hdg--x-small {
   font-size: $text-lg;
-}
-
-h6, .hdg--base {
-  font-size: $text-base;
 }

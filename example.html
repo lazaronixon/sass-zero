@@ -1,4 +1,4 @@
-<main class="container container--lg push-md--ends" style="background: white;">
+<main class="container container--lg" style="background: var(--color-bg--surface);">
   <div class="push-md--bottom">
     <div class="push-sm--bottom">
       <p>The base type is 1.6rem (16px) over 1.6 line height (24px)</p>
@@ -46,10 +46,10 @@
   </div>
 
   <form class="push-md--bottom">
-    <label for="nameField" class="u-display-b txt--bold">Name</label>
-    <input type="text" placeholder="CJ Patoilo" id="nameField" class="input">
+    <label for="nameField" class="u-display-b txt--bold push-xs--bottom">Name</label>
+    <input type="text" placeholder="Lázaro Nixon" id="nameField" class="input">
 
-    <label for="iceCreamField" class="u-display-b txt--bold">Choose a flavor:</label>
+    <label for="iceCreamField" class="u-display-b txt--bold push-xs--bottom">Choose a flavor:</label>
     <input list="iceCreamFlavors" id="iceCreamField" class="input" />
     <datalist id="iceCreamFlavors">
         <option value="Chocolate">
@@ -59,7 +59,7 @@
         <option value="Vanilla">
     </datalist>
 
-    <label for="ageRangeField" class="u-display-b txt--bold">Age Range</label>
+    <label for="ageRangeField" class="u-display-b txt--bold push-xs--bottom">Age Range</label>
     <select id="ageRangeField" class="input input--select">
       <option value="0-13">0-13</option>
       <option value="14-17">14-17</option>
@@ -67,17 +67,17 @@
       <option value="24+">24+</option>
     </select>
 
-    <label for="commentField" class="u-display-b txt--bold">Comment</label>
-    <textarea placeholder="Hi CJ …" id="commentField" rows="3" class="input"></textarea>
+    <label for="commentField" class="u-display-b txt--bold  push-xs--bottom">Comment</label>
+    <textarea placeholder="Hi Nixon …" id="commentField" rows="3" class="input"></textarea>
 
     <fieldset>
-      <legend class="txt--bold">Choose your options</legend>
+      <legend class="txt--bold push-xs--bottom">Choose your options</legend>
 
-      <div>
+      <div class="push-xs--bottom">
         <input type="checkbox" id="option1" name="option1" value="1" checked>
         <label for="option1" class="u-display-ib">Option 1</label>
       </div>
-      <div>
+      <div class="push-xs--bottom">
         <input type="checkbox" id="option2" name="option2" value="2">
         <label for="option2" class="u-display-ib">Option 2</label>
       </div>
@@ -88,13 +88,13 @@
     </fieldset>
 
     <fieldset>
-      <legend class="txt--bold">Choose your option</legend>
+      <legend class="txt--bold push-xs--bottom">Choose your option</legend>
 
-      <div>
+      <div class="push-xs--bottom">
         <input type="radio" id="radio1" name="radio" value="1" checked>
         <label for="radio1" class="u-display-ib">Option 1</label>
       </div>
-      <div>
+      <div class="push-xs--bottom">
         <input type="radio" id="radio2" name="radio" value="2">
         <label for="radio2" class="u-display-ib">Option 2</label>
       </div>
@@ -157,11 +157,13 @@
   <pre><code>.block { color: #9b4dca; }</code></pre>
 
   <blockquote>
-    <p class="flush--bottom">Friends don’t spy; true friendship is about privacy, too.</p>
+    <p class="flush">Friends don’t spy; true friendship is about privacy, too.</p>
     <cite class="txt--sm">– Stephen King</cite>
   </blockquote>
 
-  <div style="height: 55px;">
+  <hr>
+
+  <div style="height: 85px;">
     <dialog open>
       <form method="dialog">
         <span>This is a native dialog with a close button.</span>
