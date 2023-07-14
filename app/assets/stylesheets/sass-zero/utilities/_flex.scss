@@ -30,7 +30,7 @@
 }
 
 .flex--gap {
-  gap: $size-3;
+  gap: $size-2-5;
 }
 
 .i-flex {
@@ -72,7 +72,7 @@
 
   .flex--column\@md {
     flex-direction: column;
-  }  
+  }
 
   .flex--centered\@md {
     justify-content: center;
