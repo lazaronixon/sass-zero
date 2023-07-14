@@ -30,22 +30,22 @@ $radius-secondary: $rounded;
   border-color: var(--color-border);
 }
 
-body {
+html {
   accent-color: var(--color-primary);
   background: var(--color-bg--main);
   color: var(--color-text);
   font-family: $font-family;
 }
 
-@media (max-width: $breakpoint-md - 1) {
-  body { font-size: $text-sm; }
+@media (min-width: $breakpoint-md) {
+  html { font-size: $text-xl; }
 }
 
 .btn {
   border-radius: $radius-primary;
   border-width: $border;
   display: inline-block;
-  padding: $size-1-5 $size-4;
+  padding: $size-1 $size-3;
   font-weight: $font-medium;
   cursor: pointer;
 
@@ -86,7 +86,7 @@ body {
   background-color: var(--color-bg--surface);
   border-radius: $radius-secondary;
   border-width: $border;
-  padding: $size-2-5;
+  padding: $size-2;
   width: $w-full;
 
   &--select {
@@ -107,19 +107,18 @@ body {
 .dropdown {
   background-color: var(--color-bg--surface);
   border-width: $border; border-radius: $radius-primary;
-  padding: $size-6;
-  box-shadow: $shadow-lg;
+  padding: $size-4;
   position: absolute;
   z-index: $z-10;
 }
 
 [type="checkbox"], [type="radio"] {
-  transform: scale(1.7); margin: $size-1;
+  transform: scale(1.35); margin: $size-1;
 }
 
 blockquote {
   border-left-width: $border-4;
-  padding: $size-3;
+  padding: $size-2-5;
 }
 
 code {
@@ -138,7 +137,7 @@ pre {
   > code {
     border-radius: $rounded-none;
     display: block;
-    padding: $size-3;
+    padding: $size-2-5;
     white-space: pre;
   }
 }
@@ -159,11 +158,12 @@ mark {
 }
 
 hr {
-  margin: $size-6 $size-0;
+  border-color: var(--color-primary);
+  margin: $size-5 $size-0;
 }
 
 menu, ul, ol {
-  padding-left: $size-8;
+  padding-left: $size-10;
 }
 
 menu, ul {
@@ -179,21 +179,21 @@ dt {
 }
 
 fieldset, .input {
-  margin-bottom: $size-6;
+  margin-bottom: $size-5;
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
-  margin-bottom: $size-6;
+  margin-bottom: $size-5;
 }
 
 table, progress, blockquote, pre, menu, ul, ol, dl, p {
-  margin-bottom: $size-6;
+  margin-bottom: $size-5;
 }
 
 dialog {
   background-color: var(--color-bg--surface);
   border-width: $border; border-radius: $radius-primary;
-  padding: $size-6;
+  padding: $size-4;
   box-shadow: $shadow-lg;
   color: inherit;
 }
@@ -220,35 +220,34 @@ table {
 
 td, th {
   border-bottom-width: $border;
-  padding: $size-4;
+  padding: $size-2-5;
   text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6, .hdg {
-  font-weight: $font-bold;
-  line-height: $leading-tight;
+  font-weight: $font-bold; line-height: $leading-none;
 }
 
 h1, .hdg--xx-large {
-  font-size: $text-5xl;
-}
-
-h2, .hdg--x-large {
   font-size: $text-4xl;
 }
 
-h3, .hdg--large {
+h2, .hdg--x-large {
   font-size: $text-3xl;
 }
 
-h4, .hdg--medium {
+h3, .hdg--large {
   font-size: $text-2xl;
 }
 
-h5, .hdg--small {
+h4, .hdg--medium {
   font-size: $text-xl;
 }
 
-h6, .hdg--x-small {
+h5, .hdg--small {
   font-size: $text-lg;
+}
+
+h6, .hdg--x-small {
+  font-size: $text-base;
 }
