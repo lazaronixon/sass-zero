@@ -65,11 +65,18 @@ This can be useful for dealing with similar components, and positioning.
 
 ## Breadboard
 
-These default styles ensure that even without custom styling, the content is usable and understandable, if your development process is mostly reproducing Figma designs, you might don't need it.
+These default styles ensure that even without custom styling, the content is usable and understandable, also you can use it as the baseline.
 
 - [Breadboard](app/assets/stylesheets/sass-zero/breadboard.scss)
-- [Screenshot](screenshot.png)
 - [Example](example.html)
+
+### Desktop
+
+![Screenshot Desktop](screenshot-desktop.png)
+
+### Dark mode
+
+![Screenshot Dark](screenshot-dark.png)
 
 ## Using variables
 
