@@ -45,7 +45,7 @@ html {
   border-radius: $radius-primary;
   border-width: $border;
   display: inline-block;
-  padding: $size-1 $size-3;
+  padding: $size-1-5 $size-3;
   font-weight: $font-medium;
   cursor: pointer;
 
@@ -113,7 +113,7 @@ html {
 }
 
 [type="checkbox"], [type="radio"] {
-  transform: scale(1.35); margin: $size-1;
+  transform: scale(1.36); margin: $size-1;
 }
 
 blockquote {
@@ -146,20 +146,20 @@ kbd {
   background-color: var(--color-primary);
   border-radius: $rounded;
   font-size: $text-sm;
-  padding: $size-1;
+  padding: $size-0-5;
   color: var(--color-bg--main);
 }
 
 mark {
   background-color: var(--color-bg--highlight);
   border-radius: $rounded;
-  padding: $size-1;
+  padding: $size-0-5;
   color: inherit;
 }
 
 hr {
   border-color: var(--color-primary);
-  margin: $size-5 $size-0;
+  margin: $size-8 $size-0;
 }
 
 menu, ul, ol {
@@ -220,7 +220,7 @@ table {
 
 td, th {
   border-bottom-width: $border;
-  padding: $size-2-5;
+  padding: $size-3;
   text-align: left;
 }
 
@@ -233,21 +233,21 @@ h1, .hdg--xx-large {
 }
 
 h2, .hdg--x-large {
-  font-size: $text-3xl;
-}
-
-h3, .hdg--large {
   font-size: $text-2xl;
 }
 
-h4, .hdg--medium {
-  font-size: $text-xl;
-}
-
-h5, .hdg--small {
+h3, .hdg--large {
   font-size: $text-lg;
 }
 
-h6, .hdg--x-small {
+h4, .hdg--medium {
   font-size: $text-base;
+}
+
+h5, .hdg--small {
+  font-size: $text-sm;
+}
+
+h6, .hdg--x-small {
+  font-size: $text-xs;
 }
