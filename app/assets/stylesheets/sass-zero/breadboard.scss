@@ -10,7 +10,7 @@ $radius-secondary: $rounded;
   --color-bg--main:      #{$gray-100};
   --color-bg--surface:   #{$white};
   --color-bg--highlight: #{$gray-200};
-  --color-border:        #{$gray-300};
+  --color-border:        #{$gray-200};
   --color-primary:       #{$gray-600};
   --color-text:          #{$gray-700};
 }
@@ -20,8 +20,8 @@ $radius-secondary: $rounded;
     --color-bg--main:      #{$blue-gray-900};
     --color-bg--surface:   #{$blue-gray-800};
     --color-bg--highlight: #{$blue-gray-700};
-    --color-border:        #{$blue-gray-300};
-    --color-primary:       #{$blue-gray-200};
+    --color-border:        #{$blue-gray-600};
+    --color-primary:       #{$blue-gray-400};
     --color-text:          #{$blue-gray-200};
   }
 }
@@ -90,12 +90,7 @@ html {
   width: $w-full;
 
   &--select {
-    background-image:
-      linear-gradient(45deg, transparent 49%, var(--color-text) 51%),
-      linear-gradient(135deg, var(--color-text) 51%, transparent 49%);
-    background-position: calc(100% - 20px), calc(100% - 15px);
-    background-repeat: no-repeat;
-    background-size: 5px 5px, 5px 5px;
+    background: image-url("select-arrow.svg") right $size-3-5 center no-repeat;
   }
 
   &:disabled {
