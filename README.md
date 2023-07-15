@@ -16,7 +16,6 @@ Add these lines to your application.css:
 ```css
 *= require sass-zero/base
 *= require sass-zero/utilities
-*= require sass-zero/keyframes
 *= require sass-zero/breadboard
 ```
 
@@ -65,7 +64,7 @@ This can be useful for dealing with similar components, and positioning.
 
 ## Breadboard
 
-These default styles ensure that even without custom styling, the content is usable and understandable, also you can use it as the baseline.
+These optional default styles ensure that even without custom styling, the content is usable and understandable, also you can use it as the baseline or your design. It is responsive (mobile), accessible (dark mode), customizable(--var), and very slim.
 
 - [Breadboard](app/assets/stylesheets/sass-zero/breadboard.scss)
 - [Example](example.html)
