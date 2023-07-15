@@ -11,18 +11,18 @@ $radius-secondary: $rounded;
   --color-bg--surface:   #{$white};
   --color-bg--highlight: #{$gray-200};
   --color-border:        #{$gray-300};
-  --color-primary:       #{$gray-800};
-  --color-text:          #{$gray-900};
+  --color-primary:       #{$gray-600};
+  --color-text:          #{$gray-700};
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg--main:      #{$gray-900};
-    --color-bg--surface:   #{$gray-800};
-    --color-bg--highlight: #{$gray-700};
-    --color-border:        #{$gray-600};
-    --color-primary:       #{$white};
-    --color-text:          #{$white};
+    --color-bg--main:      #{$blue-gray-900};
+    --color-bg--surface:   #{$blue-gray-800};
+    --color-bg--highlight: #{$blue-gray-700};
+    --color-border:        #{$blue-gray-300};
+    --color-primary:       #{$blue-gray-200};
+    --color-text:          #{$blue-gray-200};
   }
 }
 
