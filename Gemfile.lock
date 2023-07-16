@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sass-zero (1.5.4)
+    sass-zero (1.5.5)
 
 GEM
   remote: https://rubygems.org/
