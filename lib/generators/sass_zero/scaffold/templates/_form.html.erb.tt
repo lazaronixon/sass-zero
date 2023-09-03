@@ -1,37 +1,35 @@
 <%%= form_with(model: <%= model_resource_name %>) do |form| %>
   <%% if <%= singular_table_name %>.errors.any? %>
-    <div style="color: red">
-      <h2><%%= pluralize(<%= singular_table_name %>.errors.count, "error") %> prohibited this <%= singular_table_name %> from being saved:</h2>
+    <h2><%%= pluralize(<%= singular_table_name %>.errors.count, "error") %> prohibited this <%= singular_table_name %> from being saved:</h2>
 
-      <ul>
-        <%% <%= singular_table_name %>.errors.each do |error| %>
-          <li><%%= error.full_message %></li>
-        <%% end %>
-      </ul>
-    </div>
+    <ul class="list--unindented">
+      <%% <%= singular_table_name %>.errors.each do |error| %>
+        <li><%%= error.full_message %></li>
+      <%% end %>
+    </ul>
   <%% end %>
 
 <% attributes.each do |attribute| -%>
   <div>
 <% if attribute.password_digest? -%>
-    <%%= form.label :password, style: "display: block" %>
-    <%%= form.password_field :password %>
+    <%%= form.label :password, class: "u-display-b txt--bold push-xs--bottom" %>
+    <%%= form.password_field :password, class: "input" %>
   </div>
 
   <div>
-    <%%= form.label :password_confirmation, style: "display: block" %>
-    <%%= form.password_field :password_confirmation %>
+    <%%= form.label :password_confirmation, class: "u-display-b txt--bold push-xs--bottom" %>
+    <%%= form.password_field :password_confirmation, class: "input" %>
 <% elsif attribute.attachments? -%>
-    <%%= form.label :<%= attribute.column_name %>, style: "display: block" %>
-    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, multiple: true %>
+    <%%= form.label :<%= attribute.column_name %>, class: "u-display-b txt--bold push-xs--bottom" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, multiple: true, class: "input" %>
 <% else -%>
-    <%%= form.label :<%= attribute.column_name %>, style: "display: block" %>
-    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %> %>
+    <%%= form.label :<%= attribute.column_name %>, class: "u-display-b txt--bold push-xs--bottom" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, class: "input" %>
 <% end -%>
   </div>
 
 <% end -%>
   <div>
-    <%%= form.submit %>
+    <%%= form.submit class: "btn btn--primary" %>
   </div>
 <%% end %>

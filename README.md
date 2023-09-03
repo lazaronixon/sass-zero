@@ -149,6 +149,10 @@ Instead of using the default variables you can add more or change the existents,
 ...
 ```
 
+## Scaffold
+
+When executing `rails scaffold` the generator will use built-in optimized templates.
+
 ## References
 
 [The 35 CSS properties you must know to do 80% of the work](https://github.com/lazaronixon/css-properties-counter)
