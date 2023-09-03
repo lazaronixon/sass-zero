@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sass-zero (1.5.5)
+    sass-zero (1.5.6)
 
 GEM
   remote: https://rubygems.org/
@@ -10,10 +10,11 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-darwin-22
 
 DEPENDENCIES
   rake (~> 13.0)
   sass-zero!
 
 BUNDLED WITH
-   2.3.19
+   2.4.19
