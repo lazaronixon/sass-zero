@@ -4,12 +4,10 @@
 
 <div id="<%= plural_table_name %>" class="push-md--bottom">
   <%% @<%= plural_table_name %>.each do |<%= singular_table_name %>| %>
-    <article class="push-lg--bottom">
-      <%%= render <%= singular_table_name %> %>
-      <p>
-        <%%= link_to "Show this <%= human_name.downcase %>", <%= model_resource_name(singular_table_name) %>, class: "btn btn--secondary" %>
-      </p>
-    </article>
+    <%%= render <%= singular_table_name %> %>
+    <p>
+      <%%= link_to "Show this <%= human_name.downcase %>", <%= model_resource_name(singular_table_name) %>, class: "btn btn--secondary" %>
+    </p>
   <%% end %>
 </div>
 
