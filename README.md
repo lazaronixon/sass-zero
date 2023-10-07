@@ -157,6 +157,8 @@ When executing `rails scaffold` the generator will use built-in optimized templa
 
 [The 35 CSS properties you must know to do 80% of the work](https://github.com/lazaronixon/css-properties-counter)
 
+[Simple Open Source icons carefully crafted for designers & developers](https://boxicons.com)
+
 ## Development
 
 To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
