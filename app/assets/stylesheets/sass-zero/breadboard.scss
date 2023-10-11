@@ -25,7 +25,9 @@ $radius-secondary: $rounded;
   }
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   border-color: var(--color-border);
 }
 
